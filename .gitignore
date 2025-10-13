@@ -1,0 +1,48 @@
+# Python virtual environments
+venv/
+.env/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Database files
+*.db
+*.sqlite3
+chroma_db/
+
+# Log files
+*.log
+error_log.txt
+
+# Docker-specific files
+Dockerfile:Zone.Identifier
+
+# Environment variables
+.env
+
+# Temporary files
+*.tmp
+*.bak
+lauchscript.txt
+
+# Audio files (large binaries)
+*.mp3
+*.MP3
+*.wav
+*.ogg
+
+# Generated or temporary JSON data
+failed_expressions.json
+failed_words.json
+
+# Maintenance/temporary scripts
+system_maintainace/backup
+system_maintainace/test.py
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Sensitive configuration (verify before excluding)
+# ai_service/config/config.json

@@ -1,0 +1,5 @@
+body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin: 24px; color:#111; }
+h1 { margin-bottom: 6px; }
+main { max-width: 1000px; margin: auto; }
+button { padding: 8px 12px; border-radius:6px; border:1px solid #bbb; background:#f8f8f8; cursor:pointer; }
+input[type="number"] { width:70px; padding:6px; }

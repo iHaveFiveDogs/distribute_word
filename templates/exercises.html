@@ -1,0 +1,165 @@
+<!-- templates/exercises.html -->
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Exercises — Student View</title>
+    <link rel="stylesheet" href="/static/style.css" />
+    <style>
+      body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial; margin:24px; color:#111; }
+      .word-bank { margin-bottom: 1rem; padding: .6rem; border:1px solid #eee; border-radius:6px; background:#fafafa }
+      .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: .6rem; }
+      .exercise { padding: .8rem; border: 1px solid #eee; border-radius: 6px; background: #fff; }
+      .part-label { font-weight: 700; font-size: .95rem; margin-bottom: .4rem; }
+      .prompt { margin-bottom: .6rem; min-height: 2.2em; }
+      input[type="text"] { width: 100%; padding: .45rem; border-radius:6px; border:1px solid #ccc; box-sizing: border-box; }
+      .result { margin-top:.6rem; font-weight:700; }
+      .correct { color: #08660D; }
+      .wrong { color: #9B1C1C; }
+      .small { font-size: .9rem; color:#555; }
+      .controls { margin: 1rem 0; }
+      .disabled { opacity: .6; pointer-events: none; }
+      @media print { .no-print { display:none; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="no-print"><a href="/">← Back</a></div>
+      <h1>Vocabulary Exercises</h1>
+      <p class="small">Do the exercises, then click <strong>Check Answers</strong>.</p>
+
+      <!-- Word bank (visible) -->
+      <div class="word-bank">
+        <div class="part-label">Word Bank ({{ payload.chosen_words|length }} words)</div>
+        <p class="small">
+          {% for w in payload.chosen_words %}
+            <span style="display:inline-block;margin:4px 8px;padding:4px 8px;border:1px solid #eee;border-radius:4px;">{{ w }}</span>
+          {% endfor %}
+        </p>
+      </div>
+
+      <!-- Controls -->
+      <div class="controls no-print">
+        <button id="checkBtn">Check Answers</button>
+        <button id="revealBtn" style="margin-left:8px">Reveal All Answers</button>
+        <button onclick="window.print()" style="margin-left:8px">Print / Save PDF</button>
+        <span id="scoreDisplay" style="margin-left:16px;font-weight:700"></span>
+      </div>
+
+      <!-- Part A -->
+      <h2>Part A — Definition → word</h2>
+<div class="grid" id="partA">
+  {% for ex in payload.part_a if ex.part == "A" %}
+    <div class="exercise" data-answer="{{ ex.answer | e }}">
+      <!-- <div class="part-label">Definition</div> -->
+      <div class="prompt">{{ ex.prompt }}</div>
+      <input type="text" class="answer-input" placeholder="Type the word here" data-index="{{ loop.index0 }}">
+      <div class="result" style="display:none"></div>
+    </div>
+  {% endfor %}
+</div>
+
+      <!-- Part B -->
+      <h2>Part B — Fill the blank</h2>
+<div class="grid" id="partB">
+  {% for ex in payload.part_b if ex.part == "B" %}
+    <div class="exercise" data-answer="{{ ex.answer | e }}">
+      <!-- <div class="part-label">Sentence</div> -->
+      <div class="prompt">{{ ex.prompt }}</div>
+      <input type="text" class="answer-input" placeholder="Type the word that fits the blank" data-index="{{ loop.index0 }}">
+      <div class="result" style="display:none"></div>
+    </div>
+  {% endfor %}
+</div>
+
+      <div class="no-print" style="margin-top:1rem">
+        <a href="/download/{{ json_filename }}">Download JSON (teacher copy)</a>
+      </div>
+    </main>
+
+    <script>
+    // Utility: normalize user input and answer for comparison
+    function normalize(s){
+      if(!s) return "";
+      // lowercase, trim, collapse inner whitespace
+      return s.toString().trim().toLowerCase().replace(/\s+/g,' ');
+    }
+
+    function checkAll(revealAll=false){
+      const exerciseDivs = Array.from(document.querySelectorAll('.exercise'));
+      let correctCount = 0;
+      exerciseDivs.forEach(div => {
+        const answer = normalize(div.dataset.answer || "");
+        const input = div.querySelector('.answer-input');
+        const user = normalize(input.value || "");
+        const res = div.querySelector('.result');
+        res.style.display = 'block';
+
+        // if revealAll called, show correct answer regardless
+        if(revealAll){
+          res.innerHTML = 'Answer: <strong>' + div.dataset.answer + '</strong>';
+          res.className = 'result';
+          return;
+        }
+
+        // comparison: exact match or allow minor variants
+        if(user === answer && user !== ""){
+          res.innerHTML = '<span class="correct">Correct ✓</span>';
+          res.className = 'result correct';
+          correctCount += 1;
+        } else {
+          // partial matching allowance: if user equals answer when removing punctuation
+          const userNoPunct = user.replace(/[^\w\s]|_/g, "");
+          const ansNoPunct = answer.replace(/[^\w\s]|_/g, "");
+          if(userNoPunct === ansNoPunct && userNoPunct !== ""){
+            res.innerHTML = '<span class="correct">Correct ✓</span>';
+            res.className = 'result correct';
+            correctCount += 1;
+          } else {
+            res.innerHTML = '<span class="wrong">Wrong ✗</span> — Answer: <strong>' + div.dataset.answer + '</strong>';
+            res.className = 'result wrong';
+          }
+        }
+      });
+
+      // score display
+      const total = exerciseDivs.length;
+      const scoreDisplay = document.getElementById('scoreDisplay');
+      scoreDisplay.textContent = 'Score: ' + correctCount + ' / ' + total + ' (' + Math.round(correctCount/total*100) + '%)';
+
+      // disable inputs & buttons to prevent re-check cheating
+      document.querySelectorAll('.answer-input').forEach(i => i.disabled = true);
+      document.getElementById('checkBtn').classList.add('disabled');
+      document.getElementById('revealBtn').classList.add('disabled');
+    }
+
+    document.getElementById('checkBtn').addEventListener('click', function(e){
+      checkAll(false);
+    });
+
+    document.getElementById('revealBtn').addEventListener('click', function(e){
+      if(!confirm('Reveal all answers now?')) return;
+      checkAll(true);
+      // disable inputs after reveal
+      document.querySelectorAll('.answer-input').forEach(i => i.disabled = true);
+      document.getElementById('checkBtn').classList.add('disabled');
+      document.getElementById('revealBtn').classList.add('disabled');
+    });
+
+    // optional: allow Enter to jump to next input & submit at end
+    document.querySelectorAll('.answer-input').forEach((inp, idx, arr) => {
+      inp.addEventListener('keydown', function(e){
+        if(e.key === 'Enter'){
+          e.preventDefault();
+          // move to next input if present
+          const next = arr[idx+1];
+          if(next) { next.focus(); }
+          else { document.getElementById('checkBtn').focus(); }
+        }
+      });
+    });
+    </script>
+  </body>
+</html>
+
+

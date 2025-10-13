@@ -1,0 +1,1779 @@
+Unit 001: Basic Building Materials
+Basic building materials include: timber, mud, stone, marble, brick, tile, steel, and cement concrete. Masonry walls are built with stones or bricks, cohered through the use of mortar, first composed of lime and sand. The profusion of aluminum and its anodized coatings provided cladding material that is lightweight and virtually maintenance free. Glass was known in prehistory and is celebrated for its contributions to Gothic architecture.
+
+timber /ˈtimbə/ n. 木材
+marble /ˈmɑ:bl/ n. 大理石
+tile /tail/ n. 饰面砖，瓷砖
+cement concrete /siˈment-'kɔnkriːt/ n. 水泥混凝土
+masonry wall /ˈmeisənri-wɔːl/ n. 砖墙，砖瓦墙
+cohere /kəuˈhiə/ v. 粘合
+mortar /ˈmɔ:tə/ n. 砂浆，灰浆
+lime /laim/ n. 石灰
+profusion /prəˈfju:ʒən/ n. 大量（a profusion of: 大量的）
+aluminum /əˈlu:mənəm/ n. 铝
+anodized coating /ˈænəudaizd-'kəutiŋ/ n. 电镀层，电镀膜
+cladding /ˈklædiŋ/ n. 覆层
+celebrated /ˈselibreitid/ adj. 著名的
+Gothic /ˈɡɔθik/ adj. 哥特式的
+architecture /ˈɑ:kitektʃə/ n. 建筑，建筑学
+Unit 002: Structural Spanning Methods
+Two basic approaches to spanning over masonry walls are post-and-lintel construction and arch, vault, and dome construction.
+
+span /spæn/ v. （桥、拱等）横跨
+post-and-lintel /'pəust-ænd-'lintl/ n. 连梁柱
+arch /ɑ:tʃ/ n. 拱（连柱的）
+vault /vɔ:lt/ n. 拱（不连柱的）
+dome /dəum/ n. 穹隆（结构）：类似于穹隆（弓形、有拱的）或圆屋顶的结构
+Unit 003: The Chicago School of Architecture
+The Chicago architect Louis Sullivan's career converges with the so-called Chicago School of Architects, whose challenge was to invent the skyscraper or high-rise building, facilitated by the introduction of the electric elevator and the abundance of steel. The building's skeleton could be erected quickly and the remaining components hung on it to complete it, an immense advantage for high-rise buildings on busy city streets.
+
+architect /ˈɑ:kitekt/ n. 建筑师
+converge /kənˈvə:dʒ/ v. 聚合于，集中于一点
+school /sku:l/ n. 学派
+skyscraper /ˈskaiˌskreipə/ n. 摩天大楼
+facilitate /fəˈsiliteit/ v. 提供便利
+electric elevator /iˈlektrik- ˈeliveitə/ n. 电梯
+abundance /əˈbʌndəns/ n. 丰富
+skeleton /ˈskelitn/ n. 框架结构，整体框架
+erect /iˈrekt/ v. 竖立，建立
+component /kəmˈpəunənt/ n. 零件，构件
+immense /iˈmens/ adj. 极大的
+Unit 004: Interior Design
+Interior design of apartments and houses, that is, dwellings, usually involves both practical and aesthetic decisions. Choices have to be made for almost every element, ceilings and lamps, curtains and blinds, corridor and doorway, niches and ledges, grate and ventilations, terraces and staircases, even sewers or drainers. Sometimes such designs are extended to the facade of the building, and even to a fountain, or a gardening yard.
+
+interior design /inˈtiəriə-di'zain/ n. 室内设计
+dwelling /ˈdwelɪŋ/ n. 住处，居住空间
+involve /inˈvɔlv/ v. 包括
+aesthetic /i:sˈθetik/ adj. 美学的
+ceiling /ˈsi:liŋ/ n. 天花板
+lamp /læmp/ n. 灯
+curtain /ˈkə:tn/ n. 窗帘
+blind /blɑind/ n. 窗帘（尤指固定在卷轴上能够拉下来的布质窗帘）
+corridor /ˈkɔridɔ:/ n. 走廊
+doorway /ˈdɔ:wei/ n. 门口
+niche /nitʃ/ n. 壁橱
+ledge /ledʒ/ n. 壁架
+grate /ɡreit/ n. 壁炉
+ventilation /ˌventiˈleiʃən/ n. 通风设备
+terrace /ˈterəs/ n. 阳台
+staircase /ˈstɛəkeis/ n. 楼梯
+sewer /sjuə/ n. 排水沟
+drainer /ˈdreinə/ n. 下水道装置，滤水器
+facade /fəˈsɑ:d/ n. （建筑物的）外立面，尤指正面
+fountain /ˈfauntin/ n. 喷泉
+yard /jɑ:d/ n. 庭院
+Unit 005: Real Estate Lease
+The lease is a contract of rent under which one party, called landlord or lessor, grants possession and use of the property for a limited term to the other party, who is called tenant or lessee.
+
+lease /li:s/ n. 租约
+rent /rent/ n. 租金
+landlord /ˈlændlɔ:d/ n. 房东
+lessor /leˈsɔ:/ n. 出租人
+grant /ɡrɑ:nt/ v. 授与（权利）；让与（财产）
+possession /pəˈzeʃən/ n. 占有，拥有
+property /ˈprɔpəti/ n. 财产，所有物
+tenant /ˈtenənt/ n. 房客
+lessee /leˈsi:/ n. 承租人
+Unit 006: Urban Structure
+A big city, or metropolis, is often accompanied by suburbs. Such cities are usually associated with metropolitan areas and urban sprawl, creating large amounts of business commuters. Once a city sprawls far enough to reach another city, this region can be deemed a conurbation or megalopolis.
+
+metropolis /miˈtrɔpəlis/ n. 大城市
+suburb /ˈsʌbə:b/ n. 城郊
+be associated with /bi-ə'səuʃieitid-wið/ v. 与……相关
+metropolitan /ˌmetrəˈpɔlitən/ adj. 大城市的
+urban /ˈə:bən/ adj. 城市的
+sprawl /sprɔ:l/ n. （城市的）无计划扩展
+commuter /kəˈmju:tə/ n. 通勤者（定期从一地到另一地旅行的人，如从郊区到城市并回来）
+deem /di:m/ v. 视为
+conurbation /ˌkɔnəˈbeiʃən/ n. （连带卫星城镇和市郊的）大都市
+megalopolis /ˌmeɡəˈlɔpəlis/ n. 特大城市
+Unit 007: Sanitation
+Sanitation is the hygienic means of preventing human contact from the hazards of wastes, either physical, microbiological, biological or chemical agents of disease, which include human and animal feces, solid wastes, domestic wastewater(sewage, sullage, greywater), etc. Hygienic means of prevention can be practiced by using simple technologies(e.g. latrines, septic tanks), or by personal hygiene practices.
+
+sanitation /ˌsæniˈteiʃən/ n. 公共卫生
+hygienic /haiˈdʒi:nik/ adj. 卫生学的
+microbiological /ˌmaikrəubaiəˈlɔdʒikəl/ adj. 微生物学的
+agent /ˈeidʒənt/ n. 媒介
+feces /ˈfi:si:z/ n. 粪便
+domestic /dəˈmestik/ adj. 家庭的
+sewage /ˈsjuidʒ/ n. 污水
+sullage /ˈsʌlidʒ/ n. （房屋、街道等排出的）污物
+greywater /'greiwɔ:tə/ n. 生活污水
+latrine /ləˈtri:n/ n. 公共厕所
+septic tank /ˈseptik-tæŋk/ n. 化粪池
+personal hygiene practice /ˈpə:sənəl-ˈhaidʒi:n-ˈpræktis/ v. 个人卫生习惯
+Unit 008: Public Utilities
+A public utility (usually just utility) is a company that maintains and provides the infrastructure for a public service. Although utilities can be privately owned or publicly owned, they often involve natural monopolies.
+
+public utility /ˈpʌblik-juˈtiliti/ n. 公用事业
+infrastructure /ˈinfrəˌstrʌktʃə/ n. 基础设施
+privately owned /ˈpraivitli-əund/ adj. 私有的
+publicly owned /ˈpʌblikli:-əund/ adj. 公有的
+monopoly /məˈnɔpəli/ n. 垄断
+
+Unit 009: Transport Systems
+The field of transport has several aspects: infrastructure, vehicles, and operations. Infrastructure includes the transport networks (roads, railways, airways, waterways, canals, pipelines, etc.) that are used, as well as the nodes or terminals (such as airports, railway stations, bus stations and seaports). Vehicles travelling on the networks include automobiles, bicycles, buses, trains and aircraft. The operations deal with the way the vehicles are operated on the network, and the procedures set for this purpose including the legal environment (laws, codes, regulations, etc.). Policies, such as how to finance the system (for example, the use of tolls or gasoline taxes) may be considered part of the operations.
+
+vehicle /ˈvi:ikl/ n. 交通工具
+operation /ˌɔpəˈreiʃən/ n. 运营
+canal /kəˈnæl/ n. 运河
+pipeline /ˈpaiplain/ n. 管道，输送管道
+node /nəud/ n. 中转站
+terminal /ˈtə:minəl/ n. 终点站
+seaport /ˈsi:pɔ:t/ n. 港口
+law /lɔ:/ n. 法律
+code /kəud/ n. 法规
+regulation /ˌreɡjuˈleiʃən/ n. 规章制度
+toll /təul/ n. 通行费
+gasoline /ˈɡæsəli:n/ n. 汽油
+
+Unit 010: Rail Transport
+Rail transport is the conveyance of passengers and goods by means of wheeled vehicles specially designed to run along railways or railroads. Typical railway tracks consist of two parallel rails, normally made of steel, secured to crossbeams, termed ties. The ties maintain a constant distance between the two rails, a measurement known as the "gauge" of the track. To maintain the alignment of the track, it is either laid on a bed of ballast or else secured to a solid concrete foundation. Rail transport is an energy-efficient and capital-intensive component of logistics, in contrast, a traditional wagon can carry no more than several tons of freight.
+
+rail transport /reil-trænsˈpɔ:t/ n. 铁路运输
+conveyance /kənˈveiəns/ n. 运送
+by means of /bai-'miːnz-əv/ prep. 通过……方式
+consist of /kənˈsist-əv/ v. 由……组成
+secure to /siˈkjuə-tu/ v. 固定在……
+crossbeam /ˈkrɔsbi:m/ n. 横梁
+tie /tai/ n. 枕木
+gauge /ɡeidʒ/ n. 轨距
+alignment /əˈlainmənt/ n. 直线排列
+ballast /ˈbæləst/ n. 道碴
+concrete /ˈkɔnkri:t/ n. 混凝土
+energy-efficient /'enədʒi-iˈfiʃənt/ adj. 能源节约的
+capital-intensive /ˌkæpitl-inˈtensiv/ adj. 资本密集型的
+logistics /ləˈdʒistiks/ n. 物流
+wagon /ˈwæɡə/ n. 四轮马车
+freight /freit/ n. 货物
+
+Unit 011: Evolution of Public Utilities
+Developments in technology have eroded some of the natural monopoly aspects of traditional public utilities. For instance, electricity generation, electricity retailing, telecommunication and postal services have become competitive in some countries, and the trend towards liberalization, deregulation and privatization of public utilities is growing, but the network infrastructure used to distribute most utility products and services has remained largely monopolistic.
+
+erode /iˈrəud/ v. 侵蚀
+retailing /ˈri:teiliŋ/ n. 零售业
+postal service /ˈpəustəl-ˈsə:vis/ n. 邮电业
+competitive /kəmˈpetitiv/ adj. 竞争的
+trend /trend/ n. 趋势
+liberalization /ˌlibərəlaiˈzeiʃən/ n. 自由化
+deregulation /di:ˌreɡjuˈleiʃən/ n. 缩小国家对经济干预的范围
+privatization /ˌpraivətə'zeiʃən/ n. 私有化
+infrastructure /ˈinfrəˌstrʌktʃə/ n. 基础设施
+distribute /disˈtribju:t/ v. 分配
+monopolistic /məˌnɔpəˈlistik/ adj. 垄断的
+Unit 012: Medieval Craftsmanship Hierarchy
+An aspiring master would have to pass through the career chain from apprentice to journeyman before he/she could be elected to become a master craftsman. He/She would then have to produce a sum of money and a masterpiece before he/she could actually join the guild.
+
+aspiring /əsˈpaiəriŋ/ adj. 有志向的
+master /ˈmɑ:stə/ n. 大师
+pass through /ˈpæs-ˌθru:/ v. 经过
+apprentice /əˈprentis/ n. 学徒
+journeyman /ˈdʒə:nimən/ n. 熟练工人
+masterpiece /ˈmɑ:stəpi:s/ n. 杰作
+actually /ˈæktʃuəli/ adv. 实际上
+guild /ɡild/ n. 协会
+Unit 013: Craft Sales Expansion
+A craftsperson who perhaps has at first sold craft items only to friends or at local bazaars may find that increased demand leads to a wider clientele and sales by mail order, at crafts fairs, or through a shop.
+
+craft /krɑ:ft/ n. 工艺
+bazaar /bəˈzɑ:/ n. 集市
+clientele /ˌklaiənˈtel/ n. 顾客
+fair /fɛə/ n. 集市
+Unit 014: Amateur vs. Professional Craft
+There is a fine line of distinction between crafts produced by amateur hobbyists for their personal satisfaction and those made by gifted artisans with a view toward the use and enjoyment of others.
+
+fine /fain/ adj. （区别）微小的；细微的
+distinction /disˈtiŋkʃən/ n. 区别
+amateur hobbyist /ˈæmətə-ˈhɔbiist/ n. 业余爱好者
+artisan /ˌɑ:tiˈzæn/ n. 工匠
+Unit 015: Fabric Weaving Basics
+Fabric weaving involves interlacing warp and weft. The yarn threads of warp are arranged parallel to one another and held in tension on a loom, while the single thread wefts pass over or under the warp threads to create a solid or patterned piece of clothes. To create larger pieces, a treadle loom is usually needed.
+
+fabric weaving /ˈfæbrik-'wiːviŋ/ n. 纺织，编织
+involve /inˈvɔlv/ v. 包括
+interlace /ˌintə(:)ˈleis/ v. (使)交织
+warp /wɔ:p/ n. 织物上纵的方向的纱或线
+weft /weft/ n. 织物上横的方向的纱或线
+yarn thread /jɑːn-θred/ n. 纺线丝
+parallel /ˈpærəlel/ adj. 平行的
+tension /ˈtenʃən/ n. 绷紧状态
+loom /lu:m/ n. 织布机
+solid /ˈsɔlid/ adj. 结实的
+treadle loom /'tredl-luːm/ n. 脚踏织机
+Unit 016: Basketry Materials and Techniques
+Basketry is the craft of making baskets and bags, mats, rugs, and other items through weaving, plaiting, and coiling techniques, using materials such as reed, cane, rush, sisal fiber, ash-wood splints, and ropes twisted from strands of hemp.
+
+basketry /ˈbɑ:stkitri/ n. 编篮工艺
+mat /mæt/ n. 垫子
+rug /rʌɡ/ n. 地毯
+plait /plæt/ v. 把......打成辫
+coil /kɔil/ v. 盘绕
+reed /ri:d/ n. 芦苇
+cane /kein/ n. 藤条
+rush /rʌʃ/ n. 灯心草
+sisal /ˈsisəl/ n. 波罗麻：一种分布在墨西哥和中美洲的植物
+fiber /ˈfaibə/ n. 纤维
+ash-wood /ˈæʃ-wuːd/ adj. 梣木的
+splint /splint/ n. 薄木条
+twist /twist/ v. 捻
+strand /strænd/ n. 股
+hemp /hemp/ n. 大麻纤维
+Unit 017: Ornamental Knotting
+In ornamental knotting, cotton, linen, or jute cord is used to make bags, wall hangings, and containers.
+
+ornamental /ˌɔ:nəˈmentl/ adj. 装饰性的
+knotting /ˈnɔtiŋ/ n. 结形花边（流苏）
+cotton /ˈkɔtən/ n. 棉布
+linen /ˈlinin/ n. 亚麻布
+jute cord /'dʒuːt-kɔːd/ n. 黄麻绳
+wall hanging /'wɔːl-'hæŋiŋ/ n. 壁毯
+Unit 018: Quilting Structure
+In quilting, three layers of fabric (a decorative top layer, filler, and a liner) are stitched or tied together.
+
+quilt /kwilt/ n. 被子
+quilting /ˈkwiltiŋ/ n. 被子面料
+layer /ˈleiə/ n. 层
+decorative /ˈdekərətiv/ adj. 装饰性的
+filler /ˈfilə/ n. 填充物
+liner /ˈlainə/ n. 衬里
+stitch /stitʃ/ v. 缝合
+Unit 019: Leatherworking Tools
+Many useful objects can be fashioned from leather, using such special tools as leather shears, punches for carving thick leather, thonging chisels, and lacing needles.
+
+fashion /ˈfæʃən/ v. 制造
+leather /ˈleðə/ n. 皮革
+shears /ʃiəz/ n. 剪刀
+punch /pʌntʃ/ n. 打孔器
+carve /kɑ:v/ v. 切割
+thong /θɔŋ/ v. 给......装上皮带
+chisel /ˈtʃizl/ n. 凿子
+lace /leis/ v. 穿线
+needle /ˈni:dl/ n. 针
+Unit 020: Ceramic Production
+Ceramic objects can be molded completely by hand or thrown on a potter's wheel. When the clay hardens, it is fired in a high-temperature oven, or kiln, to strengthen it. To make the object waterproof, glazes may then be applied and the piece fired again.
+
+ceramic /siˈræmik/ adj. 陶器的
+mold /məuld/ v. 塑造
+throw /θrəu/ n. (在陶钧上)制(陶)坯
+potter's wheel /'pɔtəz-wiːl/ n. 陶轮
+clay /klei/ n. 黏土
+oven /ˈʌvən/ n. 烤炉
+kiln /kiln/ n. 窑
+waterproof /ˈwɔ:təpru:f/ adj. 防水的
+glaze /ɡleiz/ n. 釉料
+
+Unit 021: Basic Woodworking Techniques
+Such basic woodworking techniques as sawing, joining, and finishing can be employed to make a wide variety of useful and ornamental objects, from jewelry boxes to picture frames.
+
+woodworking[ˈwudˌwə:kiŋ] n.木工艺，木工行业；adj.木工的
+sawing[ˈsɔ:iŋ] n.锯
+joining['dʒɔiniŋ] n.拼接
+finishing[ˈfiniʃiŋ] n.抛光
+ornamental[ˌɔ:nəˈmentl] adj.装饰性的
+picture frame['piktʃə-'freim] n.相框
+Unit 022: Carpenter Tools
+Carpenter tools include saws, planes, flat-edged chisels, semicircular gouge, boring tools such as brace, drills, and measuring tools such as steel rules, C-clamp, squares and trisquare, etc.
+
+carpenter[ˈkɑ:pintə] n.木匠
+saw[sɔ:] n.锯
+plane[plein] n.刨子
+chisel[ˈtʃizl] n.凿子
+gouge[ɡaudʒ] n.半圆凿
+boring[ˈbɔ:riŋ] n.钻（孔）
+brace[breis] n.手摇曲柄钻
+drill[dril] n.钻孔机
+C-clamp['siː-klæmp] n.C型夹
+square[skwɛə] n.直角尺
+trisquare[ˈtraiˌskwɛə] n.曲尺
+Unit 023: Mortise and Tenon Joint
+The tenon, a rectangular or square projection from the end of one member, fits snugly into the mortise cut in the second member, thus joining the two perpendicularly.
+
+tenon[ˈtenən] n.(木工的)榫
+projection[prəˈdʒekʃən] n.凸出物
+snugly[ˈsnʌɡli] adv.紧紧地
+mortise[ˈmɔ:tis] n.榫眼
+perpendicularly[ˌpəːpən'dikjuləli] adv.垂直地
+Unit 024: Wood Finishing Materials
+Finishes serve to protect and preserve the wood and to bring out the beauty of the grain. Pieces are finished with rasps, files, and sandpaper. Common finishes include waxes, oils, bleaches, fillers, stains, shellac, varnish, lacquer, sealers, and paints, including enamels.
+
+bring out['briŋ-aut] v.显示出
+grain[ɡrein] n.纹理图案
+finish[finiʃ] n.抛光、打磨
+rasp[rɑ:sp] n.粗锉：一种有锋利、突出、尖锐凸起的钝锉
+file[fail] n.锉刀
+sandpaper[ˈsændˌpeipə] n.砂纸; v.用砂纸磨光
+wax[wæks] n.石蜡
+bleach[bli:tʃ] n.漂白剂
+filler[ˈfilə] n.填充料
+stain[stein] n.着色剂
+shellac[ʃəˈlæk] n.虫胶清漆：用于涂饰木料
+varnish[ˈvɑ:niʃ] n.清漆：用于把表面涂成坚硬的、有光泽的透明的膜
+lacquer[ˈlækə] n.天然漆：一种用作表面涂层的光滑的树脂般的物质
+sealer[ˈsi:lə] n.封底漆
+paint[peint] n.油漆
+enamel[iˈnæməl] n.瓷漆：一种烧制在金属、玻璃或瓷器上不透明的、保护性或装饰性的覆盖层
+Unit 025: Paint and Varnish Composition
+Paints are formed by mixing a pigment and a binder, a fluid vehicle, such as linseed oil, that solidifies when exposed to air. A varnish is a transparent solution that solidifies into a protective coating. Opaque and colored varnishes are called lacquers.
+
+pigment[ˈpiɡmənt] n.色素
+binder[ˈbaində] n.粘合剂
+vehicle[ˈvi:ikl] n.调漆料
+linseed oil['linsiːd-ɔil] n.亚麻油
+solidify[səˈlidifai] v.(使)凝固
+expose[iksˈpəuz] v.暴露
+transparent[trænsˈpɛərənt] adj.透明的
+solution[səˈlu:ʃən] n.溶液
+coating[ˈkəutiŋ] n.涂层
+opaque[əuˈpeik] adj.不透明的
+Unit 026: Cooking Methods
+Cookery involves a diverse array of cuisines. Food may be immersed in liquids such as water, stock, or wine(boiling, poaching, stewing); immersed in fat or oil(frying); exposed to vapor(steaming and, to some extent, braising); exposed to dry heat(roasting, baking, broiling); and subjected to contact with hot fats(sautéing).
+
+cookery[ˈkukəri] n.烹饪
+diverse[daiˈvəs] adj.不同的
+cuisine[kwiˈzi:n] n.烹饪法
+immerse[iˈmə:s] v.浸没
+stock[stɔk] n.原汤
+wine[wain] n.葡萄酒
+boil[bɔil] v.煮
+poach[pəutʃ] v.水煮
+stew[stju:] v.炖：用小火烧或慢慢地煮沸来烹饪
+fat[fæt] n.油脂
+fry[frai] v.油炸
+vapor[ˈveipə] n.蒸气
+steam[sti:m] v.蒸
+braise[breiz] v.炖：先用油炒，然后在有盖容器中炖
+dry heat[drai-hiːt] n.干热
+roast[rəust] v.烘烤
+bake[beik] v.烘焙
+broil[brɔil] v.(用火)烤
+subject to['sʌbdʒikt-tuː] v.使遭受
+contact[ˈkɔntækt] n.关联
+sauté[sɔː'tei] v.炒
+Unit 027: Modern Kitchen Equipment
+Essential modern kitchen equipment includes the following: a stove, or range; sink; work surface; various knives, pots and pans; such utensils as spatulas, whisks, specialized spoons, and rolling pins; a more highly specialized array of gear for producing pastries and other baked goods; and more recent sophisticated equipment such as blenders, food processors, and microwave ovens.
+
+kitchen[ˈkitʃin] n.厨房
+stove[stəuv] n.炉子
+range[reindʒ] n.火炉
+sink[siŋk] n.水槽
+work surface['wəːk-'səːfəs] n.工作台
+knife[naif] n.刀
+pot[pɔt] n.锅
+pan[pæn] n.平底锅
+utensil[ju:ˈtensl] n.器具
+spatula[ˈspætjulə] n.（调拌用的）刮铲
+whisk[hwisk] n.搅拌器
+spoon[spu:n] n.匙
+rolling pin['rəuliŋ-pin] n.擀面杖
+gear[ɡiə] n.设备
+pastry[ˈpeistri] n.糕点
+sophisticated[səˈfistikeitid] adj.复杂精巧的
+blender[ˈblendə] n.搅拌机
+microwave oven['maikrəuweiv-'ʌvən] n.微波炉
+Unit 028: Mosaic Art
+In ancient times, mosaics were a form of floor decoration made of small pebbles and later of cut or shaped pieces of marble, hard stone, glass, terra-cotta, mother-of-pearl, and enamels. The shaped pieces, in the form of small cubes, are called tesserae. The tessera are embedded in plaster, cement, or putty to hold them in place.
+
+mosaic[mɔˈzeiik] n.镶嵌工艺
+pebble[ˈpebl] n.鹅卵石
+marble[ˈmɑ:bl] n.大理石
+terra-cotta[ˈterə-ˈkɔtə] n.赤陶
+mother-of-pearl[ˌmʌðər-əvˈ-pɜ:l] n.珍珠母
+cube[kjuːb] n.立方体
+tesserae[ˈtesərə:] n.镶嵌物 (plural: tesserae[ˈtesəri:] )
+embed[imˈbed] v.镶嵌
+plaster[ˈplɑ:stə] n.石膏
+cement[siˈment] n.水泥
+putty[ˈpʌti] n.(嵌装玻璃等用的)油灰
+in place[in-'pleis] adv.在适当的位置
+Unit 029: Colored Glass Production
+Molten glass was tinted in a wide range of colors with metal oxides and then poured on a flat surface such as a marble slab to form a disk of colored glass. This was scored with a sharp tool and broken into strips and cubes.
+
+molten[ˈməultən] adj.熔化的；熔融的
+tint[tint] n.带白的颜色，淡色；v.染色；着色于......
+a wide range of[ə-ˈwaid-reindʒ-əv] adj.广泛的
+metal oxide['metl-'ɔksaid] n.金属氧化物
+pour on[ˈpɔːr-ɔn] v.把......倒在......上
+flat[flæt] adj.扁平的
+marble slab['mɑːbl-slæb] n.大理石板
+score[skɔ:] v.打记号于
+strip[strip] n.条
+Unit 030: Portrait Media
+Portraits can be executed in any medium, including sculpted stone and wood, oil, painted ivory, pastel, encaustic on wood panel, tempera on parchment, carved cameo, and hammered or poured metal.
+
+portrait[ˈpɔ:trit] n.肖像
+sculpt[skʌlpt] v.雕刻
+ivory[ˈaivəri] n.象牙
+pastel[pæsˈtel] n.彩色蜡笔画
+encaustic[inˈkɔ:stik] n.蜡画
+tempera[ˈtempərə] n.蛋彩画
+parchment[ˈpɑ:tʃmənt] n.羊皮纸
+cameo[ˈkæmiəu] n.浮雕
+hammer[ˈhæmə] v.锤打
+pour[pɔ:] v.浇注
+
+Unit 031: Sculpture Basics
+Sculpture (from Latin, "to carve"), three-dimensional art concerned with the organization of masses and volumes. The two principal types have traditionally been freestanding sculpture in the round and relief sculpture.
+
+sculpture[ˈskʌlptʃə] n.雕刻
+mass[mæs] n.质量
+volume[ˈvɔlju:m] n.体积
+principal[ˈprinsəpəl] adj.主要的
+freestanding[ˈfri:ˌstændiŋ] adj.（雕刻、建筑物等）独立的，自力撑持的
+in the round[in-ðə-'raund] adj.雕刻成立体（的），栩栩如生的，表现无余的
+relief[riˈli:f] n.浮雕
+Unit 032: Casting Process
+Casting is accomplished in two stages: an impression or negative mold is formed from the original -- a clay model, for instance -- and a positive cast or reproduction is made of the original work from the negative impression.
+
+casting[ˈkɑ:stiŋ] n.铸造
+impression[imˈpreʃən] n.印痕
+negative mold['negətiv-məuld] n.凹模
+clay[klei] n.黏土,泥土
+positive cast[ˈpɔzitiv-kɑːst] n.正像
+reproduction[ˌri:prəˈdʌkʃən] n.复制品
+Unit 033: Musical Pitch and Scales
+Pitch depends upon the rate of vibration, or frequency, of sound waves that produce a particular tone. Most Western music is based on 12 equivalent intervals per octave; however, a great deal of Western folk music conforms to pentatonic scale, the best-known form of which contains no half steps.
+
+pitch[pitʃ] n.音高
+vibration[vaiˈbreiʃən] n.振动
+frequency[ˈfri:kwənsi] n.频率
+tone[təun] n.音调
+equivalent interval[iˈkwivələnt- ˈintəvəl] n.等间隔的音程
+octave[ˈɔktiv] n.八度音程（音阶）
+folk[fəuk] adj.民间的
+conform[kənˈfɔ:m] v.（to, with）遵照，依照
+pentatonic[ˌpentəˈtɔnik] adj.五声音阶的
+scale[skeil] n.音阶
+step[step] n.音级
+Unit 034: Rhythm in Music
+Rhythm is the way music uses time, which includes characteristics such as duration of tones and silences, and patterns of duration.
+
+rhythm[ˈriðəm] n.节奏
+characteristic[ˌkæriktəˈristik] n.特性
+duration[djuəˈreiʃən] n.持续时间
+Unit 035: Harmony and Chords
+The most important and style-defining patterns are formed by pitches that overlap with one another in time, producing a chord, or harmony. Two or more tones heard simultaneously may belong to separate melodies that fit well together, but which occupy different octave registers, have distinct rhythmic patterns, or otherwise have different shapes or contours.
+
+style-defining[stail- di'fainiŋ] adj.定义完整的，仔细定义过的
+overlap[ˌəuvəˈlæp] v.与......重叠
+chord[kɔ:d] n.和弦
+harmony[ˈhɑ:məni] n.和声
+simultaneously[siməlˈteiniəsli] adv.同时地
+melody[ˈmelədi] n.曲调
+occupy[ˈɔkjupai] v.占用，填满
+register[ˈredʒistə] n.音域
+distinct[disˈtiŋkt] adj.截然不同的
+rhythmic patterns['riðmik-'pætənz] n.有节奏的模式
+contour[ˈkɔnˌtuə] n.（音调或声调的）升降曲线；变化方式
+Unit 036: Musical Score
+Score, musical notation for a multipart composition, in which the music to be performed by each voice or instrument, is written with clefs on a separate staff, all the staves being aligned one above another.
+
+score[skɔ:] n.乐谱
+notation[nəuˈteiʃən] n.谱号(musical notation:音乐记谱)
+composition[ˌkɔmpəˈziʃən] n.乐曲
+perform[pəˈfɔ:m] v.演奏
+instrument[ˈinstrumənt] n.乐器
+clef[klef] n.谱号
+staff[stɑ:f] n.五线谱(plural: staves[stɑ:vz] )
+align[əˈlain] v.排列
+Unit 037: Orchestra Composition
+Orchestra, in the narrowest sense, the characteristic ensemble of Western musical instruments, has as its core a group of bowed-string instruments of the violin family, augmented by woodwind, brass, and percussion instruments.
+
+orchestra[ˈɔ:kistrə] n.管弦乐
+ensemble[ɔŋ'sɔŋblə] n.合奏
+musical instrument['mjuːzikəl-'instrumənt] n.乐器
+core[kɔ:] n.中心
+bowed-string[baud-striŋ] adj.演奏弦乐的
+violin[ˌvaiəˈlin] n.小提琴
+augment[ɔ:ɡˈment] v.增补，扩充
+woodwind['wudwind] n.木管乐器
+brass[brɑ:s] n.铜管乐器
+percussion[pə:ˈkʌʃən] n.打击乐器
+Unit 038: Percussion Instruments
+Percussion instruments are referred to as membranophones if they produce sound through the vibrations of a stretched skin or other membrane. They are called idiophones if they produce sound through their natural resonance when struck, rubbed, plucked, or shaken. Drums are membranophones; hollowed logs, bells, gongs, xylophones, and pianos are examples of idiophones.
+
+membranophone[mem'breinəfəun] n.膜鸣乐器
+stretched[stretʃ] adj.有弹性的
+membrane[ˈmembrein] n.(动物或植物体内的)薄膜,隔膜
+idiophone['idiəufəun] n.体鸣乐器
+resonance[ˈrezənəns] n.共振
+strike[straik] v.敲击
+rub[rʌb] v.摩擦
+pluck[plʌk] v.拨（弦）
+shake[ʃeik] v.摇晃
+drum[drʌm] n.鼓
+hollowed log['hɔləud-lɔg] n.中空的原木
+bell[bel] n.铃、钟、或钟琴
+gong[ɡɔŋ] n.锣
+xylophone[ˈzailəfəun] n.木琴
+piano[piˈænəu] n.钢琴
+Unit 039: Wind Instruments
+Wind instruments, or aerophones, produce sound by vibration, which may be produced by performers' lips(brass), a column of air split across a sharp edge(flutes, pipes, whistles), or by one or two reeds, as with instruments such as the clarinet, saxophone, oboe and bassoon.
+
+wind instrument['wind-'instrumənt] n.管乐器
+aerophone['eərəˌfəun] n.管乐器
+column[ˈkɔləm] n.柱（a colum of air气柱)
+split[split] v.劈开，切开
+edge[edʒ] n.边缘
+flute[flu:t] n.竖笛，横笛
+pipe[paip] n.风笛
+whistle[ˈhwisl] n.口哨
+reed[ri:d] n.簧片
+clarinet[ˌklæriˈnet] n.单簧管，黑管
+saxophone[ˈsæksəfəun] n.萨克斯管
+oboe[ˈəubəu,ˈəubi] n.双簧管
+brass[bræs] n.铜管（乐器）
+bassoon[bə'suːn] n.低音管，巴松
+Unit 040: String Instruments
+The string, or chordophone, family has several branches. In one branch, which includes the zither and dulcimer, strings are stretched across a flat body. In a second branch, each instrument has a neck, for example the lute, guitar, or violin. A third branch includes plucked instruments with multiple strings, such as the lyre or the harp, where each string produces only one pitch.
+
+string[striŋ] n.琴弦，弦乐器
+chordophone['kɔːdəufəun] n.弦乐器
+zither['ziðə] n.齐特琴（与中国的"筝"相似）
+dulcimer['dʌlsimə] n.洋琴
+neck[nek] n.琴颈
+lute[lu:t] n.鲁特琴
+guitar[ɡiˈtɑ:] n.吉他
+violin[ˌvaiəˈlin] n.小提琴
+lyre['laiə] n.里拉，七弦竖琴（古希腊的一种弦乐器）
+harp[hɑ:p] n.竖琴
+
+Unit 041: The Modern Piano
+The modern pianoforte has six major parts: (1) The frame is usually made of iron. At the rear end is attached the string plate, into which the strings are fastened. In the front is the wrest plank, into which the tuning pins are set. Around these is wound the other end of the strings, and by turning these pins, the tension of the strings is regulated. (2) The soundboard, a thin piece of fine-grained spruce placed under the strings, reinforces the tone by means of sympathetic vibration. (3) The strings, made of steel wire, increase in length and thickness from the treble to the bass. The higher pitches are each given two or three strings tuned alike. The lower ones are single strings made heavier by being overspun -- that is, wound around with a coil of thin copper wire. (4) The action is the entire mechanism required for propelling the hammers (wrapped with felt) against the strings. The most visible part of the action is the keyboard, a row of keys manipulated by the fingers. The keys corresponding to the natural tones are made of ivory or plastic; those corresponding to the chromatically altered tones, of ebony or plastic. (5) The pedals are levers pressed down by the feet. The damper, or loud pedal, raises all the dampers so that all the strings struck continue to vibrate even after the keys are released. The use of these pedals can produce subtle changes in tone quality. (6) According to the shape of the case, pianos are classified as grand, square, and upright. Grand pianos are built in various sizes, from the full concert grand, 2.69m long, to the parlor or baby grand, less than 1.8m long.
+
+pianoforte[piˌænəuˈfɔ:ti] n.钢琴（piano的旧称）
+frame[freim] n.骨架
+rear[riə] adj.后面的
+attach[əˈtætʃ] v.附加
+fasten[ˈfɑ:sən] v.使固定；加固
+plank[plæŋk] n.支架（wrest plank：校准弦音的扭钥架）
+tuning pin['tuːniŋ-pin] n.调音弦轴
+wind[wind] v.绕，缠
+tension[ˈtenʃən] n.压力，张力
+regulate[ˈreɡjuleit] v.调节，校准
+fine-grained[ˈfain-ˈɡreind] adj.纹理细腻、平整的
+spruce[spru:s] n.云杉质木材
+reinforce[ˌri:inˈfɔ:s] v.加强
+sympathetic vibration['simpə'θetik-vai'breiʃən] n.共振
+treble[ˈtrebl] n.高音部分
+bass[beis] n.低音部分
+pitch[pitʃ] n.音高
+overspin wire['əuvəspin-'waiə] n.缠弦
+coil[kɔil] n.（一）卷
+action[ˈækʃən] n.机械装置
+mechanism[ˈmekənizəm] n.机械装置
+propel[prəˈpel] v.推动
+hammer[ˈhæmə] n.音锤
+felt[felt] n.毛毡
+manipulate[məˈnipjuleit] v.（熟练地）操作、使用（机器等）
+corresponding to[ˌkɔrəs'pɔndiŋ-tuː] adj.与……相应的
+ivory[ˈaivəri] n.象牙
+plastic[ˈplɑ:stik] n.塑料
+chromatic[krəuˈmætik] adj.半音（阶）的，含半音的
+chromatically[krəuˈmætikli] adv.半音地
+ebony[ˈebəni] n.乌木
+pedal[ˈpedl] n.踏板
+lever[ˈli:və] n.控制杆
+damper[ˈdæmpə] n.制音器
+release[riˈli:s] v.释放
+sustaining[səsˈteiniŋ] adj.支持的
+subtle[ˈsʌtl] adj.微小的
+grand[ɡrænd] adj.大的
+square[skwɛə] adj.正方形的
+upright[ˈʌprait] adj.立式的
+various[ˈvɛəriəs] adj.许多的，多样的
+parlor[ˈpɑ:lə] adj.客厅的
+Unit 042: The Violin
+The main parts of the violin are the front, also called the belly, top, or soundboard, usually made of well-seasoned spruce; the back, usually made of well-seasoned maple; and the ribs, neck, fingerboard, pegbox, scroll, bridge, tailpiece, and f-holes, or soundholes. The front, back, and ribs are joined together to form a hollow sound box. The sound box contains the sound post, a thin, dowel-like stick of wood wedged inside underneath the right side of the bridge and connecting the front and back of the violin; and the bass-bar, a long strip of wood glued to the inside of the front under the left side of the bridge. The sound post and bass-bar are important for the transmission of sound, and they also give additional support to the construction. The strings are fastened to the tailpiece, rest on the bridge, and are suspended over the fingerboard, and run to the pegbox, where they are attached to tuning pegs that can be turned to change the pitch of the string. The strings are set in vibration and produce sound when the player draws the bow across them at a right angle near the bridge. Among the prized characteristics of the violin are its singing tone and its potential to play rapid, brilliant figurations as well as lyrical melodies. Violinists can also create special effects by means of the following techniques: pizzicato, plucking, tremolo, etc.
+
+violin[ˌvaiəˈlin] n.小提琴
+belly[ˈbeli] n.（弦乐器的）面板
+well-seasoned[wel-'siːznd] adj.完全风干的
+spruce[spru:s] n.云杉
+maple[ˈmeipl] n.枫木
+rib[rib] n.琴骨
+pegbox['pegbɔks] n.（弦乐器的）弦轴箱
+scroll[skrəul] n.涡卷形头：提琴类乐器上的弯曲状饰头
+tailpiece[ˈteilpi:s] n.系弦钮
+hollow[ˈhɔləu] adj.中空的
+sound[saund] n.声音
+post[pəust] n.杆
+dowel[ˈdauəl] n.暗榫
+wedge[wedʒ] v.楔入
+underneath[ˌʌndəˈni:θ] prep.在……的下面
+bass bar[beis-bɑ:] n.低音梁
+strip[strip] n.条
+glue[ɡlu:] v.粘合
+transmission[trænzˈmiʃən] n.传播
+suspend[səˈspend] v.悬挂
+tuning peg[ˈtju:niŋ-peɡ] n.调音弦轴
+pitch[pitʃ] n.音质
+vibration[vaiˈbreiʃən] n.振动
+draw[drɔ:] v.拉
+bow[bəu] n.琴弓
+prize[praiz] v.珍视
+figuration[ˌfiɡjuˈreiʃən] n.用装饰音装饰
+lyrical[ˈlirikəl] adj.抒情的
+melody[ˈmelədi] n.曲调
+pizzicato[ˌpitsi'kɑːtəu] n.拨奏乐曲
+pluck[plʌk] v.拨
+tremolo[ˈtremələu] n.颤音
+Unit 043: Photography Basics
+Photography is based on principles of light, optics, and chemistry. For the purpose of producing a photograph, these silver salts are distributed in gelatin to make a mixture called an emulsion, which is applied to film or another supporting material in a thin layer. When the emulsion is exposed to light, the silver halide crystals undergo chemical changes and, after further processing, an image becomes visible. The stronger the light that strikes the crystals, the denser or more opaque that part of the film becomes. Most types of film produce a negative image, from which a positive final copy can be printed on sensitized paper. The dense (or dark) areas of the negative translate into light areas on the final photograph. Almost all modern photography relies on this negative-to-positive process.
+
+photography[fəˈtɔɡrəfi] n.摄影
+principle[ˈprinsəpl] n.原则
+optics[ˈɔptiks] n.光学
+silver salt[ˈsilvə-sɔːlt] n.银盐
+distribute[disˈtribju:t] v.分布，散布（over）
+gelatin[ˈdʒelətin,ˈdʒeləˈti:n] n.凝胶
+emulsion[iˈmʌlʃən] n.感光乳剂
+apply[əˈplai] v.涂，搽，撒
+film[film] n.胶片
+layer[ˈleiə] n.垫片，层
+expose[iksˈpəuz] v.曝光，暴露
+halide[ˈhælaid] adj.卤化物(的)
+crystal[ˈkristəl] n.晶体
+undergo[ˌʌndəˈɡəu] v.经历（变迁等）；遭受（苦难等）
+processing[prəuˈsesiŋ] n.处理
+image[ˈimidʒ] n.影像
+strike[straik] v.照在……上
+opaque[əuˈpeik] adj.不反射光线的
+negative image[ˈneɡətiv-'imidʒ] n.底片（负像）
+sensitized paper[ˈsensitaizd-'peipə] n.感光纸
+translate into[trænsˈleit-'intu] v.转化为
+rely on[riˈlai-ɔn] v.依赖，依靠
+Unit 044: Camera and Lens
+In most cases, the camera and its lens determine the appearance of the photographic image. Cameras work on the basic principle of the camera obscura. In both the camera obscura and the modern camera, light passes through a lens fitted into an otherwise lightproof box. Light passing through the lens casts an image of the camera's subject -- the object, person, or scene in front of the camera -- onto the inside of the box, which in a modern camera contains film. The camera and lens control how much light strikes the film, in what is called an exposure.
+
+camera[ˈkæmərə] n.照相机
+lens[lenz] n.镜头
+camera obscura[ˈkæmərə-ɔbˈskjuərə] n.暗箱
+otherwise[ˈʌðəwaiz] adj.别样的，另外一种的
+lightproof[ˈlaitpru:f] adj.不透光
+cast[kɑ:st] v.投射
+subject[ˈsʌbdʒikt] n.对象
+scene[si:n] n.景色
+exposure[iksˈpəuʒə] n.曝光
+Unit 045: Origins of Theater
+Anthropologists and theater historians trace the origins of theater to myth and ritual found in dances and mimed performances by masked dancers during fertility rites and other ceremonies that marked important passages in life. Imitation, costumes, masks, makeup, gesture, dance, music, and pantomime were some of the theatrical elements found in early rituals.
+
+anthropologist[ˌænθrəˈpɔlədʒist] n.人类学家
+theater[ˈθiətə] n.戏剧
+trace[treis] v.追踪，探索
+myth[miθ] n.神话
+ritual[ˈritʃuəl] n.（宗教）仪式
+mimed performance[maimd-pə'fɔːməns] n.笑剧、闹剧表演
+fertility rite[fəː'tiliti-rait] n.丰收仪式
+ceremony[ˈseriməni] n.仪式
+passage[ˈpæsidʒ] n.转变
+imitation[ˌimiˈteiʃən] n.道具
+costume[ˈkɔstju:m] n.装束
+makeup[ˈmeikʌp] n.化妆品
+gesture[ˈdʒestʃə] n.造型
+pantomime[ˈpæntəmaim] n.哑剧表演
+Unit 046: Elements of Theater
+In addition to the actor and the audience in a space, other elements of theater include a written or improvised text, costumes, scenery, lights, sound, and properties (props). Most theatrical performances require the collaborative efforts of many creative people, including dramaturge, craftspeople, designer, composer, or choreographer and managers working toward a common goal: the production. The performance is very often a play -- a tragedy, comedy, or musical -- but it need not be. Theater performances include vaudeville, puppet shows, mime, and other forms of entertainment. Theatrical texts, often referred to as drama, usually provide the vital framework of a performance. In Aristotle's famous definition, drama is an imitation of an action that is whole, complete, and of a certain magnitude or scope.
+
+audience[ˈɔ:djəns] n.观众
+improvised text[ˈimprəvaizd-tekst] n.同步字幕
+scenery[ˈsi:nəri] n.舞台布景
+property[ˈprɔpəti] n.道具
+props[prɔps] n.小道具
+collaborative[kəˈlæbəreitiv] adj.协作的
+dramaturge[ˈdræməˌtə:dʒ] n.剧作家
+craftspeople[krɑːftspiːpl] n.道具师
+composer[kəmˈpəuzə] n.作曲家
+choreographer[ˌkɔriˈɔɡrəfə] n.舞蹈指导
+production[prəˈdʌkʃən] n.作品，成品，电影制片
+tragedy[ˈtrædʒidi] n.悲剧
+comedy[ˈkɔmidi] n.喜剧
+vaudeville[ˈvɔ:dəvil] n.歌舞杂耍
+puppet show[ˈpʌpit-ʃəu] n.木偶剧
+mime[maim] n.笑剧
+theatrical text[θiˈætrikəl-tekst] n.戏剧文本
+drama[ˈdrɑ:mə] n.戏剧
+framework[ˈfreimwə:k] n.结构
+magnitude[ˈmæɡnitju:d] n.量值
+scope[skəup] n.范围
+Unit 047: Functions of Theater
+Theater can serve many ends. It can be designed to entertain, instruct, motivate, persuade, and even shock. But whatever the intentions of the director, performers, and crew, the result depends on the interaction with an audience. The audience affects the performance by providing the performers with immediate feedback, such as laughter, tears, applause, or silence. Each night there is continuous interaction between the auditorium and the stage. Ultimately, audiences make their opinions known through their attendance or nonattendance. They support what appeals to them and generally fail to support what they find distasteful, offensive, or incomprehensible.
+
+serve[sə:v] v.满足，服务
+end[end] n.目的
+entertain[ˌentəˈtein] v.娱乐
+instruct[inˈstrʌkt] v.教导
+motivate[ˈməutiveit] v.激发
+persuade[pəˈsweid] v.说服
+shock[ʃɔk] v.震撼
+intention[inˈtenʃən] n.意图，目的
+director[diˈrektə] n.导演
+performer[pəˈfɔ:mə] n.表演者
+crew[kru:] n.全体人员
+interaction[ˌintərˈækʃən] n.相互作用
+affect[əˈfekt] v.影响
+immediate[iˈmi:diət] adj.立即的
+feedback[ˈfi:dbæk] n.反馈
+applause[əˈplɔ:z] n.喝彩
+auditorium[ˌɔ:diˈtɔ:riəm] n.观众席
+attendance[əˈtendəns] n.出席
+appeal[əˈpi:l] v.对……有吸引力
+distasteful[disˈteistful] adj.（令人）不愉快的
+offensive[əˈfensiv] adj.冒犯的
+incomprehensible[inˌkɔmpriˈhensəbl] adj.不能理解的
+Unit 048: Role of the Director
+Directors assume responsibility for the overall interpretation of a script, and they have the authority to approve, control, and coordinate all the elements of a production. Throughout the ages, performers have been jugglers, mimes, minstrels, puppeteers, acrobats, clowns, singers, dancers, and amateur and professional actors/actresses. The first performers were most likely singers and dancers, as the first performances had no spoken dialogue.
+
+assume[əˈsju:m] v.承担
+interpretation[inˌtə:priˈteiʃən] n.演绎
+script[skript] n.剧本
+coordinate[kəuˈɔ:dineit] v.调整
+juggler[ˈdʒʌɡlə] n.玩杂耍的人
+mime[maim] n.滑稽演员，哑剧演员，丑角
+minstrel[ˈminstrəl] n.诗歌演唱者
+puppeteer[pʌpiˈtiə] n.演木偶戏的人
+acrobat[ˈækrəbæt] n.杂技演员
+clown[klaun] n.小丑
+amateur[ˈæmətə] n.业余艺术家
+dialogue[ˈdaiəlɔɡ] n.对白
+Unit 049: The Producer
+In commercial and nonprofit theaters, the producer is the person who puts together the financing, management staff, and the artistic team to produce the show. Usually, the producer works in tandem with a general manager and others to accomplish the daily running of the production, from rehearsals to closing. In this role, he or she selects a season of several plays, hires the artistic teams and technical staff, works with a casting director to audition and cast actors in various parts, controls the theater's funding, and acts as the final authority in all artistic and administrative operations.
+
+commercial[kəˈmə:ʃəl] adj.商业的
+nonprofit[ˌnɔnˈprɔfit] adj.非赢利的
+producer[prəˈdju:sə] n.制片人
+put together['put-tə'geðə] v.组合
+staff[stɑ:f] n.全体职员
+in tandem with[in-'tændəm-wið] adv.同……合作
+accomplish[əˈkɔmpliʃ] v.完成
+rehearsal[riˈhə:səl] n.彩排
+season[ˈsi:zən] n.适合某种活动的季节,期间
+casting director[ˈkɑ:stiŋ-di'rektə] n.负责挑选演员的人，星探
+audition[ɔ:ˈdiʃən] v.在试演中评估某一人物
+cast[kɑ:st] v.指定角色
+administrative[ədˈministreitiv] adj.管理的
+Unit 050: Cell Basics
+All living things are composed of cells. Some microscopic organisms, such as bacteria and protozoa, are unicellular, meaning they consist of a single cell. Plants, animals, and fungi are multicellular; that is, they are composed of a great many cells working in concert.
+
+cell[sel] n.细胞
+microscopic[ˌmaikrəsˈkɔpik] adj.极微小的
+organism[ˈɔ:ɡənizəm] n.有机生物
+protozoan[ˌprəutəuˈzəuən] n.原生动物（plural: protozoa[prəutəuˈzəuə]）
+unicellular[ˈju:niˈseljulə] adj.单细胞的
+fungi[ˈfʌndʒai,ˈfʌŋɡai] n.真菌类
+multicellular[ˌmʌltiˈseljulə] adj.多细胞的
+in concert[in-'kɔnsət] adv.同时
+
+Unit 051: Biomolecules in Cells
+The components of cells are molecules, nonliving structures formed by the union of atoms. Small molecules serve as building blocks for larger molecules. Proteins, nucleic acids, carbohydrates, and lipids, which include fats and oils, are the four major molecules that underlie cell structure and also participate in cell functions.
+
+molecule[ˈmɔlikju:l] n. 分子
+union[ˈju:njən] n. 结合
+atom[ˈætəm] n. 原子
+building block[ˈbildiŋ-ˈblɔk] n. 结构单元
+protein[ˈprəuti:n] n. 蛋白质
+nucleic acid[nju:ˈkli:ik-ˈæsid] n. 核酸
+carbohydrate[ˌkɑ:bəuˈhaidreit] n. 碳水化合物
+lipid[ˈlipid,ˈlaipid] n. 脂质
+underlie[ˌʌndəˈlai] v. 成为……的基础
+participate[pɑ:ˈtisipeit] v. 参与
+Unit 052: Eukaryotic vs. Prokaryotic Cells
+The eukaryotic cell cytoplasm is similar to that of the prokaryote cell except for one major difference: eukaryotic cells house a nucleus and numerous other membrane-enclosed organelles. Like separate rooms of a house, these organelles enable specialized functions to be carried out efficiently. The building of proteins and lipids, for example, takes place in separate organelles where specialized enzymes geared for each job are located.
+
+eukaryotic cell[juˈkæriəutik-sel] n. 真核细胞
+cytoplasm[ˈsaitəplæzəm] n. 细胞质
+prokaryote cell[prəuˈkæriəut-sel] n. 原核生物细胞
+house[haus] v. 包含
+nucleus[ˈnju:kliəs] n. 细胞核
+membrane[ˈmembrein] n. 膜
+organelle[ɔ:ɡəˈnel] n. 细胞器
+enzyme[ˈenzaim] n. 酶
+gear[ɡiə] v. 使适合于
+Unit 053: DNA and Chromosomes
+The nucleus is the largest organelle in an animal cell. It contains numerous strands of DNA, the length of each strand being many times the diameter of the cell. Unlike the circular prokaryotic DNA, long sections of eukaryotic DNA pack into the nucleus by wrapping around proteins. As a cell begins to divide, each DNA strand folds over onto itself several times, forming a rod-shaped chromosome.
+
+strand[strænd] n. 串，（绳子的）股
+diameter[daiˈæmitə] n. 直径
+pack into[ˈpæk-ˈintu] v. 将……装（塞，挤）入
+wrap[ræp] v. 缠绕
+chromosome[ˈkrəuməsəum] n. 染色体
+Unit 054: Plant Cell Features
+Plant cells have all the components of animal cells and several other added features, including chloroplasts, a central vacuole, and a cell wall. Chloroplasts convert light energy -- typically from the Sun -- into the sugar glucose, a form of chemical energy, in a process known as photosynthesis. Chloroplasts, like mitochondria, possess a circular chromosome and prokaryote-like ribosomes, which manufacture the proteins that the chloroplasts typically need. The vacuole, a membranous bag, crowds the cytoplasm and organelles to the edges of the cell. The central vacuole stores water, salts, sugars, proteins, and other nutrients. In addition, it stores the blue, red, and purple pigments that give certain flowers their colors.
+
+component[kəmˈpəunənt] n. 组成部分
+chloroplast[ˈklɔ:rəuplæst] n. 叶绿体
+vacuole[ˈvækjuəul] n. 液泡
+cell wall[sel-wɔːl] n. 细胞壁
+glucose[ˈɡlu:kəus] n. 葡萄糖
+photosynthesis[ˌfəutəuˈsinθəsis] n. 光合作用
+mitochondria[ˌmaitəˈkɔndriə] n. 线粒体
+ribosome[ˈraibəsəum] n. 核糖体
+crowd... to...[kraud-tu:] v. 把……挤进……；把……塞进……
+pigment[ˈpiɡmənt] n. 色素
+Unit 055: Forest Types by Climate and Leaf
+Forests may be divided into the following eight general types on the basis of leaf characteristics and climate.
+(1) Deciduous forests of the temperate regions are the typical formation of the eastern United States.
+(2) Deciduous monsoon forests are characteristic of Bengal and Myanmar (formerly known as Burma) and common throughout Southeast Asia and India.
+(3) Tropical savanna forests are found in regions such as the campos of Brazil, where forest and grassland meet.
+(4) Northern coniferous forests form a worldwide belt in subarctic and alpine regions of the northern hemisphere.
+(5) Tropical rain forests are characteristic of central Africa and the Amazon watershed.
+(6) Temperate evergreen forests are found in the subtropical regions of North America and the Caribbean islands that have a warm maritime climate.
+(7) Temperate rain forests, with broad-leaved evergreen trees, are common on Mediterranean coasts.
+(8) Tropical scrub forests occur in regions of slight rainfall, bordering wetter forests.
+
+forest[ˈfɔrist] n. 森林
+deciduous forest[diˈsidʒuəs-ˈfɔrist] n. 落叶林
+Deciduous monsoon forest[diˈsidʒuəs-mɔnˈsu:n-ˈfɔrist] n. 落叶季雨林
+Bengal[beŋˈɡɔ:l] n. 孟加拉
+Myanmar[ˈmjænmɑ:] n. 缅甸
+Tropical savanna forest[ˈtrɔpikl-səˈvænə-ˈfɔrist] n. 热带稀树草原
+campo[ˈkæmpəu] n. 南美草原
+grassland[ˈɡrɑ:slænd] n. 草原
+Northern coniferous forest[ˈnɔːð(ə)n-kəuˈnifərəs-ˈfɔrist] n. 北方针叶树林
+worldwide belt[ˈwə:ldwaid-belt] n. 世界范围分布
+subarctic[ˈsʌbˈɑ:ktik] adj. 亚寒带
+alpine region[ˈælpain-ˈri:dʒən] n. 高山区
+hemisphere[ˈhemiˌsfiə] n. 半球
+tropical rain forest[ˈtrɔpikl-rein-ˈfɔrist] n. 热带雨林
+watershed[ˈwɔ:təʃed] n. 流域
+Temperate evergreen forest[ˈtempərit-ˈevəɡri:n-ˈfɔrist] n. 温带绿叶林
+subtropical[ˈsʌbˈtrɔpikəl] adj. 亚热带的
+maritime[ˈmæritaim] adj. 海洋性的
+Temperate rain forest[ˈtempərit-rein-ˈfɔrist] n. 温带雨林
+coast[kəust] n. 海岸
+Tropical scrub forest[ˈtrɔpikl-skrʌb-ˈfɔrist] n. 热带灌丛林
+Unit 056: Major U.S. Forest Regions
+Three major forest areas exist in the United States. The western forests of the Rocky Mountains and the Pacific coast are coniferous and contain Douglas fir, ponderosa pine, western white pine, Engelmann spruce, and white fir. More than half of the softwood lumber yield of the United States comes from the productive Douglas fir forests of the Pacific Northwest. The South Atlantic and Gulf states account for most of the remaining softwood lumber, chiefly from longleaf, shortleaf, loblolly, and slash pines. Hardwoods, yielding about one-fourth of the total production, are found in the eastern half of the United States, with particularly dense stands in the area surrounding the Mississippi and Ohio river valleys. Among the many hardwood species are oaks, black walnut, yellow poplar, and sugar maple.
+
+fir[fə:] n. 枞树，冷杉
+pine[pain] n. 松树
+spruce[spru:s] n. 云杉
+softwood[ˈsɔftwud] n. 针叶树
+lumber[ˈlʌmbə] n. 木材
+yield[ji:ld] n. 产量
+account for[əˈkaunt-fɔː] v. 占据
+loblolly pine[ˈlɔblɔli-pain] n. 火炬松
+slash pine[slæʃ-pain] n. 沼泽松
+hardwood[ˈhɑ:dwud] n. 阔叶树
+stand[stænd] n. 高大树丛
+oak[əuk] n. 橡树
+black walnut[ˈblæk-ˈwɔ:lnət] n. 黑胡桃
+yellow poplar[ˈjeləu-ˈpɔplə] n. 北美鹅掌揪（poplar，相当于中国人说的"杨树"）
+sugar maple[ˈʃuɡə-ˈmeipl] n. 糖枫
+Unit 057: Rainforest Criteria
+To be classified as a rain forest, a forest must have a closed canopy, in which the treetops, or crowns, touch each other, creating a shaded forest interior. In addition, temperature and rainfall must be high and relatively even throughout the year. Forests that meet these criteria are found flanking the equator in South and Central America, Asia, Africa, and Australia.
+
+rain forest[ˈrein-ˈfɔrəst] n. 雨林
+canopy[ˈkænəpi] n. 天篷：树林中最上面一层
+crown[kraun] n. 树冠
+touch[tʌtʃ] v. 接触
+criteria[kraiˈtiəriə] n. 标准
+flank[flæŋk] v. 位于……的两侧
+equator[iˈkweitə] n. 赤道
+Unit 058: Flower Structure and Function
+Flower is the reproductive organ of most seed-bearing plants. Flowers carry out the multiple roles of sexual reproduction, seed development, and fruit production. Many plants -- produce highly visible flowers that have a distinctive size, color, or fragrance. Almost everyone is familiar with beautiful flowers such as the blossoms of roses, orchids, and tulips. But many plants -- including oaks, beeches, maples, and grasses -- have small, green or gray flowers that typically go unnoticed. Whether eye-catching or inconspicuous, all flowers produce the male or female sex cells required for sexual reproduction. Botanists call them the cones, bearing plants gymnosperms, which means naked seeds. They refer to flowering plants as angiosperms, which means enclosed seeds. Flowers typically are composed of four parts, arranged in concentric rings attached to the tip of the stem. From innermost to outermost, these whorls are the pistil, stamens, petals, and sepals.
+
+reproductive organ[ˈri:prəˈdʌktiv-ˈɔ:ɡən] n. 生殖器官
+fragrance[ˈfreiɡrəns] n. 香气
+blossom[ˈblɔsəm] n. 花簇
+orchid[ˈɔ:kid] n. 兰花
+tulip[ˈtju:lip] n. 郁金香
+beech[bi:tʃ] n. 山毛榉
+eye-catching[ˈaiˌ-kætʃiŋ] adj. 引人注目的
+inconspicuous[ˌinkənˈspikjuəs] adj. 不显眼的
+botanist[ˈbɔtənist] n. 植物学家
+cone[kəun] n. 球果
+gymnosperm[ˈdʒimnəuˌspə:m] n. 裸子植物
+refer to[riˈfəː-tuː] v. 指的是……
+angiosperm[ˈændʒiəspə:m] n. 被子植物
+be composed of[biː-kəmˈpəuzd-əv] v. 由……组成
+concentric[kɔnˈsentrik] adj. 同一中心的
+stem[stem] n. 茎
+pistil[ˈpistil] n. 雌蕊
+stamen[ˈsteimen] n. 雄蕊
+petal[ˈpetl] n. 花瓣
+sepal[ˈsepəl] n. 萼片
+Unit 059: Bacterial Cell Structure
+Bacteria lack a true nucleus, a feature that distinguishes them from plant and animal cells. In plants and animals the saclike nucleus carries genetic material in the form of deoxyribonucleic acid (DNA). Bacteria also have DNA but it floats within the cell, usually in a loop or coil. A tough but resilient protective shell surrounds the bacterial cell.
+
+bacteria[bækˈtiəriə] (pl.) n. 细菌 (singular: bacterium[bækˈtiəriəm])
+lack[læk] v. 缺乏
+feature[ˈfi:tʃə] n. 特征
+distinguish[disˈtiŋɡwiʃ] v. 区别
+saclike[ˈsæklaik] adj. 囊状的
+genetic material[dʒiˈnetik-məˈtiəriəl] n. 遗传物质
+deoxyribonucleic acid[di:ˈɔksi:ˌraibəuˈnju:kli:ik-ˈæsid] n. 脱氧核糖核酸
+float[fləut] v. 漂浮
+loop[lu:p] n. 环
+coil[kɔil] n. (一)卷
+resilient[riˈziliənt] adj. 有弹性的
+shell[ʃel] n. 外壳
+Unit 060: Virus Structure
+Virus, infectious agent found in virtually all life forms, including humans, animals, plants, fungi, and bacteria, consist of genetic material -- either deoxyribonucleic acid (DNA) or ribonucleic acid (RNA) -- surrounded by a protective coating of protein, called a capsid, with or without an outer lipid envelope.
+
+virus[ˈvaiərəs] n. 病毒
+infectious agent[inˈfekʃəs-ˈeidʒənt] n. 传染因子
+virtually[ˈvə:tʃuəli] adv. 实际上
+fungi[ˈfʌndʒai] n. 真菌类 (singular: fungus[ˈfʌŋɡəs])
+consist of[kənˈsist-əv] v. 由……组成
+ribonucleic acid[ˌraibənju:ˈkli:ik-ˈæsid] n. 核糖核酸 (略作 RNA)
+coating[ˈkəutiŋ] n. 外壳
+capsid[ˈkæpsid] n. 衣壳（包裹着一个病毒粒子的蛋白质外壳）
+lipid[ˈlipid] n. 脂质
+envelope[ˈenvələup] n. 包裹性的结构或包皮，例如膜，或者病毒的包膜
+Unit 071: Ant Social Structure
+Ant colonies have elaborate social structures in which the various activities necessary for the feeding, shelter, and reproduction of the colony are divided among specially adapted individuals. Ants belong to an order of insects called the Hymenoptera, a group that also includes bees, wasps, and sawflies. Some species of wasps and bees resemble ants in that they live in colonies and are, therefore, said to be social, but ants are the only hymenopterans in which every species is social. Ants are distinguished from other hymenopterans in that they have bent, or elbowed, antennae and an indented abdomen that forms a narrow waist.
+
+elaborate[iˈlæbəreit] adj. 复杂的
+shelter[ˈʃeltə] n. 遮蔽处
+adapted[əˈdæptid] adj. 适合的
+Hymenoptera[ˈhaimiˌnɔptərə] n. 膜翅目
+sawfly[ˈsɔ:flai] n. 叶蜂
+resemble[riˈzembl] v. 类似
+in that[in-ðæt] conj. 因为
+hymenopteran[ˌhaimiˈnɔptərən] n. 膜翅目昆虫
+distinguish[disˈtiŋɡwiʃ] v. 区别
+bent[bent] adj. 弯的
+elbowed[ˈelbəud] adj. 像肘一样弯曲的
+antenna[ænˈtenə] n. 触须（复数：antennae[ænˈteni:]）
+indented[inˈdentid] adj. 锯齿状的
+abdomen[ˈæbdəmən] n. 腹部
+waist[weist] n. 昆虫腹部的较窄部位
+Unit 072: Ant Castes and Roles
+Members of an ant colony typically fall into categories known as castes, each with a different role. The majority of colony members are female worker ants that are unable to mate. Worker ants do not have wings and perform most of the work of the colony, including searching for food, nursing young, and defending the colony against ants from other colonies. Queens are larger than worker ants and are the only females of the colony capable of mating. Queens are born with wings, which they break off after mating. They mate with winged male ants, later using the sperm from the mating to produce fertilized eggs, which are hatched to produce more worker ants and a new generation of queens.
+
+caste[kɑ:st] n. 有社会组织的昆虫的阶级
+mate[meit] v. 交配
+perform[pəˈfɔ:m] v. 执行
+nurse[nə:s] v. 护理
+capable of[ˈkeipəbl-əv] adj. 有能力的
+sperm[spə:m] n. 精子
+fertilized egg[ˈfə:tilaizd-eg] n. 受精卵
+hatch[hætʃ] v. 孵化
+Unit 073: Forest Pests and Diseases
+Insects and diseases are a continuing menace to forests. Various insects, such as the gypsy moth, the tussock moth, and the spruce budworm, devastate extensive areas by defoliation. Other insects serve as carriers for the causative agents of diseases that destroy trees. Parasitic tree diseases may be caused by bacteria, fungi, viruses, and nematodes, or by such parasitic plants as the mistletoe or dodder. Noninfectious diseases of trees include sunscald; drought injury; root drowning, or suffocation; nutritional excesses or deficiencies; winter injury; and injury from smoke, gases, and fumes.
+
+menace[ˈmenəs] n. 威胁
+gypsy moth[ˈdʒipsi-mɔθ] n. 舞毒蛾
+tussock moth[ˈtʌsək-mɔθ] n. 毒蛾
+spruce budworm['spru:s-ˈbʌdwə:m] n. 云杉蚜虫
+devastate[ˈdevəsteit] v. 糟蹋
+defoliation[ˌdi:fəuliˈeiʃən] n. 落叶
+causative agent[ˈkɔ:zətiv-ˈeidʒənt] n. 病原体
+bacteria[bækˈtiəriə] n. 细菌
+fungi[ˈfʌndʒai] n. 真菌
+virus[ˈvaiərəs] n. 病毒
+nematode[ˈnemətəud] n. 线虫
+mistletoe[ˈmisltəu] n. 槲寄生
+dodder[ˈdɔdə] n. 菟丝子
+sunscald[ˈsʌnskɔ:ld] n. 日灼病
+drought injury['drɑut-ˈindʒəri] n. 旱害
+root drowning['ruːt-ˈdrauniŋ] n. 根部溺死
+suffocation[ˌsʌfəˈkeiʃn] n. 窒息
+nutritional[nju:ˈtriʃənəl] adj. 营养的
+deficiency[diˈfiʃənsi] n. 缺乏
+fume[fju:m] n. 浓烟
+Unit 074: Bird Characteristics
+Birds are the only animals with feathers, collectively called plumage, although some other animals, such as insects and bats, also have wings. Nearly all birds can fly, and even flightless birds, such as ostriches and penguins, are evolved from flying ancestors. Many characteristics and behaviors of birds are distinct from all other animals, but there are some similarities. Like mammals, birds have four-chambered hearts and are warm-blooded -- having a relatively constant body temperature that enables them to live in a wide variety of environments. Like reptiles, birds develop from embryos in eggs outside of the mothers' body.
+
+plumage[ˈplu:midʒ] n. 鸟类的羽毛
+ostrich[ˈɔstritʃ] n. 鸵鸟
+penguin[ˈpeŋɡwin] n. 企鹅
+ancestor[ˈænsistə] n. 祖先
+distinct[disˈtiŋkt] adj. 截然不同的
+similarity[ˌsimiˈlæriti] n. 相似
+chamber[ˈtʃeimbə] n. 腔
+warm-blooded['wɔ:m-blʌdid] adj. (动物)恒温的
+constant[ˈkɔnstənt] adj. 恒久不变的
+reptile[ˈreptail] n. 爬行动物
+embryo[ˈembriəu] n. 胚胎
+Unit 075: Feather Structure and Function
+The main component of feathers is keratin, a flexible protein that also forms the hair and fingernails of mammals. Feathers provide the strong yet lightweight surface area needed for powered, aerodynamic flight. They also serve as insulation, trapping pockets of air to help birds conserve their body heat. The varied patterns, colors, textures, and shapes of feathers help birds to signal their age, sex, social status, and species identity to one another. Some birds have plumage that blends in with their surroundings to provide camouflage, helping these birds escape notice by their predators. Birds use their beaks to preen their feathers, often making use of oil from a gland at the base of their tails. Preening removes dirt and parasites, and keeps feathers waterproof and supple. Because feathers are nonliving structures that cannot repair themselves when worn or broken, they must be renewed periodically. Most adult birds molt -- lose and replace their feathers -- at least once a year.
+
+keratin[ˈkerətin] n. 角质
+flexible[ˈfleksəbl] adj. 柔韧的
+mammal[ˈmæməl] n. 哺乳动物
+aerodynamic[ˌɛərəudaiˈnæmik] adj. 空气动力学的
+insulation[ˌinsjuˈleiʃən] n. 绝缘，绝热
+trap[træp] v. 捕捉
+conserve[kənˈsə:v] v. 保存
+texture[ˈtekstʃə] n. 质地
+social status[ˈsəuʃəl-ˈsteitəs] n. 社会地位
+blend in['blend-in] v. 与（环境等）协调
+camouflage[ˈkæmaflɑ:ʒ] n. 伪装
+predator[ˈpredətə] n. 捕食者
+beak[bi:k] n. 喙
+preen[pri:n] v. (鸟)用嘴整理(羽毛)
+gland[ɡlænd] n. 腺
+tail[teil] n. 尾
+parasite[ˈpærəsait] n. 寄生物
+waterproof[ˈwɔ:təpru:f] adj. 防水的
+supple[ˈsʌpl] adj. 柔软的
+worn[wɔ:n] adj. 用旧了的，磨破了的
+periodically[ˌpiəriˈɔdikəli] adv. 周期性地
+molt[məult] v. 换毛
+Unit 076: Bird Wings and Flight
+Bird wings are highly modified forelimbs with a skeletal structure resembling that of arms. The shape of a bird's wings influences its style of flight, which may consist of gliding, soaring, or flapping. Flight muscles are located in the chest and are attached to the wings by large tendons. The breastbone, a large bone shaped like the keel of a boat, supports the flight muscles.
+
+forelimb[ˈfɔ:lim] n. 前肢
+resemble[riˈzembl] v. 类似
+glide[ɡlaid] v. 滑行
+soar[sɔ:] v. 振翅飞行
+flap[flæp] v. 拍动
+chest[tʃest] n. 胸部
+tendon[ˈtendən] n. 腱
+breastbone[ˈbrestbəun] n. 胸骨
+keel[ki:l] n. (船的)龙骨
+Unit 077: Bird Tails
+Nearly all birds have tails, the paired flight feathers of which, called rectrices, extend from the margins of a bird's tail. Tails may be square, rounded, pointed, or forked, depending on the lengths of the rectrices and the way they terminate.
+
+tail[teil] n. 尾
+rectrix[ˈrektriks] n. 舵羽(鸟尾上的硬毛)（复数：rectrices[ˈrektrisis]）
+square[skwɛə] adj. 正方形的
+forked[fɔ:kt] adj. 叉状的
+terminate[ˈtə:mineit] v. 结束
+Unit 078: Bird Feet and Toes
+Birds have two legs; the lower part of each leg is called the tarsus. Most birds have four toes on each foot, and in many birds, including all songbirds, the first toe, called a hallux, points backwards. Bird toes are adapted in various species for grasping perches, climbing, swimming, capturing prey, and carrying and manipulating food.
+
+tarsus[ˈtɑ:səs] n. 跗骨
+toe[təu] n. 脚趾
+songbird[ˈsɔŋbə:d] n. 鸣禽
+hallux[ˈhæləks] n. (鸟)后趾,(人)大拇趾
+adapted[əˈdæptid] adj. 适合的
+perch[pə:tʃ] n. 栖木：供鸟栖息的枝条
+manipulate[məˈnipjuleit] v. 处理
+Unit 079: Bird Beaks and Eyelids
+Instead of heavy jaws with teeth, modern birds have toothless, lightweight jaws, called beaks or bills. The eyes of birds are protected by three eyelids: an upper lid resembling that of humans, a lower lid that closes when birds sleeps, and a third lid, called a nictitating membrane, that sweeps across the eye sideways, starting from the side near the beak. This lid is a thin, translucent fold of skin that moistens and cleans the eyes and protects it from wind and bright light.
+
+jaw[dʒɔ:] n. 颚
+beak[bi:k] n. 喙
+bill[bil] n. 啄
+eyelid[ˈailid] n. 眼睑
+nictitating membrane[ˈniktiˌteitiŋ-ˈmembrein] n. 瞬膜：鸟类、爬行动物和一些哺乳动物的内生透明眼睑，闭上可保护和滋润眼睛
+translucent[trænzˈlu:snt] adj. 半透明的
+moisten[ˈmɔisn] v. 使潮湿
+Unit 080: Bird Nests
+For breeding, most birds build nests, which help them to incubate or warm the developing eggs. Nests sometimes offer camouflage from predators and physical protection from the elements. Nests may be elaborate constructions or mere scrapes on the ground.
+
+breed[bri:d] v. 生育;繁殖
+nest[nest] n. 巢
+incubate[ˈinkjəˌbeit] v. 孵化
+camouflage[ˈkæməflɑ:ʒ] n. 伪装
+element[ˈelimənt] n. 环境
+elaborate[iˈlæbəreit] adj. 精心制作的
+scrape[skreip] n. 浅坑
+
+Unit 081: Birds of Prey
+The best-known birds are the birds of prey. Some, including hawks, eagles, and falcons, are active during the daytime. Others, notably owls, are nocturnal, or active at night. Birds of prey have hooked beaks, strong talons or claws on their feet, and keen eyesight and hearing. Scavengers that feed on dead animals are also considered birds of prey.
+
+bird of prey /ˈbəːd-əv-ˈprei/ n. 食肉鸟，猛禽
+hawk /hɔ:k/ n. 鹰
+falcon /ˈfɔ:lkən/ n. 猎鹰
+owl /aul/ n. 猫头鹰
+nocturnal /nɔkˈtə:nl/ adj. 夜间的
+beak /bi:k/ n. 喙
+talon /ˈtælən/ n. 爪
+scavenger /ˈskævindʒə/ n. 食腐动物
+Unit 082: Bird Migration Cues
+Migrating birds use a variety of cues to find their ways. These include the positions of the Sun during the day and the stars at night; the earth's magnetic field; and visual, olfactory, and auditory landmarks.
+
+migrate /maiˈɡreit/ v. 迁徙
+cue /kju:/ n. 提示
+magnetic field /mæɡˈnetik-fiːld/ n. 磁场
+olfactory /ɔlˈfæktəri/ adj. 嗅觉的
+auditory /ˈɔ:ditəri/ adj. 听觉的
+Unit 083: Domestic Fowl Terminology
+Except in combinations such as waterfowl and wildfowl, in modern usage, the word fowl usually is restricted to the common domestic fowl or chicken. In poultry markets, fowl commonly means a full-grown female bird. Young birds of both sexes, such as broilers and fryers, are called chickens. On poultry farms, male chickens are called roosters or cocks; females, especially those more than a year old, are called hens; females less than a year old are called pullets; very young chickens of either sex are called chicks; and castrated males are called capons.
+
+combination /ˌkɔmbiˈneiʃən/ n. 组合
+waterfowl /ˈwɔ:təˌfaul/ n. 水鸟
+wildfowl /ˈwaildˌfaul/ n. 野禽
+fowl /faul/ n. 家禽
+domestic /dəˈmestik/ adj. 驯养的
+poultry /ˈpəultri/ n. 家禽
+broiler /ˈbrɔilə/ n. 适于烤焙的嫩鸡
+fryer /fraiə/ n. 适于油炸的嫩鸡
+rooster /ˈru:stə/ n. 公鸡
+pullet /ˈpulit/ n. 小母鸡
+chick /tʃik/ n. 小鸡
+castrate /kæsˈtreit/ v. 阉割
+capon /ˈkeipən/ n. 阉鸡
+Unit 084: Fish Characteristics
+All fishes are vertebrates (animals with backbones) with gills for breathing, most of them have fins for swimming, scales for protection, and streamlined bodies generally with pointed snouts and posteriors and broad propulsive tails for moving easily through the water.
+
+vertebrate /ˈvə:tibrit/ n. 脊椎动物
+backbone /ˈbækbəun/ n. 脊椎
+gill /gil/ n. 腮
+fin /fin/ n. 鱼鳍
+scale /skeil/ n. 鱼鳞
+streamlined /ˈstri:mlaind/ adj. 流线型的
+snout /snaut/ n. 口鼻部
+posterior /pɔˈstiəriə/ n. 身体后部
+propulsive /prəˈpʌlsiv/ adj. 有推进力的
+Unit 085: Fisheries and Harvested Species
+The term fishery is also used to describe the species of fish being harvested (because most of them are edible), which include familiar finned fish species, like cods and flounders; mollusks, including oysters and squids; and crustaceans, such as shrimps and crabs. Lesser-known fisheries include echinoderms, like sea urchins; some amphibians, including frogs; and cnidarians, such as jellyfish. Even the harvest of whales is usually considered a fishery.
+
+fishery /ˈfiʃəri/ n. 食用鱼类，捕鱼业
+harvest /ˈhɑ:vist/ v. 收获，捕获
+edible /ˈedibl/ adj. 可食用的
+cod /kɔd/ n. 鳕鱼
+flounder /ˈflaundə/ n. 比目鱼
+mollusk /ˈmɔləsk/ n. 软体动物
+oyster /ˈɔistə/ n. 牡蛎
+squid /skwid/ n. 鱿鱼
+crustacean /krʌˈsteiʃən/ n. 甲壳纲动物
+shrimp /ʃrimp/ n. 虾
+crab /kræb/ n. 蟹
+echinoderm /iˈkainəˌdə:m/ n. 棘皮类动物
+sea urchin /siː-ˈə:tʃin/ n. 海胆
+amphibian /æmˈfibiən/ n. 两栖动物
+frog /frɔɡ/ n. 青蛙
+cnidarian /naiˈdeəriən/ n. 刺胞动物
+jellyfish /ˈdʒelifiʃ/ n. 水母
+whale /hweil/ n. 鲸
+Unit 086: Angling Equipment
+Angling refers to fishing for sport, recreation, and relaxation. A fishing rod is a long, straight, flexible pole made of bamboo, fiberglass, or graphite that an angler uses to cast hook with bait or lures into the water.
+
+angling /ˈæŋɡliŋ/ n. 钓鱼，钓鱼术
+fishing /ˈfiʃiŋ/ n. 钓鱼
+recreation /ˌrekriˈeiʃn/ n. 消遣
+fishing rod /ˈfiʃiŋ-rɔd/ n. 钓竿
+straight /streit/ adj. 直的
+flexible /ˈfleksəbl/ adj. 有弹性的
+pole /pəul/ n. 杆
+bamboo /bæmˈbu:/ n. 竹子
+fiberglass /ˈfaibəɡlɑ:s/ n. 玻璃纤维
+graphite /ˈɡræfait/ n. 石墨
+angler /ˈæŋɡlə/ n. 垂钓者
+cast /kɑ:st/ v. 抛
+hook /huk/ n. 鱼钩
+bait /beit/ n. 饵
+lure /luə/ n. 诱饵
+Unit 087: Coral Reef Formation
+Coral reefs are built up by limestone skeletons of coral, and are found only in tropical saltwater where bright sunlight can penetrate, because corals cannot exist without the symbiotic algae that live in coral tissues and require sunlight for photosynthesis.
+
+coral /ˈkɔrəl/ n. 珊瑚，珊瑚虫
+reef /ri:f/ n. 礁，暗礁
+build up /ˈbild-ʌp/ v. 堆积
+limestone /ˈlaimˌstəun/ n. 石灰岩
+skeleton /ˈskelitn/ n. 骨骼
+tropical /ˈtrɔpikəl/ adj. 热带的
+saltwater /ˈsɔ:ltˌwɔ:tə/ n. 盐水
+penetrate /ˈpenitreit/ v. 穿透
+symbiotic /ˌsimbaiˈɔtik/ adj. 共生的
+algae /ˈældʒi:/ n. 藻类（单数：alga）
+tissue /ˈtisju:/ n. 组织
+photosynthesis /ˌfəutəuˈsinθəsis/ n. 光合作用
+Unit 088: Squid Anatomy and Behavior
+Squids are carnivorous mollusks belonging to the same class as the cuttlefish and octopus. The body of squids, stiffened by an interior cartilaginous skeleton, is spherical or cigar-shaped, with two lateral fins. Around the mouth are eight sucker-bearing arms and two contractile tentacles with spatulate tips; on the latter are four rows of suction cups encircled by rings of chitinous (horny) hooks. The contractile tentacles, longer than the rest, are used to seize the prey and pass it to the shorter arms, which hold it to be torn by strong jaws shaped like a parrot's beak. Squids can swim faster than any other invertebrate by rapidly expelling water from the mantle cavity through the "funnel". Many deep-sea squids are bioluminescent. They shoot out a cloud of dark ink when pursued; one genus secretes luminescent ink.
+
+carnivorous /kɑ:ˈnivərəs/ adj. 食肉的
+mollusk /ˈmɔləsk/ n. 软体动物
+cuttlefish /ˈkʌtlfiʃ/ n. 乌贼，墨鱼
+octopus /ˈɔktəpəs/ n. 章鱼
+stiffen /ˈstifn/ v. (使)变硬
+interior /inˈtiəriə/ adj. 内部的
+cartilaginous /ˌkɑ:tiˈlædʒinəs/ adj. 软骨的
+spherical /ˈsferikəl/ adj. 球形的
+cigar-shaped /siˈɡɑ:-'ʃeipt/ adj. 雪茄形的
+lateral fin /ˈlætərəl-fin/ n. 侧鳍
+sucker-bearing /ˈsʌkə-ˈbɛəriŋ/ adj. 长着吸盘的
+contractile /kənˈtræktail/ adj. 会缩的
+tentacle /ˈtentəkl/ n. 触角，触须
+spatulate /ˈspætjulit/ adj. 竹片状的
+row /rəu/ n. 一排
+suction cup /ˈsʌkʃən-kʌp/ n. 吸盘
+chitinous /ˈkaitinəs/ adj. 壳质的
+horny /ˈhɔ:ni/ adj. 角状的
+seize /si:z/ v. 抓住，捉住
+prey /prei/ n. 被掠食者，战利品
+torn /tɔ:n/ v. (tear 的过去分词) 撕
+jaw /dʒɔ:/ n. 颌，颚
+parrot /ˈpærət/ n. 鹦鹉
+invertebrate /inˈvə:tibrət/ n. 无脊椎动物
+expel /iksˈpel/ v. 喷出，发射
+mantle cavity /ˈmæntl-ˈkæviti/ n. 外套腔
+funnel /ˈfʌnl/ n. 漏斗
+bioluminescent /baiəuˌlu:miˈnesnt/ adj. 发（冷）光的
+pursue /pəˈsju:/ v. 追捕，追击
+genus /ˈdʒi:nəs/ n. 种，类
+secrete /siˈkri:t/ v. 分泌
+Unit 089: Amphibian Traits and Classification
+Amphibians have moist and hairless skin, through which water can pass in and out, and were the first animals with backbones to adapt to life on land. They are the ancestors of reptiles, which in turn gave rise to mammals and birds. All amphibians belong to one of three main groups: the caudate or tailed amphibian, which includes the sirens, salamanders, and newts; the anuran, or tailless amphibian, which includes frogs and toads; and the gymnophiona, which is made up of the wormlike caecilians.
+
+amphibian /æmˈfibiən/ n. 两栖动物
+moist /mɔist/ adj. 潮湿的
+adapt /əˈdæpt/ v. 适应
+ancestor /ˈænsestə/ n. 祖先
+reptile /ˈreptail/ n. 爬行动物
+mammal /ˈmæməl/ n. 哺乳动物
+Caudata /kɑːdeitə/ n. 有尾目
+siren /ˈsaiərin/ n. 土鳗
+salamander /ˈsæləmændə/ n. 火蜥蜴
+newt /nju:t/ n. 蝾螈
+Anuran /əˈnjuərən/ n. 无尾目
+frog /frɔɡ/ n. 青蛙
+toad /təud/ n. 蟾蜍
+Gymnophiona /'dʒimɔpfinə/ n. 无足目
+make up of /ˈmeik-ʌp-əv/ v. 构成，组成
+caecilian /si:ˈsiliən/ n. 蚓螈（无足目约150种两栖动物的统称）
+Unit 090: Mass Extinctions in Earth History
+Paleontologists recognize several mass extinctions in the past 500 million years, which occurred in Ordovician, Devonian, Paleozoic, Mesozoic, Triassic, and Cretaceous Period, respectively. The most recent mass extinction was at the end of Cretaceous Period, and resulted in the loss of 76% of all species, most notably the dinosaurs.
+
+paleontologist /ˌpeiliɔnˈtɔlədʒist/ n. 古生物学者
+mass extinction /mæs-iksˈtiŋkʃən/ n. 大量消亡
+Ordovician /ˌɔ:dəˈviʃən/ n. 奥陶纪
+Devonian /deˈvəuniən/ n. 泥盆纪
+Paleozoic /pæliəˈzəuik/ n. 古生代
+Mesozoic /ˌmesəuˈzəuik/ n. 中生代
+Triassic /traiˈæsik/ n. 三叠纪
+Cretaceous /kri'teisiəs/ n. 白垩纪
+respectively /risˈpektivli/ adv. 分别地
+species /ˈspi:si:z/ n. 物种
+dinosaur /ˈdainəsɔ:/ n. 恐龙
+
+Unit 091: Mass Extinctions and Evolutionary Opportunity
+In mass extinctions, entire groups of species -- such as families, orders, and classes -- die out, creating opportunities for the survivors to exploit new habitats. In their new niches, the survivors evolve new characteristics and habits and, consequently, develop into entirely new species.
+
+family /ˈfæmili/ n. 科
+order /ˈɔ:də/ n. 目
+class /klɑ:s/ n. 纲
+survivor /səˈvaivə/ n. 幸存者
+exploit /iksˈplɔit/ v. 开拓
+habitat /ˈhæbitæt/ n. 栖息地
+niche /nitʃ/ n. 合适的环境
+evolve /iˈvɔlv/ v. 进化
+Unit 092: Biodiversity and Human Dependence
+As the sum of all species living in the world's ecosystems, known as biodiversity, dwindles, so too go many of the resources on which we depend. Humans use at least 40,000 different plants, animals, fungi, bacteria, and virus species for food, clothing, shelter, and medicines. In addition, the fresh air we breathe, the water we drink, cook and wash with, and the many chemical cycles -- including the nitrogen cycle and the carbon cycle, so vital to sustain life -- depend on the continued health of ecosystems and the species within them.
+
+ecosystem /ˈi:kəuˌsistəm/ n. 生态系统
+biodiversity /ˌbaiəudaiˈvə:səti/ n. 生物多样性
+dwindle /ˈdwindl/ v. 减少
+plant /plɑ:nt/ n. 植物
+animal /ˈæniməl/ n. 动物
+fungi /ˈfʌndʒai/ n. 真菌类
+bacteria /bækˈtiəriə/ n. 细菌
+virus /ˈvaiərəs/ n. 病毒
+chemical cycle /ˈkemikəl-ˈsaikl/ n. 化学循环
+nitrogen cycle /ˈnaitrədʒən-ˈsaikl/ n. 氮循环
+carbon cycle /ˈkɑ:bən-ˈsaikl/ n. 碳循环
+vital /ˈvaitəl/ adj. 极重要的
+sustain /səˈstein/ v. 维持
+Unit 093: Common Ancestry in Evolution
+A central and historically controversial component of evolutionary theory is that all living organisms, from microscopic bacteria to plants, insects, birds, and mammals, share a common ancestor.
+
+controversial /ˌkɔntrəˈvə:ʃəl/ adj. 有争议的
+component /kəmˈpəunənt/ n. 组成部分
+evolutionary /ˌi:vəˈlu:ʃənəri/ adj. 进化的
+organism /ˈɔ:ɡənizəm/ n. 有机生物
+microscopic /ˌmaikrəsˈkɔpik/ adj. 极微小的
+ancestor /ˈænsistə/ n. 祖先
+Unit 094: Modern Synthesis of Evolutionary Theory
+Hostility as to evolutionary theory gave way to acclaim as scientists vigorously debated, explored, and built on Darwin's theory of natural selection. As the 20th century unfolded, scientific advances revealed the detailed mechanisms missing from Darwin's theory. Study of the complex chemistry of all organisms unveiled the structure of genes as well as how they were duplicated, altered, and passed from generation to generation. New molecular biology techniques compared the genetic structures of different species, enabling scientists to determine heretofore undetectable evolutionary relationships between species. Today, evolution is recognized as the cornerstone of modern biology. Uniting such diverse scientific fields as cell biology, genetics, paleontology, and even geology and statistics, the study of evolution reveals an exquisitely complex interaction of the forces that act upon every life form on Earth.
+
+hostility /hɔsˈtiliti/ n. 反对
+give way to /ˈɡiv-ˈwei-tu/ v. 退让
+acclaim /əˈkleim/ n. 称赞
+vigorously /ˈviɡərəsli/ adv. 竭力地
+unfold /ʌnˈfəuld/ v. 展开
+reveal /riˈvi:l/ v. 揭示
+unveil /ʌnˈveil/ v. 揭去
+gene /dʒi:n/ n. 基因
+duplicate /ˈdju:plikit/ v. 复制
+alter /ˈɔ:ltə/ v. 改变
+genetic structure /dʒiˈnetik-ˈstrʌktʃə/ n. 遗传结构
+heretofore /ˈhiətuˈfɔ:/ adv. 迄今为止
+undetectable /ʌndiˈtektəbl/ adj. 未被发现的
+cornerstone /ˌkɔ:nəˈstəun/ n. 基础
+cell biology /sel-baiˈɔlədʒi/ n. 细胞生物学
+genetics /dʒiˈnetiks/ n. 遗传学
+paleontology /ˌpæliɔnˈtɔlədʒi/ n. 古生物学
+geology /dʒiˈɔlədʒi/ n. 地质学
+statistics /stəˈtistiks/ n. 统计学
+exquisitely /ˈekskwizitli/ adv. 非常地
+Unit 095: Fossil Formation and Types
+Fossils are most commonly found in limestone, sandstone, and shale (a kind of sedimentary rock). Remains of organisms can also be found trapped in natural asphalt, amber, and ice. The hard indigestible skeletons and shells of animals and the woody material of plants are usually preserved best. Fossils of organisms made of soft tissue that decays readily are rarer. Paleontologists use fossils to learn how life has changed and evolved throughout Earth's history.
+
+fossil /ˈfɔsl/ n. 化石
+limestone /ˈlaimˌstəun/ n. 石灰岩
+sandstone /ˈsændˌstəun/ n. 砂岩
+shale /ʃeil/ n. 页岩
+sedimentary rock /sediˈmentəri-rɔk/ n. 沉积岩
+remains /riˈmeinz/ n. 遗体
+organism /ˈɔ:ɡənizəm/ n. 有机生物
+trap /træp/ v. 困住
+asphalt /ˈæsfælt/ n. 沥青
+amber /ˈæmbə/ n. 琥珀
+indigestible /ˌindiˈdʒestəbl/ adj. 难消化的
+skeleton /ˈskelitn/ n. 骨骼
+shell /ʃel/ n. 外壳
+woody material /ˈwudi-məˈtiəriəl/ n. 木质材料
+preserve /priˈzə:v/ v. 保存
+tissue /ˈtisju:/ n. 组织
+decay /diˈkei/ v. 腐烂
+paleontologist /ˌpeiliɔnˈtɔlədʒist/ n. 古生物学者
+evolve /iˈvɔlv/ v. 进化
+Unit 096: Human Musculoskeletal System - Overview
+The human skeleton consists of more than 200 bones, bound together by tough and relatively inelastic connective tissues called ligaments. The different parts of the body vary greatly in their degrees of movement, which are effected by contractions of the skeletal muscles, to which the bones are attached by tendons. Thus, the arm at the shoulder is freely movable, whereas the knee joint is definitely limited to a hinge-like action, and the bones composing the skull are immovable.
+
+anatomy /əˈnætəmi/ n. 人体解剖
+musculoskeletal /ˌmʌskjuləuˈskelitəl/ adj. 肌与骨骼的
+skeleton /ˈskelitn/ n. 骨骼
+bind /baind/ v. 绑定，缔结
+tough /tʌf/ adj. 坚硬的
+inelastic /iniˈlæstik/ adj. 无弹性的
+tissue /ˈtisju:/ n. 组织
+ligament /ˈliɡəmənt/ n. 韧带
+vary /ˈvɛəri/ v. 不同，变化
+contraction /kənˈtrækʃən/ n. 收缩
+muscle /ˈmʌsl/ n. 肌肉
+skeletal muscle /ˈskelitl-ˈmʌsl/ n. 骨骼肌
+attach /əˈtætʃ/ v. 贴上；系；附上
+tendon /ˈtendən/ n. 腱
+shoulder /ˈʃəuldə/ n. 肩
+knee joint /niː-dʒɔint/ n. 膝关节
+hinge /hindʒ/ n. 枢纽，门枢，节点
+compose /kəmˈpəuz/ v. 组成
+skull /skʌl/ n. 颅骨
+Unit 097: Compact Bone Structure
+There are two main types of bone. Compact bone, which makes up most of the bone of arms and legs, is very dense and hard on the outside. The structural units of compact bone are osteons, elongated cylinders that act as weight-bearing pillars, and able to withstand any mechanical stress placed on the bone. The center of each osteon contains a hollow canal that acts as a central passageway for blood vessels and nerves.
+
+compact bone /kəmˈpækt-bəun/ n. 密质骨
+make up /ˈmeik-ʌp/ v. 组成
+dense /dens/ adj. 密集的
+osteon /ˈɔstiɔn/ n. 骨单位（密质骨构造的基本单位）
+elongated /ˈi:lɔŋˌɡeitid/ adj. 被拉长的
+cylinder /ˈsilində/ n. 圆柱体
+pillar /ˈpilə/ n. 柱状物
+withstand /wiðˈstænd/ v. 经受，承受
+canal /kəˈnæl/ n. 导管
+passageway /ˈpæsidʒˌwei/ n. 出入口
+Unit 098: Spongy Bone and Its Functions
+In some bones, internal to the compact bone is spongy bone, also known as cancellous bone, composed of a honeycomb network of bones that act as supporting beams. Spongy bone is designed to bear stress from several directions, such as that exerted on the pelvis in bending or stretching. The spaces between the trabeculae are filled with red bone marrow, containing the blood vessels that nourish spongy bone. Spongy bone is found in bones of the pelvis, ribs, breastbone, vertebrae, skull, and at the ends of the arm and leg bones.
+
+spongy bone /ˈspʌndʒi-bəun/ n. 松质骨
+cancellous /ˈkænsiləs/ adj. 网状骨质的
+cancellous bone /ˈkænsiləs-bəun/ n. 松质骨
+honeycomb /ˈhʌnikəum/ n. 蜂窝
+beam /bi:m/ n. 梁
+pelvis /ˈpelvis/ n. 骨盆
+bend /bend/ v. （使）弯曲
+stretch /stretʃ/ v. 伸展
+trabecula /trəˈbekjulə/ n. 小梁
+marrow /ˈmærəu/ n. 骨髓
+breastbone /ˈbrestbəun/ n. 胸骨
+vertebra /ˈvə:tibrə/ n. 脊椎骨
+Unit 099: Nervous System Divisions
+The nervous system has two divisions: the central nervous system, including the brain and spinal cord, and the peripheral nervous system, including all neural tissue of motor and sensory systems. Impulses go to the central nervous system through sensory nerves and are carried away from it by motor nerves. The motor system is further divided into the somatic (or skeletal) nervous system and the autonomic nervous system. The somatic motor system allows voluntary control over skeletal muscle with a few exceptions. The autonomic nervous system is largely involuntary, and controls cardiac and smooth muscles and glands.
+
+nervous system /ˈnə:vəs-ˈsistəm/ n. 神经系统
+division /diˈviʒən/ n. 部分
+central nervous system /ˈsentrəl-ˈnə:vəs-ˈsistəm/ n. 中枢神经系统
+spinal cord /ˈspainl-kɔːd/ n. 脊髓
+peripheral nervous system /pəˈrifərəl-ˈnə:vəs-ˈsistəm/ n. 周围神经系统
+neural tissue /ˈnjuərəl-ˈtisju:/ n. 神经组织
+motor /ˈməutə/ n. 运动肌
+sensory system /ˈsensəri-ˈsistəm/ n. 感觉系统
+impulse /ˈimpʌls/ n. 神经脉冲
+somatic nervous system /səˈmætik-ˈnə:vəs-ˈsistəm/ n. 躯体神经系统
+skeletal nervous system /ˈskelitl-ˈnə:vəs-ˈsistəm/ n. 骨骼神经系统
+autonomic nervous system /ˌɔ:təuˈnɔmik-ˈnə:vəs-ˈsistəm/ n. 自主神经系统
+voluntary /ˈvɔləntəri/ adj. 自主的
+cardiac /ˈkɑ:diæk/ adj. 心脏（病）的
+smooth muscle /smu:ð-ˈmʌsl/ n. 平滑肌
+gland /ɡlænd/ n. 腺
+Unit 100: Voluntary Movement Control
+Voluntary movement of head, limbs, and body is caused by nerve impulses arising in the motor area of the cortex of the brain, and carried by cranial nerves or by nerves that emerge from the spinal cord to connect with skeletal muscles.
+
+limb /lim/ n. 肢
+arise /əˈraiz/ v. 起，发生
+cortex /ˈkɔ:teks/ n. 大脑皮层
+cranial nerve /ˈkreinjəl-nəːv/ n. 颅神经
+emerge from /iˈmə:dʒ-frɔm/ v. 自……出现
+spinal cord /ˈspainl-kɔːd/ n. 脊髓
+
+Unit 101: Reflex Actions
+Movement may occur also in direct response to an outside stimulus; thus, a tap on the knee causes a jerk, and a light shone into the eye makes the pupil contract. These involuntary responses are called reflexes.
+
+in response to /ɪn rɪˈspɒns tuː/ prep. 相应，回应
+stimulus /ˈstɪmjʊləs/ n. 刺激
+tap /tæp/ n. 轻打
+jerk /dʒɜːk/ n. 抽搐
+pupil /ˈpjuːpəl/ n. 瞳孔
+contract /kənˈtrækt/ v. 收缩
+reflex /ˈriːfleks/ n. 反射
+Unit 102: Muscle Tone
+Muscular contractions do not always cause actual movement. A small fraction of the total number of fibers in most muscles are usually contracting. This serves to maintain the posture of a limb and enables the limb to resist passive elongation or stretch. This slight continuous contraction is called muscle tone.
+
+contraction /kənˈtrækʃən/ n. 收缩
+fraction /ˈfrækʃən/ n. 小部分
+fiber /ˈfaɪbər/ n. 纤维
+posture /ˈpɒstʃər/ n. 姿势
+resist /rɪˈzɪst/ v. 抵抗；对抗
+passive elongation /ˈpæsɪv ˌiːlɒŋˈɡeɪʃən/ n. 被动延伸
+stretch /stretʃ/ n. 伸展
+continuous /kənˈtɪnjuəs/ adj. 连续的
+muscle tone /ˈmʌsl təʊn/ n. 肌肉弹性，肌肉张力
+Unit 103: Circulatory System
+In passing through the system, blood pumped by the heart follows a winding course through the right chambers of the heart into the lungs, where it picks up oxygen and back into the left chambers of the heart. From these it is pumped into the main artery, the aorta, which branches into increasingly smaller arteries until it passes through the smallest, known as arterioles.
+Beyond the arterioles, the blood passes through a vast amount of tiny thin-walled structures called capillaries. Here, the blood gives up its oxygen and its nutrients to the tissues, and absorbs from them carbon dioxide and other waste products of metabolism. The blood completes its circuit by passing through small veins that join to form increasingly larger vessels until it reaches the largest veins, the inferior and superior venae cavae, which return it to the right side of the heart. Blood is propelled mainly by contractions of the heart and arteries; contractions of skeletal muscle also contribute to circulation. Valves in the heart and in the veins ensure its flow in one direction.
+
+circulatory system /səˈkjuːlətəri ˈsɪstəm/ n. 循环系统
+pump /pʌmp/ v. 输送
+winding /ˈwaɪndɪŋ/ adj. 弯曲的
+chamber /ˈtʃeɪmbər/ n. 心室
+pick up /pɪk ʌp/ v. 获得
+oxygen /ˈɒksɪdʒən/ n. 氧气
+artery /ˈɑːtəri/ n. 动脉
+aorta /eɪˈɔːtə/ n. 主动脉
+arteriole /ɑːˈtɪəriəʊl/ n. 小动脉
+vast /vɑːst/ adj. 大量的
+capillary /kəˈpɪləri/ n. 毛细血管
+give up /ɡɪv ʌp/ v. 把……输送到……
+nutrient /ˈnjuːtriənt/ n. 营养品
+tissue /ˈtɪʃuː/ n. 组织
+absorb /əbˈsɔːb/ v. 吸收
+carbon dioxide /ˌkɑːbən daɪˈɒksaɪd/ n. 二氧化碳
+metabolism /məˈtæbəlɪzəm/ n. 新陈代谢
+circuit /ˈsɜːkɪt/ n. 一圈
+vein /veɪn/ n. 静脉
+vessel /ˈvesəl/ n. 血管
+inferior /ɪnˈfɪəriə/ adj. 处于下方的
+superior /suːˈpɪəriə/ adj. 处于上方的
+venae cavae /ˈviːniː ˈkeɪviː/ n. 腔静脉（单数：vena cava）
+propel /prəˈpel/ v. 推动
+circulation /ˌsɜːkjʊˈleɪʃən/ n. 循环
+valve /vælv/ n. 瓣膜
+Unit 104: Immune System Overview
+The body defends itself against foreign proteins and infectious microorganisms by means of a complex dual system that depends on recognizing a portion of the surface pattern of the invader. The two parts of the system are termed cellular immunity, in which lymphocytes are the effective agent, and humoral immunity, based on the action of antibody molecules.
+
+immune system /ɪˈmjuːn ˈsɪstəm/ n. 免疫系统
+defend /dɪˈfend/ v. 防卫
+foreign /ˈfɒrɪn/ adj. 异质的，外来的
+protein /ˈprəʊtiːn/ n. 蛋白质
+infectious /ɪnˈfekʃəs/ adj. 有传染性的
+microorganism /ˌmaɪkrəʊˈɔːɡənɪzəm/ n. 微生物
+dual system /ˈdjuːəl ˈsɪstəm/ n. 双重系统
+recognize /ˈrekəɡnaɪz/ v. 认出
+invader /ɪnˈveɪdə/ n. 侵入物
+lymphocyte /ˈlɪmfəʊsaɪt/ n. 淋巴细胞
+agent /ˈeɪdʒənt/ n. 作用物
+cellular immunity /ˈseljʊlər ɪˈmjuːnəti/ n. 细胞免疫
+humoral immunity /ˈhjuːmərəl ɪˈmjuːnəti/ n. 体液免疫
+antibody molecule /ˈæntɪˌbɒdi ˈmɒlɪkjuːl/ n. 抗体分子
+Unit 105: Lymphocytes and Antibodies
+Lymphocytes, which resemble blood plasma in composition, are manufactured in the bone marrow and multiply in the thymus and spleen. They circulate in the bloodstream, penetrating the walls of blood capillaries to reach the cells of tissues. When particular lymphocytes recognize a foreign molecular pattern (termed an antigen), they release antibodies in great numbers. Antibodies attach themselves to the antigen, and in that way mark them for destruction by other substances in the body's defense arsenal. These are primarily complement, a complex of enzymes that makes holes in foreign cells and phagocytes, cells that engulf and digest foreign matter.
+
+resemble /rɪˈzembl/ v. 类似于
+plasma /ˈplæzmə/ n. 血浆
+bone marrow /bəʊn ˈmærəʊ/ n. 骨髓
+multiply /ˈmʌltɪplaɪ/ v. 增加
+thymus /ˈθaɪməs/ n. 胸腺
+spleen /spliːn/ n. 脾
+circulate /ˈsɜːkjʊleɪt/ v. 循环
+penetrate /ˈpenɪtreɪt/ v. 穿透
+antigen /ˈæntɪdʒən/ n. 抗原
+antibody /ˈæntɪˌbɒdi/ n. 抗体
+attach to /əˈtætʃ tuː/ v. 把……附着于
+arsenal /ˈɑːsənəl/ n. 武器库
+complement /ˈkɒmplɪmənt/ n. 补体
+enzyme /ˈenzaɪm/ n. 酶
+phagocyte /ˈfæɡəʊsaɪt/ n. 噬菌细胞
+engulf /ɪnˈɡʌlf/ v. 吞没
+digest /daɪˈdʒest/ v. 消化
+Unit 106: Respiratory System
+In the lungs, oxygen enters tiny capillaries, where it combines with hemoglobin in the red blood cells, and is carried to the tissues. Inhaling draws into the lungs air that is higher in oxygen and lower in carbon dioxide; exhaling forces from the lungs air that is higher in carbon dioxide and lower in oxygen. Changes in the size and gross capacity of the chest are controlled by the contractions of the diaphragm and of the muscles between the ribs.
+
+respiratory system /rɪˈspaɪərətəri ˈsɪstəm/ n. 呼吸系统
+lung /lʌŋ/ n. 肺
+hemoglobin /ˌhiːməʊˈɡləʊbɪn/ n. 血色素
+inhale /ɪnˈheɪl/ v. 吸气
+exhale /eksˈheɪl/ v. 呼气
+gross capacity /ɡrəʊs kəˈpæsəti/ n. 总容量
+chest /tʃest/ n. 胸腔
+diaphragm /ˈdaɪəfræm/ n. 膈膜
+rib /rɪb/ n. 肋骨
+Unit 107: Digestive and Excretory Systems
+After food is broken into fragments by chewing and mixed with saliva, digestion begins. The food passes down the gullet into the stomach, where the process is continued by the gastric and intestinal juices. Thereafter, the mixture of food and secretions, called chyme, is pushed down the alimentary canal by peristalsis, rhythmic contractions of the smooth muscle of the gastrointestinal system. Absorption of nutrients from chyme occurs mainly in the small intestine; unabsorbed food and secretions and waste substances from the liver pass to the large intestine and are expelled as feces. Water and water-soluble substances travel via the bloodstream from the intestines to the kidneys, which absorb all the constituents of the blood plasma except its proteins. The kidneys return most of the water and salts to the body, while excreting other salts and waste products, along with excess water, as urine.
+
+excretory /ˈekskrɪtəri/ adj. 排泄的
+fragment /ˈfræɡmənt/ n. 碎片
+chew /tʃuː/ v. 咀嚼
+saliva /səˈlaɪvə/ n. 唾液
+digestion /daɪˈdʒestʃən/ n. 消化
+gullet /ˈɡʌlɪt/ n. 食管
+stomach /ˈstʌmək/ n. 胃
+gastric /ˈɡæstrɪk/ adj. 胃的
+intestinal /ɪnˈtestɪnl/ adj. 肠的
+juice /dʒuːs/ n. 体液
+secretion /sɪˈkriːʃən/ n. 分泌物
+chyme /kaɪm/ n. 食糜
+alimentary canal /ˌælɪˈmentəri kəˈnæl/ n. 消化道
+peristalsis /ˌperɪˈstælsɪs/ n. 蠕动
+gastrointestinal /ˌɡæstrəʊɪnˈtestɪnl/ adj. 肠胃的
+absorption /əbˈsɔːpʃən/ n. 吸收
+nutrient /ˈnjuːtriənt/ n. 营养物质
+small intestine /smɔːl ɪnˈtestɪn/ n. 小肠
+waste substance /weɪst ˈsʌbstəns/ n. 废物
+liver /ˈlɪvər/ n. 肝脏
+large intestine /lɑːdʒ ɪnˈtestɪn/ n. 大肠
+expel /ɪkˈspel/ v. 排出
+feces /ˈfiːsiːz/ n. 粪便
+water-soluble /ˈwɔːtə ˌsɒljʊbəl/ adj. 可溶于水的
+via /ˈvaɪə/ prep. 通过
+kidney /ˈkɪdni/ n. 肾
+constituent /kənˈstɪtjuənt/ n. 成分
+excrete /ɪkˈskriːt/ v. 排泄，分泌
+urine /ˈjʊərɪn/ n. 尿
+Unit 108: Endocrine System
+In addition to the integrative action of the nervous system, the control of various body functions is exerted by the endocrine glands. An important part of this system, the pituitary, lies at the base of the brain. This master gland secretes a variety of hormones. The posterior lobe of the pituitary secretes vasopressin, which acts on the kidney to control the volume of urine. Other glands in the endocrine system are the pancreas, which secretes insulin, and the parathyroid, which secretes a hormone that regulates the quantity of calcium and phosphorus in the blood.
+
+endocrine /ˈendəʊkraɪn/ adj. 内分泌的
+exert /ɪɡˈzɜːt/ v. 行使（职权等），使受（影响等）
+gland /ɡlænd/ n. 腺
+pituitary /pɪˈtjuːɪtəri/ n. （脑）垂体
+secrete /sɪˈkriːt/ v. 分泌
+hormone /ˈhɔːməʊn/ n. 荷尔蒙
+posterior /pɒˈstɪəriə/ adj. 后面的，尾部的
+posterior lobe /pɒˈstɪəriə ləʊb/ n. 后叶
+vasopressin /ˌvæsəʊˈpresɪn/ n. 血管加压素，血压激素
+pancreas /ˈpæŋkriəs/ n. 胰，胰腺
+insulin /ˈɪnsjʊlɪn/ n. 胰岛素
+parathyroid /ˌpærəˈθaɪrɔɪd/ adj. 副甲状腺的
+regulate /ˈreɡjʊleɪt/ v. 控制
+calcium /ˈkælsiəm/ n. 钙
+phosphorus /ˈfɒsfərəs/ n. 磷
+Unit 109: Human Reproduction
+Reproduction is accomplished by the union of male sperm and the female ovum. In coitus, the male organ ejaculates more than 250 million sperm into the vagina, from which some make their way to the uterus. Ovulation, the release of an egg into the uterus, occurs approximately every 28 days; during the same period, the uterus is prepared for the implantation of a fertilized ovum by the action of estrogens. If a male cell fails to unite with a female cell, other hormones cause the uterine wall to slough off during menstruation. From puberty to menopause, the processes of ovulation, preparation, and menstruation are repeated monthly except for periods of pregnancy.
+
+reproduction /ˌriːprəˈdʌkʃən/ n. 繁殖，生殖
+accomplish /əˈkʌmplɪʃ/ v. 完成
+sperm /spɜːm/ n. 精子
+ovum /ˈəʊvəm/ n. 卵子
+coitus /ˈkɔɪɪtəs/ n. 性交
+ejaculate /ɪˈdʒækjʊleɪt/ v. 射精
+vagina /vəˈdʒaɪnə/ n. 阴道
+uterus /ˈjuːtərəs/ n. 子宫
+ovulation /ˌɒvjuˈleɪʃən/ n. 排卵
+egg /eɡ/ n. 卵
+implantation /ˌɪmplɑːnˈteɪʃən/ n. 胚胎植入
+fertilized /ˈfɜːtɪlaɪzd/ adj. 已受精的
+estrogen /ˈestrədʒən/ n. 雌激素
+slough off /slaʊ ɒf/ v. 脱落
+menstruation /ˌmenstruˈeɪʃən/ n. 月经期间
+puberty /ˈpjuːbəti/ n. 青春期
+menopause /ˈmenəˌpɔːz/ n. 经绝期
+pregnancy /ˈpreɡnənsi/ n. 怀孕
+Unit 110: Skin Structure and Function
+The inner layer of the skin, called the dermis, contains sweat glands, blood vessels, nerve endings, and the bases of hair and nails. The outer layer, the epidermis, is only a few cells' thick. It contains pigments, pores, and ducts, and its surface is made of dead cells that it sheds from the body. The sweat glands excrete waste and cool the body through evaporation of fluid droplets; the blood vessels of the dermis supplement temperature regulation by contracting to preserve body heat and expanding to dissipate it. Separate kinds of receptors convey pressure, temperature, and pain. Fat cells in the dermis insulate the body, and oil glands lubricate the epidermis.
+
+dermis /ˈdɜːmɪs/ n. 真皮
+nail /neɪl/ n. 指甲
+epidermis /ˌepɪˈdɜːmɪs/ n. 表皮
+pigment /ˈpɪɡmənt/ n. 色素
+pore /pɔː/ n. 毛孔
+duct /dʌkt/ n. 管：管状体内通道，尤指运输腺分泌物的管道
+shed /ʃed/ v. 脱落，蜕（皮），脱（毛）
+excrete /ɪkˈskriːt/ v. 分泌，排出
+evaporation /ɪˌvæpəˈreɪʃən/ n. 蒸发；蒸腾（作用）
+droplet /ˈdrɒplɪt/ n. 小滴
+supplement /ˈsʌplɪmənt/ v. 补充
+dissipate /ˈdɪsɪpeɪt/ v. 使耗散
+receptor /rɪˈseptə/ n. 感受器
+convey /kənˈveɪ/ v. 转达
+insulate /ˈɪnsjʊleɪt/ v. 隔热
+lubricate /ˈluːbrɪkeɪt/ v. 使润滑
+
+
+Unit 101: Reflex Actions
+Movement may occur also in direct response to an outside stimulus; thus, a tap on the knee causes a jerk, and a light shone into the eye makes the pupil contract. These involuntary responses are called reflexes.
+
+in response to /ɪn rɪˈspɒns tuː/ prep. 相应，回应
+stimulus /ˈstɪmjʊləs/ n. 刺激
+tap /tæp/ n. 轻打
+jerk /dʒɜːk/ n. 抽搐
+pupil /ˈpjuːpəl/ n. 瞳孔
+contract /kənˈtrækt/ v. 收缩
+reflex /ˈriːfleks/ n. 反射
+Unit 102: Muscle Tone
+Muscular contractions do not always cause actual movement. A small fraction of the total number of fibers in most muscles are usually contracting. This serves to maintain the posture of a limb and enables the limb to resist passive elongation or stretch. This slight continuous contraction is called muscle tone.
+
+contraction /kənˈtrækʃən/ n. 收缩
+fraction /ˈfrækʃən/ n. 小部分
+fiber /ˈfaɪbər/ n. 纤维
+posture /ˈpɒstʃər/ n. 姿势
+resist /rɪˈzɪst/ v. 抵抗；对抗
+passive elongation /ˈpæsɪv ˌiːlɒŋˈɡeɪʃən/ n. 被动延伸
+stretch /stretʃ/ n. 伸展
+continuous /kənˈtɪnjuəs/ adj. 连续的
+muscle tone /ˈmʌsl təʊn/ n. 肌肉弹性，肌肉张力
+Unit 103: Circulatory System
+In passing through the system, blood pumped by the heart follows a winding course through the right chambers of the heart into the lungs, where it picks up oxygen and back into the left chambers of the heart. From these it is pumped into the main artery, the aorta, which branches into increasingly smaller arteries until it passes through the smallest, known as arterioles.
+Beyond the arterioles, the blood passes through a vast amount of tiny thin-walled structures called capillaries. Here, the blood gives up its oxygen and its nutrients to the tissues, and absorbs from them carbon dioxide and other waste products of metabolism. The blood completes its circuit by passing through small veins that join to form increasingly larger vessels until it reaches the largest veins, the inferior and superior venae cavae, which return it to the right side of the heart. Blood is propelled mainly by contractions of the heart and arteries; contractions of skeletal muscle also contribute to circulation. Valves in the heart and in the veins ensure its flow in one direction.
+
+circulatory system /səˈkjuːlətəri ˈsɪstəm/ n. 循环系统
+pump /pʌmp/ v. 输送
+winding /ˈwaɪndɪŋ/ adj. 弯曲的
+chamber /ˈtʃeɪmbər/ n. 心室
+pick up /pɪk ʌp/ v. 获得
+oxygen /ˈɒksɪdʒən/ n. 氧气
+artery /ˈɑːtəri/ n. 动脉
+aorta /eɪˈɔːtə/ n. 主动脉
+arteriole /ɑːˈtɪəriəʊl/ n. 小动脉
+vast /vɑːst/ adj. 大量的
+capillary /kəˈpɪləri/ n. 毛细血管
+give up /ɡɪv ʌp/ v. 把……输送到……
+nutrient /ˈnjuːtriənt/ n. 营养品
+tissue /ˈtɪʃuː/ n. 组织
+absorb /əbˈsɔːb/ v. 吸收
+carbon dioxide /ˌkɑːbən daɪˈɒksaɪd/ n. 二氧化碳
+metabolism /məˈtæbəlɪzəm/ n. 新陈代谢
+circuit /ˈsɜːkɪt/ n. 一圈
+vein /veɪn/ n. 静脉
+vessel /ˈvesəl/ n. 血管
+inferior /ɪnˈfɪəriə/ adj. 处于下方的
+superior /suːˈpɪəriə/ adj. 处于上方的
+venae cavae /ˈviːniː ˈkeɪviː/ n. 腔静脉（单数：vena cava）
+propel /prəˈpel/ v. 推动
+circulation /ˌsɜːkjʊˈleɪʃən/ n. 循环
+valve /vælv/ n. 瓣膜
+Unit 104: Immune System Overview
+The body defends itself against foreign proteins and infectious microorganisms by means of a complex dual system that depends on recognizing a portion of the surface pattern of the invader. The two parts of the system are termed cellular immunity, in which lymphocytes are the effective agent, and humoral immunity, based on the action of antibody molecules.
+
+immune system /ɪˈmjuːn ˈsɪstəm/ n. 免疫系统
+defend /dɪˈfend/ v. 防卫
+foreign /ˈfɒrɪn/ adj. 异质的，外来的
+protein /ˈprəʊtiːn/ n. 蛋白质
+infectious /ɪnˈfekʃəs/ adj. 有传染性的
+microorganism /ˌmaɪkrəʊˈɔːɡənɪzəm/ n. 微生物
+dual system /ˈdjuːəl ˈsɪstəm/ n. 双重系统
+recognize /ˈrekəɡnaɪz/ v. 认出
+invader /ɪnˈveɪdə/ n. 侵入物
+lymphocyte /ˈlɪmfəʊsaɪt/ n. 淋巴细胞
+agent /ˈeɪdʒənt/ n. 作用物
+cellular immunity /ˈseljʊlər ɪˈmjuːnəti/ n. 细胞免疫
+humoral immunity /ˈhjuːmərəl ɪˈmjuːnəti/ n. 体液免疫
+antibody molecule /ˈæntɪˌbɒdi ˈmɒlɪkjuːl/ n. 抗体分子
+Unit 105: Lymphocytes and Antibodies
+Lymphocytes, which resemble blood plasma in composition, are manufactured in the bone marrow and multiply in the thymus and spleen. They circulate in the bloodstream, penetrating the walls of blood capillaries to reach the cells of tissues. When particular lymphocytes recognize a foreign molecular pattern (termed an antigen), they release antibodies in great numbers. Antibodies attach themselves to the antigen, and in that way mark them for destruction by other substances in the body's defense arsenal. These are primarily complement, a complex of enzymes that makes holes in foreign cells and phagocytes, cells that engulf and digest foreign matter.
+
+resemble /rɪˈzembl/ v. 类似于
+plasma /ˈplæzmə/ n. 血浆
+bone marrow /bəʊn ˈmærəʊ/ n. 骨髓
+multiply /ˈmʌltɪplaɪ/ v. 增加
+thymus /ˈθaɪməs/ n. 胸腺
+spleen /spliːn/ n. 脾
+circulate /ˈsɜːkjʊleɪt/ v. 循环
+penetrate /ˈpenɪtreɪt/ v. 穿透
+antigen /ˈæntɪdʒən/ n. 抗原
+antibody /ˈæntɪˌbɒdi/ n. 抗体
+attach to /əˈtætʃ tuː/ v. 把……附着于
+arsenal /ˈɑːsənəl/ n. 武器库
+complement /ˈkɒmplɪmənt/ n. 补体
+enzyme /ˈenzaɪm/ n. 酶
+phagocyte /ˈfæɡəʊsaɪt/ n. 噬菌细胞
+engulf /ɪnˈɡʌlf/ v. 吞没
+digest /daɪˈdʒest/ v. 消化
+Unit 106: Respiratory System
+In the lungs, oxygen enters tiny capillaries, where it combines with hemoglobin in the red blood cells, and is carried to the tissues. Inhaling draws into the lungs air that is higher in oxygen and lower in carbon dioxide; exhaling forces from the lungs air that is higher in carbon dioxide and lower in oxygen. Changes in the size and gross capacity of the chest are controlled by the contractions of the diaphragm and of the muscles between the ribs.
+
+respiratory system /rɪˈspaɪərətəri ˈsɪstəm/ n. 呼吸系统
+lung /lʌŋ/ n. 肺
+hemoglobin /ˌhiːməʊˈɡləʊbɪn/ n. 血色素
+inhale /ɪnˈheɪl/ v. 吸气
+exhale /eksˈheɪl/ v. 呼气
+gross capacity /ɡrəʊs kəˈpæsəti/ n. 总容量
+chest /tʃest/ n. 胸腔
+diaphragm /ˈdaɪəfræm/ n. 膈膜
+rib /rɪb/ n. 肋骨
+Unit 107: Digestive and Excretory Systems
+After food is broken into fragments by chewing and mixed with saliva, digestion begins. The food passes down the gullet into the stomach, where the process is continued by the gastric and intestinal juices. Thereafter, the mixture of food and secretions, called chyme, is pushed down the alimentary canal by peristalsis, rhythmic contractions of the smooth muscle of the gastrointestinal system. Absorption of nutrients from chyme occurs mainly in the small intestine; unabsorbed food and secretions and waste substances from the liver pass to the large intestine and are expelled as feces. Water and water-soluble substances travel via the bloodstream from the intestines to the kidneys, which absorb all the constituents of the blood plasma except its proteins. The kidneys return most of the water and salts to the body, while excreting other salts and waste products, along with excess water, as urine.
+
+excretory /ˈekskrɪtəri/ adj. 排泄的
+fragment /ˈfræɡmənt/ n. 碎片
+chew /tʃuː/ v. 咀嚼
+saliva /səˈlaɪvə/ n. 唾液
+digestion /daɪˈdʒestʃən/ n. 消化
+gullet /ˈɡʌlɪt/ n. 食管
+stomach /ˈstʌmək/ n. 胃
+gastric /ˈɡæstrɪk/ adj. 胃的
+intestinal /ɪnˈtestɪnl/ adj. 肠的
+juice /dʒuːs/ n. 体液
+secretion /sɪˈkriːʃən/ n. 分泌物
+chyme /kaɪm/ n. 食糜
+alimentary canal /ˌælɪˈmentəri kəˈnæl/ n. 消化道
+peristalsis /ˌperɪˈstælsɪs/ n. 蠕动
+gastrointestinal /ˌɡæstrəʊɪnˈtestɪnl/ adj. 肠胃的
+absorption /əbˈsɔːpʃən/ n. 吸收
+nutrient /ˈnjuːtriənt/ n. 营养物质
+small intestine /smɔːl ɪnˈtestɪn/ n. 小肠
+waste substance /weɪst ˈsʌbstəns/ n. 废物
+liver /ˈlɪvər/ n. 肝脏
+large intestine /lɑːdʒ ɪnˈtestɪn/ n. 大肠
+expel /ɪkˈspel/ v. 排出
+feces /ˈfiːsiːz/ n. 粪便
+water-soluble /ˈwɔːtə ˌsɒljʊbəl/ adj. 可溶于水的
+via /ˈvaɪə/ prep. 通过
+kidney /ˈkɪdni/ n. 肾
+constituent /kənˈstɪtjuənt/ n. 成分
+excrete /ɪkˈskriːt/ v. 排泄，分泌
+urine /ˈjʊərɪn/ n. 尿
+Unit 108: Endocrine System
+In addition to the integrative action of the nervous system, the control of various body functions is exerted by the endocrine glands. An important part of this system, the pituitary, lies at the base of the brain. This master gland secretes a variety of hormones. The posterior lobe of the pituitary secretes vasopressin, which acts on the kidney to control the volume of urine. Other glands in the endocrine system are the pancreas, which secretes insulin, and the parathyroid, which secretes a hormone that regulates the quantity of calcium and phosphorus in the blood.
+
+endocrine /ˈendəʊkraɪn/ adj. 内分泌的
+exert /ɪɡˈzɜːt/ v. 行使（职权等），使受（影响等）
+gland /ɡlænd/ n. 腺
+pituitary /pɪˈtjuːɪtəri/ n. （脑）垂体
+secrete /sɪˈkriːt/ v. 分泌
+hormone /ˈhɔːməʊn/ n. 荷尔蒙
+posterior /pɒˈstɪəriə/ adj. 后面的，尾部的
+posterior lobe /pɒˈstɪəriə ləʊb/ n. 后叶
+vasopressin /ˌvæsəʊˈpresɪn/ n. 血管加压素，血压激素
+pancreas /ˈpæŋkriəs/ n. 胰，胰腺
+insulin /ˈɪnsjʊlɪn/ n. 胰岛素
+parathyroid /ˌpærəˈθaɪrɔɪd/ adj. 副甲状腺的
+regulate /ˈreɡjʊleɪt/ v. 控制
+calcium /ˈkælsiəm/ n. 钙
+phosphorus /ˈfɒsfərəs/ n. 磷
+Unit 109: Human Reproduction
+Reproduction is accomplished by the union of male sperm and the female ovum. In coitus, the male organ ejaculates more than 250 million sperm into the vagina, from which some make their way to the uterus. Ovulation, the release of an egg into the uterus, occurs approximately every 28 days; during the same period, the uterus is prepared for the implantation of a fertilized ovum by the action of estrogens. If a male cell fails to unite with a female cell, other hormones cause the uterine wall to slough off during menstruation. From puberty to menopause, the processes of ovulation, preparation, and menstruation are repeated monthly except for periods of pregnancy.
+
+reproduction /ˌriːprəˈdʌkʃən/ n. 繁殖，生殖
+accomplish /əˈkʌmplɪʃ/ v. 完成
+sperm /spɜːm/ n. 精子
+ovum /ˈəʊvəm/ n. 卵子
+coitus /ˈkɔɪɪtəs/ n. 性交
+ejaculate /ɪˈdʒækjʊleɪt/ v. 射精
+vagina /vəˈdʒaɪnə/ n. 阴道
+uterus /ˈjuːtərəs/ n. 子宫
+ovulation /ˌɒvjuˈleɪʃən/ n. 排卵
+egg /eɡ/ n. 卵
+implantation /ˌɪmplɑːnˈteɪʃən/ n. 胚胎植入
+fertilized /ˈfɜːtɪlaɪzd/ adj. 已受精的
+estrogen /ˈestrədʒən/ n. 雌激素
+slough off /slaʊ ɒf/ v. 脱落
+menstruation /ˌmenstruˈeɪʃən/ n. 月经期间
+puberty /ˈpjuːbəti/ n. 青春期
+menopause /ˈmenəˌpɔːz/ n. 经绝期
+pregnancy /ˈpreɡnənsi/ n. 怀孕
+Unit 110: Skin Structure and Function
+The inner layer of the skin, called the dermis, contains sweat glands, blood vessels, nerve endings, and the bases of hair and nails. The outer layer, the epidermis, is only a few cells' thick. It contains pigments, pores, and ducts, and its surface is made of dead cells that it sheds from the body. The sweat glands excrete waste and cool the body through evaporation of fluid droplets; the blood vessels of the dermis supplement temperature regulation by contracting to preserve body heat and expanding to dissipate it. Separate kinds of receptors convey pressure, temperature, and pain. Fat cells in the dermis insulate the body, and oil glands lubricate the epidermis.
+
+dermis /ˈdɜːmɪs/ n. 真皮
+nail /neɪl/ n. 指甲
+epidermis /ˌepɪˈdɜːmɪs/ n. 表皮
+pigment /ˈpɪɡmənt/ n. 色素
+pore /pɔː/ n. 毛孔
+duct /dʌkt/ n. 管：管状体内通道，尤指运输腺分泌物的管道
+shed /ʃed/ v. 脱落，蜕（皮），脱（毛）
+excrete /ɪkˈskriːt/ v. 分泌，排出
+evaporation /ɪˌvæpəˈreɪʃən/ n. 蒸发；蒸腾（作用）
+droplet /ˈdrɒplɪt/ n. 小滴
+supplement /ˈsʌplɪmənt/ v. 补充
+dissipate /ˈdɪsɪpeɪt/ v. 使耗散
+receptor /rɪˈseptə/ n. 感受器
+convey /kənˈveɪ/ v. 转达
+insulate /ˈɪnsjʊleɪt/ v. 隔热
+lubricate /ˈluːbrɪkeɪt/ v. 使润滑
+
+
