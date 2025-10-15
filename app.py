@@ -280,6 +280,7 @@ def generate(request: Request, n: int = Form(10), level: int = Form(1)):
     # Add debug print (visible in Render logs)
     print(f"Generating {n} exercises at level {level}")  # Check logs after submit
     conn = get_connection()
+    
     try:
         rows = get_random_rows(conn, n, level=level)
         if not rows:
@@ -287,11 +288,22 @@ def generate(request: Request, n: int = Form(10), level: int = Form(1)):
         payload = build_exercises_from_rows(rows)
         # Map level int to string for display in template (e.g., "Level 1: Beginner")
         level_str = {1: "Beginner", 2: "Elementary", 3: "Intermediate", 4: "Advanced", 5: "Expert"}.get(level, "Unknown")
+        import uuid  # Add at top if needed
+        json_filename = f"exercises_{uuid.uuid4().hex[:8]}.json"  # Unique name
+# Save JSON for download (optional, but enables the link)
+        with open(json_filename, 'w') as f:
+            json.dump({
+                "exercises": payload,
+                "level": level,
+                "timestamp": datetime.utcnow().isoformat()
+            }, f, indent=2)
+        
         return templates.TemplateResponse("exercises.html", {
             "request": request,
             "payload": payload,
             "level": level,
-            "level_str": level_str  # For nicer display
+            "level_str": level_str, # For nicer display
+            "json_filename": json_filename
         })
     finally:
         conn.close()
