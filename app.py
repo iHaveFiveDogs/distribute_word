@@ -1,5 +1,5 @@
 # app.py
-from fastapi import FastAPI, Request, Form, HTTPException ,Query
+from fastapi import FastAPI, Request, Form, HTTPException, Query
 from fastapi.responses import HTMLResponse, JSONResponse, FileResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
@@ -9,26 +9,22 @@ import random
 import re
 from datetime import datetime
 from typing import List, Dict, Any, Optional
+import os
+import requests
+import time
 
-# ChatOllama import (same as your environment)
-from langchain_community.chat_models import ChatOllama
+# ---------- Deepseek / LLM HTTP config ----------
+# Provide DEEPSEEK_API_KEY in Render and GitHub secrets.
+DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
+DEEPSEEK_URL = os.getenv("DEEPSEEK_URL", "https://api.deepseek.com/v1/generate")
+DEEPSEEK_MODEL = os.getenv("DEEPSEEK_MODEL", "deepseek-chat")  # tune if needed
+DEEPSEEK_TIMEOUT = int(os.getenv("DEEPSEEK_TIMEOUT", "30"))
 
 # -------- CONFIG --------
 DB_PATH = "word_info_level.db"
 TABLE = "word_info"
 DEFAULT_N = 10
-
-CHAT_MODEL = "mistral:7b"
-CHAT_BASE_URL = "http://localhost:11434"
-CHAT_TEMPERATURE = 0.0
-
-# instantiate chat model
-try:
-    chat = ChatOllama(model=CHAT_MODEL, base_url=CHAT_BASE_URL, temperature=CHAT_TEMPERATURE)
-except Exception as e:
-    # we'll lazily handle LLM failures later
-    chat = None
-    print("Warning: ChatOllama client couldn't be instantiated at import time:", e)
+DEFAULT_LEVEL = 1
 
 # -------- FastAPI / Templates --------
 app = FastAPI()
@@ -62,35 +58,79 @@ def get_random_rows(conn: sqlite3.Connection, n: int, level: int = None) -> List
 
 # -------- LLM helpers (batch) --------
 def invoke_llm(prompt: str) -> str:
-    if chat is None:
-        raise RuntimeError("LLM client not available")
-    resp = chat.invoke(prompt)
-    # langchain_community wrapper sometimes returns object with .content
-    if hasattr(resp, "content"):
-        return resp.content
-    return str(resp)
+    """
+    POST to Deepseek and return a text string.
+    Retries on 429/503 with backoff.
+    """
+    if not DEEPSEEK_API_KEY:
+        raise RuntimeError("DEEPSEEK_API_KEY is not set in environment")
 
-def extract_json_array(text: str) -> Optional[List[Dict[str, Any]]]:
-    t = text.strip()
+    headers = {
+        "Authorization": f"Bearer {DEEPSEEK_API_KEY}",
+        "Content-Type": "application/json",
+    }
+    payload = {
+        "model": DEEPSEEK_MODEL,
+        "prompt": prompt,
+        # tune these as needed:
+        "max_tokens": 512,
+        "temperature": 0.0,
+        # if Deepseek supports streaming or other fields, add them
+    }
+
+    attempts = 3
+    for attempt in range(attempts):
+        try:
+            resp = requests.post(DEEPSEEK_URL, headers=headers, json=payload, timeout=DEEPSEEK_TIMEOUT)
+            if resp.status_code == 204:
+                return ""
+            if resp.status_code == 429 or resp.status_code == 503:
+                backoff = 2 ** attempt
+                time.sleep(backoff)
+                continue
+            resp.raise_for_status()
+            data = resp.json()
+            text = _extract_text_from_response_json(data)
+            return text
+        except requests.RequestException as e:
+            # Retry for transient errors
+            if attempt < attempts - 1:
+                time.sleep(2 ** attempt)
+                continue
+            raise RuntimeError(f"Deepseek request failed: {e}")
+
+def _extract_text_from_response_json(resp_json: dict) -> str:
+    """
+    Try various possible response shapes and return the textual output.
+    Adjust if Deepseek uses a different schema.
+    """
+    if not isinstance(resp_json, dict):
+        return str(resp_json)
+    # common patterns:
+    if "output" in resp_json and isinstance(resp_json["output"], str):
+        return resp_json["output"]
+    if "text" in resp_json and isinstance(resp_json["text"], str):
+        return resp_json["text"]
+    if "response" in resp_json and isinstance(resp_json["response"], str):
+        return resp_json["response"]
+    # choices -> text
+    choices = resp_json.get("choices")
+    if isinstance(choices, list) and choices:
+        first = choices[0]
+        if isinstance(first, dict):
+            for k in ("text", "message", "content", "output"):
+                if k in first and isinstance(first[k], str):
+                    return first[k]
+            # sometimes message:{content: "..."}
+            if "message" in first and isinstance(first["message"], dict):
+                cont = first["message"].get("content")
+                if isinstance(cont, str):
+                    return cont
+    # fallback to JSON string if nothing matched
     try:
-        parsed = json.loads(t)
-        if isinstance(parsed, list):
-            return parsed
-        if isinstance(parsed, dict):
-            return [parsed]
+        return json.dumps(resp_json, ensure_ascii=False)
     except Exception:
-        # find first [ and last ]
-        first = t.find('[')
-        last = t.rfind(']')
-        if first != -1 and last != -1 and last > first:
-            try:
-                cand = t[first:last+1]
-                parsed = json.loads(cand)
-                if isinstance(parsed, list):
-                    return parsed
-            except Exception:
-                pass
-    return None
+        return str(resp_json)
 
 def build_definition_prompt(words: List[str]) -> str:
     words_json = json.dumps(words, ensure_ascii=False)
@@ -119,7 +159,7 @@ def generate_definitions(words: List[str]) -> Dict[str, str]:
     try:
         prompt = build_definition_prompt(words)
         raw = invoke_llm(prompt)
-        arr = extract_json_array(raw)
+        arr = _extract_text_from_response_json(raw)
         out = {}
         if arr:
             for item in arr:
@@ -129,12 +169,12 @@ def generate_definitions(words: List[str]) -> Dict[str, str]:
             return out
     except Exception:
         pass
-    # fallback: short per-word prompt (deterministic)
+    # fallback: short per-word prompt (using DeepSeek)
     out = {}
     for w in words:
         try:
             p = f'Return a single short learner-friendly definition (6-20 words) for the word "{w}". Return only the definition.'
-            raw = invoke_llm(p) if chat else f"(no LLM) definition for {w}"
+            raw = invoke_llm(p)
             out[w] = raw.strip().splitlines()[0]
         except Exception:
             out[w] = ""
@@ -146,7 +186,7 @@ def generate_sentences(words: List[str]) -> Dict[str, str]:
     try:
         prompt = build_sentence_prompt(words)
         raw = invoke_llm(prompt)
-        arr = extract_json_array(raw)
+        arr = _extract_text_from_response_json(raw)
         out = {}
         if arr:
             for item in arr:
@@ -160,7 +200,7 @@ def generate_sentences(words: List[str]) -> Dict[str, str]:
     for w in words:
         try:
             p = f'Write one natural sentence (8-18 words) that would contain the word "{w}", but replace the word with "____". Return only the sentence.'
-            raw = invoke_llm(p) if chat else f"(no LLM) Example sentence with ____ for {w}"
+            raw = invoke_llm(p)
             out[w] = raw.strip().splitlines()[0]
         except Exception:
             out[w] = ""
@@ -225,20 +265,46 @@ def build_exercises_from_rows(rows: List[sqlite3.Row]) -> Dict[str, Any]:
 # -------- Routes --------
 @app.get("/", response_class=HTMLResponse)
 def index(request: Request):
-    return templates.TemplateResponse("index.html", {"request": request, "default_n": DEFAULT_N})
+    # Pass default_level for template select pre-selection
+    return templates.TemplateResponse("index.html", {
+        "request": request,
+        "default_n": DEFAULT_N,
+        "default_level": DEFAULT_LEVEL  # e.g., 1 for "Beginner"
+    })
 
 @app.post("/generate", response_class=HTMLResponse)
 def generate(request: Request, n: int = Form(10), level: int = Form(1)):
     # Clamp n and level
     n = max(1, min(200, int(n)))
     level = max(1, min(5, level))  # Clamp level to 1-5
+    # Add debug print (visible in Render logs)
+    print(f"Generating {n} exercises at level {level}")  # Check logs after submit
     conn = get_connection()
+    
     try:
         rows = get_random_rows(conn, n, level=level)
         if not rows:
             raise HTTPException(status_code=500, detail="No words found for this level.")
         payload = build_exercises_from_rows(rows)
-        return templates.TemplateResponse("exercises.html", {"request": request, "payload": payload, "level": level})
+        # Map level int to string for display in template (e.g., "Level 1: Beginner")
+        level_str = {1: "Beginner", 2: "Elementary", 3: "Intermediate", 4: "Advanced", 5: "Expert"}.get(level, "Unknown")
+        import uuid  # Add at top if needed
+        json_filename = f"exercises_{uuid.uuid4().hex[:8]}.json"  # Unique name
+# Save JSON for download (optional, but enables the link)
+        with open(json_filename, 'w') as f:
+            json.dump({
+                "exercises": payload,
+                "level": level,
+                "timestamp": datetime.utcnow().isoformat()
+            }, f, indent=2)
+        
+        return templates.TemplateResponse("exercises.html", {
+            "request": request,
+            "payload": payload,
+            "level": level,
+            "level_str": level_str, # For nicer display
+            "json_filename": json_filename
+        })
     finally:
         conn.close()
 
@@ -254,15 +320,24 @@ def download(fname: str):
 
 @app.get("/api/generate/{n}", response_class=JSONResponse)
 def api_generate(n: int, level: Optional[int] = Query(None, ge=1, le=5, description="Difficulty level (1-5)")):
-    n = max(1, min(200, n))  # Clamp n to 1-200
+    n = max(1, min(200, n))
+    # Default to DEFAULT_LEVEL if not provided
+    if level is None:
+        level = DEFAULT_LEVEL
+    # Add debug print for API calls too
+    print(f"API: Generating {n} exercises at level {level}")
     conn = get_connection()
     try:
         rows = get_random_rows(conn, n, level=level)
         if not rows:
             return JSONResponse({"error": "No words found for the given level or none available."})
         payload = build_exercises_from_rows(rows)
-        timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
-        response_data = {"exercises": payload, "timestamp": timestamp}
+        timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC (Custom Format)")
+        response_data = {
+            "exercises": payload,
+            "timestamp": timestamp,
+            "level": level  # Include level in response
+        }
         return JSONResponse(response_data)
     finally:
         conn.close()
@@ -270,4 +345,4 @@ def api_generate(n: int, level: Optional[int] = Query(None, ge=1, le=5, descript
 # Simple health endpoint
 @app.get("/health")
 def health():
-    return {"ok": True, "llm": chat is not None}
+    return {"ok": True, "llm": DEEPSEEK_API_KEY is not None}

@@ -25,20 +25,29 @@ import time
 from datetime import datetime
 from typing import Any, Dict, List, Optional
 
-# ChatOllama (used only for generating sentences/definitions if DB lacks them)
-from langchain_community.chat_models import ChatOllama
+# remove: from langchain_community.chat_models import ChatOllama
+# add imports
+import os
+import requests
+import time
+import json
+
+DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
+DEEPSEEK_URL = os.getenv("DEEPSEEK_URL", "https://api.deepseek.com/v1/generate")
+DEEPSEEK_MODEL = os.getenv("DEEPSEEK_MODEL", "deepseek-chat")
+DEEPSEEK_TIMEOUT = int(os.getenv("DEEPSEEK_TIMEOUT", "30"))
 
 # ---------------- CONFIG ----------------
 DEFAULT_DB = "word_info_level.db"
 DEFAULT_TABLE = "word_info"
 DEFAULT_N = 20
 
-CHAT_MODEL = "gmistral:7b"
-CHAT_BASE_URL = "http://localhost:11434"
-CHAT_TEMPERATURE = 0.0
+# CHAT_MODEL = "gmistral:7b"
+# CHAT_BASE_URL = "http://localhost:11434"
+# CHAT_TEMPERATURE = 0.0
 
-# lazy client
-chat: Optional[ChatOllama] = None
+# # lazy client
+# chat: Optional[ChatOllama] = None
 
 def init_chat():
     global chat
@@ -97,13 +106,58 @@ def _safe_parse_json_array(raw: str) -> Optional[List[Dict[str, Any]]]:
             except Exception:
                 return None
     return None
+def _extract_text_from_response_json(resp_json: dict) -> str:
+    if not isinstance(resp_json, dict):
+        return str(resp_json)
+    if "output" in resp_json and isinstance(resp_json["output"], str):
+        return resp_json["output"]
+    if "text" in resp_json and isinstance(resp_json["text"], str):
+        return resp_json["text"]
+    choices = resp_json.get("choices")
+    if isinstance(choices, list) and choices:
+        first = choices[0]
+        if isinstance(first, dict):
+            for k in ("text", "message", "content", "output"):
+                if k in first and isinstance(first[k], str):
+                    return first[k]
+            if "message" in first and isinstance(first["message"], dict):
+                cont = first["message"].get("content")
+                if isinstance(cont, str):
+                    return cont
+    try:
+        return json.dumps(resp_json, ensure_ascii=False)
+    except Exception:
+        return str(resp_json)
 
 def invoke_llm(prompt: str) -> str:
-    init_chat()
-    resp = chat.invoke(prompt)
-    if hasattr(resp, "content"):
-        return resp.content
-    return str(resp)
+    if not DEEPSEEK_API_KEY:
+        raise RuntimeError("DEEPSEEK_API_KEY is not set")
+    headers = {
+        "Authorization": f"Bearer {DEEPSEEK_API_KEY}",
+        "Content-Type": "application/json",
+    }
+    payload = {
+        "model": DEEPSEEK_MODEL,
+        "prompt": prompt,
+        "max_tokens": 512,
+        "temperature": 0.0,
+    }
+    attempts = 3
+    for attempt in range(attempts):
+        try:
+            resp = requests.post(DEEPSEEK_URL, headers=headers, json=payload, timeout=DEEPSEEK_TIMEOUT)
+            if resp.status_code in (429, 503):
+                time.sleep(2 ** attempt)
+                continue
+            resp.raise_for_status()
+            data = resp.json()
+            return _extract_text_from_response_json(data)
+        except requests.RequestException as e:
+            if attempt < attempts - 1:
+                time.sleep(2 ** attempt)
+                continue
+            # last attempt, re-raise or fallback
+            raise RuntimeError(f"Deepseek request failed: {e}")
 
 def generate_sentences(words: List[str]) -> Dict[str, str]:
     """Return word -> sentence_with_blank. If LLM fails, return empty strings."""
