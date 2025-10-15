@@ -9,26 +9,35 @@ import random
 import re
 from datetime import datetime
 from typing import List, Dict, Any, Optional
+import os
+import requests
+import time
 
-# ChatOllama import (same as your environment)
-from langchain_community.chat_models import ChatOllama
+# ---------- Deepseek / LLM HTTP config ----------
+# Provide DEEPSEEK_API_KEY in Render and GitHub secrets.
+DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
+DEEPSEEK_URL = os.getenv("DEEPSEEK_URL", "https://api.deepseek.com/v1/generate")
+DEEPSEEK_MODEL = os.getenv("DEEPSEEK_MODEL", "deepseek-chat")  # tune if needed
+DEEPSEEK_TIMEOUT = int(os.getenv("DEEPSEEK_TIMEOUT", "30"))
+# # ChatOllama import (same as your environment)
+# from langchain_community.chat_models import ChatOllama
 
 # -------- CONFIG --------
 DB_PATH = "word_info_level.db"
 TABLE = "word_info"
 DEFAULT_N = 10
 
-CHAT_MODEL = "mistral:7b"
-CHAT_BASE_URL = "http://localhost:11434"
-CHAT_TEMPERATURE = 0.0
+# CHAT_MODEL = "mistral:7b"
+# CHAT_BASE_URL = "http://localhost:11434"
+# CHAT_TEMPERATURE = 0.0
 
 # instantiate chat model
-try:
-    chat = ChatOllama(model=CHAT_MODEL, base_url=CHAT_BASE_URL, temperature=CHAT_TEMPERATURE)
-except Exception as e:
-    # we'll lazily handle LLM failures later
-    chat = None
-    print("Warning: ChatOllama client couldn't be instantiated at import time:", e)
+# try:
+#     chat = ChatOllama(model=CHAT_MODEL, base_url=CHAT_BASE_URL, temperature=CHAT_TEMPERATURE)
+# except Exception as e:
+#     # we'll lazily handle LLM failures later
+#     chat = None
+#     print("Warning: ChatOllama client couldn't be instantiated at import time:", e)
 
 # -------- FastAPI / Templates --------
 app = FastAPI()
@@ -62,35 +71,79 @@ def get_random_rows(conn: sqlite3.Connection, n: int, level: int = None) -> List
 
 # -------- LLM helpers (batch) --------
 def invoke_llm(prompt: str) -> str:
-    if chat is None:
-        raise RuntimeError("LLM client not available")
-    resp = chat.invoke(prompt)
-    # langchain_community wrapper sometimes returns object with .content
-    if hasattr(resp, "content"):
-        return resp.content
-    return str(resp)
+    """
+    POST to Deepseek and return a text string.
+    Retries on 429/503 with backoff.
+    """
+    if not DEEPSEEK_API_KEY:
+        raise RuntimeError("DEEPSEEK_API_KEY is not set in environment")
 
-def extract_json_array(text: str) -> Optional[List[Dict[str, Any]]]:
-    t = text.strip()
+    headers = {
+        "Authorization": f"Bearer {DEEPSEEK_API_KEY}",
+        "Content-Type": "application/json",
+    }
+    payload = {
+        "model": DEEPSEEK_MODEL,
+        "prompt": prompt,
+        # tune these as needed:
+        "max_tokens": 512,
+        "temperature": 0.0,
+        # if Deepseek supports streaming or other fields, add them
+    }
+
+    attempts = 3
+    for attempt in range(attempts):
+        try:
+            resp = requests.post(DEEPSEEK_URL, headers=headers, json=payload, timeout=DEEPSEEK_TIMEOUT)
+            if resp.status_code == 204:
+                return ""
+            if resp.status_code == 429 or resp.status_code == 503:
+                backoff = 2 ** attempt
+                time.sleep(backoff)
+                continue
+            resp.raise_for_status()
+            data = resp.json()
+            text = _extract_text_from_response_json(data)
+            return text
+        except requests.RequestException as e:
+            # Retry for transient errors
+            if attempt < attempts - 1:
+                time.sleep(2 ** attempt)
+                continue
+            raise RuntimeError(f"Deepseek request failed: {e}")
+
+def _extract_text_from_response_json(resp_json: dict) -> str:
+    """
+    Try various possible response shapes and return the textual output.
+    Adjust if Deepseek uses a different schema.
+    """
+    if not isinstance(resp_json, dict):
+        return str(resp_json)
+    # common patterns:
+    if "output" in resp_json and isinstance(resp_json["output"], str):
+        return resp_json["output"]
+    if "text" in resp_json and isinstance(resp_json["text"], str):
+        return resp_json["text"]
+    if "response" in resp_json and isinstance(resp_json["response"], str):
+        return resp_json["response"]
+    # choices -> text
+    choices = resp_json.get("choices")
+    if isinstance(choices, list) and choices:
+        first = choices[0]
+        if isinstance(first, dict):
+            for k in ("text", "message", "content", "output"):
+                if k in first and isinstance(first[k], str):
+                    return first[k]
+            # sometimes message:{content: "..."}
+            if "message" in first and isinstance(first["message"], dict):
+                cont = first["message"].get("content")
+                if isinstance(cont, str):
+                    return cont
+    # fallback to JSON string if nothing matched
     try:
-        parsed = json.loads(t)
-        if isinstance(parsed, list):
-            return parsed
-        if isinstance(parsed, dict):
-            return [parsed]
+        return json.dumps(resp_json, ensure_ascii=False)
     except Exception:
-        # find first [ and last ]
-        first = t.find('[')
-        last = t.rfind(']')
-        if first != -1 and last != -1 and last > first:
-            try:
-                cand = t[first:last+1]
-                parsed = json.loads(cand)
-                if isinstance(parsed, list):
-                    return parsed
-            except Exception:
-                pass
-    return None
+        return str(resp_json)
 
 def build_definition_prompt(words: List[str]) -> str:
     words_json = json.dumps(words, ensure_ascii=False)
