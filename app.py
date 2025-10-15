@@ -295,6 +295,7 @@ def generate(request: Request, n: int = Form(10), level: int = Form(1)):
             json.dump({
                 "exercises": payload,
                 "level": level,
+                "level_str": level_str,
                 "timestamp": datetime.utcnow().isoformat()
             }, f, indent=2)
         
