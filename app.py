@@ -254,14 +254,14 @@ def download(fname: str):
 
 @app.get("/api/generate/{n}", response_class=JSONResponse)
 def api_generate(n: int, level: Optional[int] = Query(None, ge=1, le=5, description="Difficulty level (1-5)")):
-    n = max(1, min(200, n))  # Clamp n to 1-200
+    n = max(1, min(200, n))
     conn = get_connection()
     try:
         rows = get_random_rows(conn, n, level=level)
         if not rows:
             return JSONResponse({"error": "No words found for the given level or none available."})
         payload = build_exercises_from_rows(rows)
-        timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
+        timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC (Custom Format)")
         response_data = {"exercises": payload, "timestamp": timestamp}
         return JSONResponse(response_data)
     finally:
