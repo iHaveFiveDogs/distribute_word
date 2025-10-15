@@ -1,5 +1,5 @@
 # app.py
-from fastapi import FastAPI, Request, Form, HTTPException ,Query
+from fastapi import FastAPI, Request, Form, HTTPException
 from fastapi.responses import HTMLResponse, JSONResponse, FileResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
@@ -42,21 +42,11 @@ def get_connection(path: str = DB_PATH) -> sqlite3.Connection:
     conn.execute("PRAGMA journal_mode=WAL;")
     return conn
 
-def get_random_rows(conn: sqlite3.Connection, n: int, level: int = None) -> List[sqlite3.Row]:
+def get_random_rows(conn: sqlite3.Connection, n: int) -> List[sqlite3.Row]:
     cur = conn.cursor()
-    # Base query with RANDOM() selection
-    q = f"SELECT * FROM {TABLE} "
-    params = []
-    
-    # Add level filter if provided, clamped to 1-5
-    if level is not None:
-        level = max(1, min(5, level))  # Ensure level is within 1-5
-        q += "WHERE level = ? "
-        params.append(level)
-    q += "ORDER BY RANDOM() LIMIT ?"
-    params.append(n)
-    
-    cur.execute(q, params)
+    # attempt to use RANDOM() selection
+    q = f"SELECT * FROM {TABLE} ORDER BY RANDOM() LIMIT ?"
+    cur.execute(q, (n,))
     rows = cur.fetchall()
     return rows
 
@@ -228,17 +218,21 @@ def index(request: Request):
     return templates.TemplateResponse("index.html", {"request": request, "default_n": DEFAULT_N})
 
 @app.post("/generate", response_class=HTMLResponse)
-def generate(request: Request, n: int = Form(10), level: int = Form(1)):
-    # Clamp n and level
+def generate(request: Request, n: int = Form(DEFAULT_N)):
+    # clamp n
     n = max(1, min(200, int(n)))
-    level = max(1, min(5, level))  # Clamp level to 1-5
     conn = get_connection()
     try:
-        rows = get_random_rows(conn, n, level=level)
+        rows = get_random_rows(conn, n)
         if not rows:
-            raise HTTPException(status_code=500, detail="No words found for this level.")
+            raise HTTPException(status_code=500, detail="No words found in DB.")
         payload = build_exercises_from_rows(rows)
-        return templates.TemplateResponse("exercises.html", {"request": request, "payload": payload, "level": level})
+        # # store json snapshot on disk for optional download
+        # ts = datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
+        # fname = f"exercises_{n*2}_{ts}.json"
+        # with open(fname, "w", encoding="utf-8") as f:
+        #     json.dump(payload, f, ensure_ascii=False, indent=2)
+        return templates.TemplateResponse("exercises.html", {"request": request, "payload": payload})
     finally:
         conn.close()
 
@@ -253,17 +247,15 @@ def download(fname: str):
         raise HTTPException(status_code=404)
 
 @app.get("/api/generate/{n}", response_class=JSONResponse)
-def api_generate(n: int, level: Optional[int] = Query(None, ge=1, le=5, description="Difficulty level (1-5)")):
-    n = max(1, min(200, n))  # Clamp n to 1-200
+def api_generate(n: int):
+    n = max(1, min(200, n))
     conn = get_connection()
     try:
-        rows = get_random_rows(conn, n, level=level)
+        rows = get_random_rows(conn, n)
         if not rows:
-            return JSONResponse({"error": "No words found for the given level or none available."})
+            return JSONResponse({"error": "no words"})
         payload = build_exercises_from_rows(rows)
-        timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
-        response_data = {"exercises": payload, "timestamp": timestamp}
-        return JSONResponse(response_data)
+        return JSONResponse(payload)
     finally:
         conn.close()
 
