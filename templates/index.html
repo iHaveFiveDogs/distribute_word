@@ -9,13 +9,22 @@
   <body>
     <main>
       <h1>Vocabulary Exercise Generator</h1>
-      <p>Uses your DB (<code>word_info_level.db</code>) and local Mistral via ChatOllama (if available).</p>
+      <p>Uses your DB (<code>word_info_level.db</code>) and DeepSeek API.</p>
       <form method="post" action="/generate">
         <label>Number of words (N): <input type="number" name="n" value="{{ default_n }}" min="1" max="200"/></label>
+        <label>Level: 
+          <select name="level">
+            <option value="1" {{ 'selected' if default_level == 1 else '' }}>Beginner</option>
+            <option value="2" {{ 'selected' if default_level == 2 else '' }}>Elementary</option>
+            <option value="3" {{ 'selected' if default_level == 3 else '' }}>Intermediate</option>
+            <option value="4" {{ 'selected' if default_level == 4 else '' }}>Advanced</option>
+            <option value="5" {{ 'selected' if default_level == 5 else '' }}>Expert</option>
+          </select>
+        </label>
         <button type="submit">Generate {{ default_n*2 if default_n else 100 }} exercises</button>
       </form>
       <hr/>
-      <p>Or call the JSON API: <code>/api/generate/&lt;N&gt;</code></p>
+      <p>Or call the JSON API: <code>/api/generate/&lt;N&gt;?level=&lt;1-5&gt;</code></p>
     </main>
   </body>
 </html>
