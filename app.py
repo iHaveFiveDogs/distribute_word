@@ -12,6 +12,8 @@ from typing import List, Dict, Any, Optional
 import os
 import requests
 import time
+from dotenv import load_dotenv
+load_dotenv()
 
 # ---------- Deepseek / LLM HTTP config ----------
 # Provide DEEPSEEK_API_KEY in Render and GitHub secrets.
