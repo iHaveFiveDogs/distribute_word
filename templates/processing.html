@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Processing Exercises</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <main>
+    <h1>Generating Exercises</h1>
+    <p>Please wait while we generate your exercises... <a href="/result/{{ job_id }}">Refresh</a></p>
+    <script>
+      setTimeout(() => location.href = "/result/{{ job_id }}", 2000); // Auto-redirect every 2 seconds
+    </script>
+  </main>
+</body>
+</html>

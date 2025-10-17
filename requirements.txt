@@ -4,3 +4,5 @@ jinja2
 langchain-community
 python-multipart
 openai
+redis
+rq
