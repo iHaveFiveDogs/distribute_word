@@ -304,7 +304,7 @@ def process_exercises(n: int, level: int, html: bool = False):
         if not rows:
             return {"error": "No words found"}
         payload = build_exercises_from_rows(rows)
-        timestamp = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC (Custom Format)")
+        timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC (Custom Format)")
         if html:
             return {"html_data": {"exercises": payload, "timestamp": timestamp, "level": level}}
         return {"exercises": payload, "timestamp": timestamp, "level": level}
