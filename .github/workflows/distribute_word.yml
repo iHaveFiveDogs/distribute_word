@@ -32,5 +32,8 @@ jobs:
       - name: Deploy to Render
         if: github.ref == 'refs/heads/main'  # Only on main
         run: |
-            echo "Deploying via GitHub Actions CD process, not Render auto-hook"
-            curl -X POST https://api.render.com/v1/services/srv-d3mca7hr0fns73ejv630/deploys -H "Authorization: Bearer rnd_26voU3JeryB6IOdZsd9s0Z2SjkyL"
+          echo "Deploying via GitHub Actions CD process, not Render auto-hook"
+          curl -v -X POST https://api.render.com/v1/services/srv-d3mca7hr0fns73ejv630/deploys \
+            -H "Authorization: Bearer ${{ secrets.rnd_26voU3JeryB6IOdZsd9s0Z2SjkyL }}" || { echo "CD deployment failed"; exit 1; }
+        env:
+          RENDER_API_KEY: ${{ secrets.rnd_26voU3JeryB6IOdZsd9s0Z2SjkyL }}
