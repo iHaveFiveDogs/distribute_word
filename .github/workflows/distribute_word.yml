@@ -34,6 +34,6 @@ jobs:
         run: |
           echo "Deploying via GitHub Actions CD process, not Render auto-hook"
           curl -v -X POST https://api.render.com/v1/services/srv-d3mca7hr0fns73ejv630/deploys \
-            -H "Authorization: Bearer ${{ secrets.rnd_26voU3JeryB6IOdZsd9s0Z2SjkyL }}" || { echo "CD deployment failed"; exit 1; }
+            -H "Authorization: Bearer ${{ secrets.RENDER_API_KEY }}" || { echo "CD deployment failed"; exit 1; }
         env:
-          RENDER_API_KEY: ${{ secrets.rnd_26voU3JeryB6IOdZsd9s0Z2SjkyL }}
+          RENDER_API_KEY: ${{ secrets.RENDER_API_KEY }}
