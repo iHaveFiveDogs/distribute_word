@@ -33,7 +33,7 @@ jobs:
         if: github.ref == 'refs/heads/main'  # Only on main
         run: |
           echo "Deploying via GitHub Actions CD process, not Render auto-hook"
-          curl -v -X POST https://api.render.com/v1/services/${{ secrets.RENDER_SERVICE_ID }}/deploys \
+          curl -v --max-time 30 -X POST https://api.render.com/v1/services/${{ secrets.RENDER_SERVICE_ID }}/deploys \
             -H "Authorization: Bearer ${{ secrets.RENDER_API_KEY }}" \
             -H "Content-Type: application/json" || { echo "CD deployment failed"; exit 1; }
           sleep 60  # Wait 1 minute for deploy to start
