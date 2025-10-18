@@ -1,4 +1,4 @@
-name: CI Pipeline
+name: CI_CD Pipeline
 
 on:
   push:
@@ -29,22 +29,13 @@ jobs:
           sudo chmod +x /usr/local/bin/docker-compose
       - name: Build Docker image
         run: docker-compose build
-      # - name: Deploy to Render
-      #   if: github.ref == 'refs/heads/main'  # Only on main
-      #   run: |
-      #     echo "Deploying via GitHub Actions CD process, not Render auto-hook"
-      #     curl -v -X POST https://api.render.com/v1/services/srv-d3mca7hr0fns73ejv630/deploys \
-      #       -H "Authorization: Bearer ${{ secrets.RENDER_API_KEY }}" || { echo "CD deployment failed"; exit 1; }
-      #   env:
-      #     RENDER_API_KEY: ${{ secrets.RENDER_API_KEY }}
       - name: Deploy to Render
         if: github.ref == 'refs/heads/main'  # Only on main
         run: |
           echo "Deploying via GitHub Actions CD process, not Render auto-hook"
           curl -v -X POST https://api.render.com/v1/services/${{ secrets.RENDER_SERVICE_ID }}/deploys \
             -H "Authorization: Bearer ${{ secrets.RENDER_API_KEY }}" \
-            -H "Content-Type: application/json" \
-            -d '{"clearCache": false}' || { echo "CD deployment failed"; exit 1; }
+            -H "Content-Type: application/json" || { echo "CD deployment failed"; exit 1; }
           sleep 60  # Wait 1 minute for deploy to start
           echo "Deployment request accepted, check Render logs for completion"
         env:
