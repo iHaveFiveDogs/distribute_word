@@ -13,6 +13,8 @@ from typing import List, Dict, Any, Optional
 import os
 import requests
 from dotenv import load_dotenv
+import ssl
+from urllib.parse import urlparse
 
 load_dotenv()
 
@@ -36,7 +38,21 @@ templates = Jinja2Templates(directory="templates")
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
 # Redis connection
-redis_conn = Redis(host='redis', port=6379, db=0)
+REDIS_URL = os.getenv("REDIS_URL", "redis://localhost:6379")
+parsed_url = urlparse(REDIS_URL)
+REDIS_HOST = parsed_url.hostname
+REDIS_PORT = parsed_url.port
+REDIS_PASSWORD = parsed_url.password
+REDIS_USE_TLS = parsed_url.scheme == "rediss"
+
+redis_conn = Redis(
+    host=REDIS_HOST,
+    port=REDIS_PORT,
+    password=REDIS_PASSWORD,
+    ssl=REDIS_USE_TLS,
+    decode_responses=True,
+    ssl_cert_reqs=None
+)
 q = Queue(connection=redis_conn)
 
 # -------- Routes --------
@@ -92,3 +108,8 @@ async def api_generate(n: int, level: Optional[int] = Query(None, ge=1, le=5)):
 @app.get("/health")
 def health():
     return {"ok": True, "llm": DEEPSEEK_API_KEY is not None}
+
+@app.get("/test-redis")
+def test_redis():
+    redis_conn.set("test_key", "test_value")
+    return {"value": redis_conn.get("test_key")}

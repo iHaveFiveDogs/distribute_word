@@ -14,11 +14,24 @@ import os
 import requests
 import time
 from dotenv import load_dotenv
+from urllib.parse import urlparse
 load_dotenv()
-REDIS_HOST = os.getenv("REDIS_HOST", "redis")  # "redis" = service name in docker-compose.yml
-REDIS_PORT = int(os.getenv("REDIS_PORT", "6379"))
 # Redis connection
-redis_conn = Redis(host=REDIS_HOST, port=REDIS_PORT, db=0)
+REDIS_URL = os.getenv("REDIS_URL", "redis://localhost:6379")
+parsed_url = urlparse(REDIS_URL)
+REDIS_HOST = parsed_url.hostname
+REDIS_PORT = parsed_url.port
+REDIS_PASSWORD = parsed_url.password
+REDIS_USE_TLS = parsed_url.scheme == "rediss"
+
+redis_conn = Redis(
+    host=REDIS_HOST,
+    port=REDIS_PORT,
+    password=REDIS_PASSWORD,
+    ssl=REDIS_USE_TLS,
+    decode_responses=True,
+    ssl_cert_reqs=None
+)
 q = Queue(connection=redis_conn)
 
 # Reuse your LLM and exercise logic
