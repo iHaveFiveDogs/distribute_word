@@ -76,13 +76,24 @@ async def generate(request: Request, n: int = Form(10), level: int = Form(1)):
 
 @app.get("/result/{job_id}", response_class=HTMLResponse)
 async def get_result(request: Request, job_id: str):
-    job = q.fetch_job(job_id)
-    if job.is_finished:
-        data = job.result.get("html_data", {})
-        return templates.TemplateResponse("exercises.html", {"request": request, **data})
-    elif job.is_failed:
-        return HTMLResponse(content="<p>Job failed</p>", status_code=500)
-    return templates.TemplateResponse("processing.html", {"request": request, "job_id": job_id})
+    try:
+        job = q.fetch_job(job_id)
+        if job is None:
+            return templates.TemplateResponse("error.html", {"request": request, "message": "Job not found"}, status_code=404)
+        if job.is_finished:
+            # Safely handle job.result decoding
+            if isinstance(job.result, bytes):
+                data = json.loads(job.result.decode('utf-8', errors='replace'))
+            else:
+                data = job.result.get("html_data", {})
+            return templates.TemplateResponse("exercises.html", {"request": request, **data})
+        elif job.is_failed:
+            return templates.TemplateResponse("error.html", {"request": request, "message": "Job failed"}, status_code=500)
+        return templates.TemplateResponse("processing.html", {"request": request, "job_id": job_id})
+    except UnicodeDecodeError:
+        return templates.TemplateResponse("error.html", {"request": request, "message": "Error decoding job data. Please check the job input or contact support."}, status_code=500)
+    except Exception as e:
+        return templates.TemplateResponse("error.html", {"request": request, "message": f"Internal server error: {str(e)}"}, status_code=500)
 
 @app.get("/download/{fname}", response_class=FileResponse)
 def download(fname: str):
