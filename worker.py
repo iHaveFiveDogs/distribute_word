@@ -18,23 +18,20 @@ from urllib.parse import urlparse
 load_dotenv()
 # Redis connection
 # Load REDIS_URL from environment
-redis_url = os.getenv("REDIS_URL")
-if not redis_url:
-    raise ValueError("REDIS_URL environment variable is not set")
+def get_redis_connection():
+    redis_url = os.getenv("REDIS_URL")
+    if not redis_url:
+        raise ValueError("REDIS_URL environment variable is not set")
+    parsed_url = urlparse(redis_url)
+    return Redis(
+        host=parsed_url.hostname,
+        port=parsed_url.port,
+        password=parsed_url.password if parsed_url.password else None,
+        ssl=(parsed_url.scheme == "rediss"),
+        ssl_cert_reqs=None if parsed_url.scheme == "rediss" else None,
+        decode_responses=True
+    )
 
-# Parse REDIS_URL
-parsed_url = urlparse(redis_url)
-
-# Initialize Redis client
-redis = Redis(
-    host=parsed_url.hostname,
-    port=parsed_url.port,
-    password=parsed_url.password if parsed_url.password else None,
-    ssl=(parsed_url.scheme == "rediss"),  # Enable SSL for rediss://
-    ssl_cert_reqs=None if parsed_url.scheme == "rediss" else None,  # Disable cert validation for SSL
-    decode_responses=True
-)
-q = Queue(connection=redis)
 
 # Reuse your LLM and exercise logic
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
@@ -313,6 +310,10 @@ def generate_sentences(words: List[str]) -> Dict[str, str]:
 
 
 def process_exercises(n: int, level: int, html: bool = False):
+    redis = get_redis_connection()
+    job_key = f"job:{time.time()}"
+    redis.set(job_key, f"Processed {n} exercises at level {level}, html={html}")
+    redis.expire(job_key, 3600)  # Expire after 1 hour
     conn = get_connection()
     try:
         rows = get_random_rows(conn, n, level)

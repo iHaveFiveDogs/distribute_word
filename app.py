@@ -11,7 +11,6 @@ import re
 import time
 from typing import List, Dict, Any, Optional
 import os
-print(os.getenv("TEST_VAR", "Not set"))
 import requests
 from dotenv import load_dotenv
 import ssl
