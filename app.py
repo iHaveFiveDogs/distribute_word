@@ -11,6 +11,7 @@ import re
 import time
 from typing import List, Dict, Any, Optional
 import os
+print(os.getenv("TEST_VAR", "Not set"))
 import requests
 from dotenv import load_dotenv
 import ssl
@@ -39,6 +40,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 
 # Redis connection
 redis_url = os.getenv("REDIS_URL")
+
 if not redis_url:
     raise ValueError("REDIS_URL environment variable is not set")
 
