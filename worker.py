@@ -75,6 +75,7 @@ def get_random_rows(conn: sqlite3.Connection, n: int, level: int = None) -> List
 def invoke_llm(prompt: str, system_prompt: str = "You are a helpful assistant that generates concise English language content.") -> str:
     """
     Use OpenAI SDK for DeepSeek chat completions. Returns text or empty on fail.
+    Ensures UTF-8 compliance in the response.
     """
     if not client:
         print("ERROR: No DeepSeek client (missing key)")
@@ -92,10 +93,12 @@ def invoke_llm(prompt: str, system_prompt: str = "You are a helpful assistant th
             messages=messages,
             max_tokens=256,  # Reduced for speed
             temperature=0.0,
-            timeout=DEEPSEEK_TIMEOUT,  # NEW: SDK timeout
+            timeout=DEEPSEEK_TIMEOUT,  # SDK timeout
             stream=False
         )
         text = response.choices[0].message.content.strip()
+        # Ensure UTF-8 compliance
+        text = text.encode('utf-8', errors='replace').decode('utf-8')
         print(f"DeepSeek success: {len(text)} chars returned")  # Log output
         return text
     except Exception as e:
@@ -104,30 +107,37 @@ def invoke_llm(prompt: str, system_prompt: str = "You are a helpful assistant th
 
 # -------- Exercise builder --------
 def build_exercises_from_rows(rows: List[sqlite3.Row]) -> Dict[str, Any]:
-    words = [r["word"] for r in rows]
-    # DB-provided definitions / examples
-    db_defs = {r["word"]: r["definition"].strip() for r in rows if "definition" in r.keys() and r["definition"]}
-    db_examples = {r["word"]: r["example"].strip() for r in rows if "example" in r.keys() and r["example"]}
+    # Helper function to safely encode strings
+    def safe_encode(text: Any) -> str:
+        if isinstance(text, str):
+            return text.encode('utf-8', errors='replace').decode('utf-8')
+        return str(text)  # Fallback for non-string types
 
-    # generate definitions for missing
+    words = [safe_encode(r["word"]) for r in rows]
+    # DB-provided definitions / examples
+    db_defs = {safe_encode(r["word"]): safe_encode(r["definition"].strip()) for r in rows if "definition" in r.keys() and r["definition"]}
+    db_examples = {safe_encode(r["word"]): safe_encode(r["example"].strip()) for r in rows if "example" in r.keys() and r["example"]}
+
+    # Generate definitions for missing
     need_def = [w for w in words if w not in db_defs]
     gen_defs = generate_definitions(need_def) if need_def else {}
-    defs = {**db_defs, **gen_defs}
+    # Ensure generated definitions are UTF-8
+    defs = {safe_encode(k): safe_encode(v) for k, v in {**db_defs, **gen_defs}.items()}
 
-    # build sentence blanks: try to replace the word in DB example if possible
+    # Build sentence blanks
     db_blanks = {}
     for w, ex in db_examples.items():
-        # naive replacement, case-insensitive
         if re.search(re.escape(w), ex, flags=re.IGNORECASE):
             s_blank = re.sub(re.escape(w), "____", ex, count=1, flags=re.IGNORECASE)
             db_blanks[w] = s_blank
 
     need_sent = [w for w in words if w not in db_blanks]
     gen_sents = generate_sentences(need_sent) if need_sent else {}
-    sents = {**db_blanks, **gen_sents}
+    # Ensure generated sentences are UTF-8
+    sents = {safe_encode(k): safe_encode(v) for k, v in {**db_blanks, **gen_sents}.items()}
 
     # Build exercises
-        # --- Part A (definitions) ---
+    # --- Part A (definitions) ---
     part_a = []
     for w in words:
         part_a.append({
@@ -147,12 +157,12 @@ def build_exercises_from_rows(rows: List[sqlite3.Row]) -> Dict[str, Any]:
             "answer": w
         })
 
-    # shuffle each part independently so order differs
+    # Shuffle each part independently
     random.shuffle(part_a)
     random.shuffle(part_b)
 
     return {
-        "chosen_words": words,  # keep word bank in DB order
+        "chosen_words": words,
         "part_a": part_a,
         "part_b": part_b,
     }
@@ -161,35 +171,35 @@ def build_exercises_from_rows(rows: List[sqlite3.Row]) -> Dict[str, Any]:
 def _extract_text_from_response_json(resp_json: dict) -> str:
     """
     Try various possible response shapes and return the textual output.
-    Adjust if Deepseek uses a different schema.
+    Adjust if Deepseek uses a different schema. Ensures UTF-8 compliance.
     """
     if not isinstance(resp_json, dict):
-        return str(resp_json)
-    # common patterns:
+        return str(resp_json).encode('utf-8', errors='replace').decode('utf-8')
+    # Common patterns:
     if "output" in resp_json and isinstance(resp_json["output"], str):
-        return resp_json["output"]
+        return resp_json["output"].encode('utf-8', errors='replace').decode('utf-8')
     if "text" in resp_json and isinstance(resp_json["text"], str):
-        return resp_json["text"]
+        return resp_json["text"].encode('utf-8', errors='replace').decode('utf-8')
     if "response" in resp_json and isinstance(resp_json["response"], str):
-        return resp_json["response"]
-    # choices -> text
+        return resp_json["response"].encode('utf-8', errors='replace').decode('utf-8')
+    # Choices -> text
     choices = resp_json.get("choices")
     if isinstance(choices, list) and choices:
         first = choices[0]
         if isinstance(first, dict):
             for k in ("text", "message", "content", "output"):
                 if k in first and isinstance(first[k], str):
-                    return first[k]
-            # sometimes message:{content: "..."}
+                    return first[k].encode('utf-8', errors='replace').decode('utf-8')
+            # Sometimes message:{content: "..."}
             if "message" in first and isinstance(first["message"], dict):
                 cont = first["message"].get("content")
                 if isinstance(cont, str):
-                    return cont
-    # fallback to JSON string if nothing matched
+                    return cont.encode('utf-8', errors='replace').decode('utf-8')
+    # Fallback to JSON string if nothing matched
     try:
-        return json.dumps(resp_json, ensure_ascii=False)
+        return json.dumps(resp_json, ensure_ascii=False).encode('utf-8', errors='replace').decode('utf-8')
     except Exception:
-        return str(resp_json)
+        return str(resp_json).encode('utf-8', errors='replace').decode('utf-8')
 
 def build_definition_prompt(words: List[str]) -> str:
     words_json = json.dumps(words, ensure_ascii=False)
