@@ -320,6 +320,20 @@ def process_exercises(n: int, level: int, html: bool = False):
         if not rows:
             return {"error": "No words found"}
         payload = build_exercises_from_rows(rows)
+        # Ensure payload is UTF-8 compliant
+        if isinstance(payload, str):
+            payload = payload.encode('utf-8', errors='replace').decode('utf-8')
+        elif isinstance(payload, (list, dict)):
+            # Recursively encode strings in payload
+            def encode_recursive(data):
+                if isinstance(data, str):
+                    return data.encode('utf-8', errors='replace').decode('utf-8')
+                elif isinstance(data, list):
+                    return [encode_recursive(item) for item in data]
+                elif isinstance(data, dict):
+                    return {k: encode_recursive(v) for k, v in data.items()}
+                return data
+            payload = encode_recursive(payload)
         timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC (Custom Format)")
         if html:
             return {"html_data": {"payload": payload, "timestamp": timestamp, "level": level}}

@@ -81,11 +81,7 @@ async def get_result(request: Request, job_id: str):
         if job is None:
             return templates.TemplateResponse("error.html", {"request": request, "message": "Job not found"}, status_code=404)
         if job.is_finished:
-            # Safely handle job.result decoding
-            if isinstance(job.result, bytes):
-                data = json.loads(job.result.decode('utf-8', errors='replace'))
-            else:
-                data = job.result.get("html_data", {})
+            data = job.result.get("html_data", job.result)  # Fallback to full result if no html_data
             return templates.TemplateResponse("exercises.html", {"request": request, **data})
         elif job.is_failed:
             return templates.TemplateResponse("error.html", {"request": request, "message": "Job failed"}, status_code=500)
