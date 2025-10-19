@@ -17,22 +17,24 @@ from dotenv import load_dotenv
 from urllib.parse import urlparse
 load_dotenv()
 # Redis connection
-REDIS_URL = os.getenv("REDIS_URL", "redis://localhost:6379")
-parsed_url = urlparse(REDIS_URL)
-REDIS_HOST = parsed_url.hostname
-REDIS_PORT = parsed_url.port
-REDIS_PASSWORD = parsed_url.password
-REDIS_USE_TLS = parsed_url.scheme == "rediss"
+# Load REDIS_URL from environment
+redis_url = os.getenv("REDIS_URL")
+if not redis_url:
+    raise ValueError("REDIS_URL environment variable is not set")
 
-redis_conn = Redis(
-    host=REDIS_HOST,
-    port=REDIS_PORT,
-    password=REDIS_PASSWORD,
-    ssl=REDIS_USE_TLS,
-    decode_responses=True,
-    ssl_cert_reqs=None
+# Parse REDIS_URL
+parsed_url = urlparse(redis_url)
+
+# Initialize Redis client
+redis = Redis(
+    host=parsed_url.hostname,
+    port=parsed_url.port,
+    password=parsed_url.password if parsed_url.password else None,
+    ssl=(parsed_url.scheme == "rediss"),  # Enable SSL for rediss://
+    ssl_cert_reqs=None if parsed_url.scheme == "rediss" else None,  # Disable cert validation for SSL
+    decode_responses=True
 )
-q = Queue(connection=redis_conn)
+q = Queue(connection=redis)
 
 # Reuse your LLM and exercise logic
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
