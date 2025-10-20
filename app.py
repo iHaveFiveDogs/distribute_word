@@ -81,7 +81,6 @@ async def get_result(request: Request, job_id: str):
         if job is None:
             return templates.TemplateResponse("error.html", {"request": request, "message": "Job not found"}, status_code=404)
         if job.is_finished:
-            # Decode bytes to string
             result_str = job.result.decode('utf-8', errors='replace') if isinstance(job.result, bytes) else job.result
             try:
                 data = json.loads(result_str).get("html_data", {})
@@ -92,10 +91,10 @@ async def get_result(request: Request, job_id: str):
             exc_info = job.exc_info.decode('utf-8', errors='replace') if isinstance(job.exc_info, bytes) else job.exc_info
             return templates.TemplateResponse("error.html", {"request": request, "message": f"Job failed: {exc_info}"}, status_code=500)
         return templates.TemplateResponse("processing.html", {"request": request, "job_id": job_id})
-    except UnicodeDecodeError:
-        return templates.TemplateResponse("error.html", {"request": request, "message": "Error decoding job data. Please check the job input or contact support."}, status_code=500)
     except Exception as e:
         return templates.TemplateResponse("error.html", {"request": request, "message": f"Internal server error: {str(e)}"}, status_code=500)
+
+
 
 @app.get("/download/{fname}", response_class=FileResponse)
 def download(fname: str):
