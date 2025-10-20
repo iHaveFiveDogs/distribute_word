@@ -15,6 +15,7 @@ import requests
 from dotenv import load_dotenv
 import ssl
 from urllib.parse import urlparse
+from prometheus_fastapi_instrumentator import Instrumentator
 
 load_dotenv()
 
@@ -56,6 +57,10 @@ redis = Redis(
     decode_responses=False
 )
 q = Queue(connection=redis)
+
+# Add Prometheus instrumentation
+Instrumentator().instrument(app).expose(app)
+
 
 # -------- Routes --------
 @app.get("/", response_class=HTMLResponse, operation_id="getWelcomeMessage")
