@@ -53,7 +53,7 @@ redis = Redis(
     password=parsed_url.password if parsed_url.password else None,
     ssl=(parsed_url.scheme == "rediss"),  # Enable SSL for rediss://
     ssl_cert_reqs=None if parsed_url.scheme == "rediss" else None,  # Disable cert validation for SSL
-    decode_responses=True
+    decode_responses=False
 )
 q = Queue(connection=redis)
 
@@ -81,10 +81,16 @@ async def get_result(request: Request, job_id: str):
         if job is None:
             return templates.TemplateResponse("error.html", {"request": request, "message": "Job not found"}, status_code=404)
         if job.is_finished:
-            data = job.result.get("html_data", job.result)  # Fallback to full result if no html_data
+            # Decode bytes to string
+            result_str = job.result.decode('utf-8', errors='replace') if isinstance(job.result, bytes) else job.result
+            try:
+                data = json.loads(result_str).get("html_data", {})
+            except json.JSONDecodeError:
+                data = {"error": "Invalid job data format"}
             return templates.TemplateResponse("exercises.html", {"request": request, **data})
         elif job.is_failed:
-            return templates.TemplateResponse("error.html", {"request": request, "message": "Job failed"}, status_code=500)
+            exc_info = job.exc_info.decode('utf-8', errors='replace') if isinstance(job.exc_info, bytes) else job.exc_info
+            return templates.TemplateResponse("error.html", {"request": request, "message": f"Job failed: {exc_info}"}, status_code=500)
         return templates.TemplateResponse("processing.html", {"request": request, "job_id": job_id})
     except UnicodeDecodeError:
         return templates.TemplateResponse("error.html", {"request": request, "message": "Error decoding job data. Please check the job input or contact support."}, status_code=500)
@@ -120,5 +126,5 @@ def health():
 
 @app.get("/test-redis")
 def test_redis():
-    redis_conn.set("test_key", "test_value")
-    return {"value": redis_conn.get("test_key")}
+    redis.set("test_key", "test_value")
+    return {"value": redis.get("test_key")}

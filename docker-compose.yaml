@@ -13,17 +13,13 @@ services:
       - "8001:8001"
     depends_on:
       - redis
-    environment:
-      - REDIS_HOST=redis
-      - REDIS_PORT=6379  # Container-internal port remains 6379
-
+    env_file:
+      - .env
   worker:
     build: .
     container_name: distribute_word_worker
-    command: rq worker --url redis://redis:6379
+    command: rq worker --url ${REDIS_URL}
     depends_on:
       - redis
-    environment:
-      - REDIS_HOST=redis
-      - REDIS_PORT=6379  # Container-internal port remains 6379
-      - PYTHONUNBUFFERED=1
+    env_file:
+      - .env

@@ -29,7 +29,7 @@ def get_redis_connection():
         password=parsed_url.password if parsed_url.password else None,
         ssl=(parsed_url.scheme == "rediss"),
         ssl_cert_reqs=None if parsed_url.scheme == "rediss" else None,
-        decode_responses=True
+        decode_responses=False
     )
 
 
@@ -322,31 +322,31 @@ def generate_sentences(words: List[str]) -> Dict[str, str]:
 def process_exercises(n: int, level: int, html: bool = False):
     redis = get_redis_connection()
     job_key = f"job:{time.time()}"
-    redis.set(job_key, f"Processed {n} exercises at level {level}, html={html}")
+    # Store as bytes to match raw mode
+    redis.set(job_key, f"Processed {n} exercises at level {level}, html={html}".encode('utf-8'))
     redis.expire(job_key, 3600)  # Expire after 1 hour
     conn = get_connection()
     try:
         rows = get_random_rows(conn, n, level)
         if not rows:
-            return {"error": "No words found"}
+            return {"error": "No words found".encode('utf-8')}  # Return bytes
         payload = build_exercises_from_rows(rows)
-        # Ensure payload is UTF-8 compliant
+        # Ensure payload is UTF-8 compliant and return as bytes
         if isinstance(payload, str):
-            payload = payload.encode('utf-8', errors='replace').decode('utf-8')
+            payload = payload.encode('utf-8', errors='replace')
         elif isinstance(payload, (list, dict)):
-            # Recursively encode strings in payload
             def encode_recursive(data):
                 if isinstance(data, str):
-                    return data.encode('utf-8', errors='replace').decode('utf-8')
+                    return data.encode('utf-8', errors='replace')
                 elif isinstance(data, list):
                     return [encode_recursive(item) for item in data]
                 elif isinstance(data, dict):
-                    return {k: encode_recursive(v) for k, v in data.items()}
+                    return {k.encode('utf-8') if isinstance(k, str) else k: encode_recursive(v) for k, v in data.items()}
                 return data
             payload = encode_recursive(payload)
-        timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC (Custom Format)")
+        timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC (Custom Format)").encode('utf-8')
         if html:
-            return {"html_data": {"payload": payload, "timestamp": timestamp, "level": level}}
-        return {"exercises": payload, "timestamp": timestamp, "level": level}
+            return {"html_data": {"payload": payload, "timestamp": timestamp, "level": level}}.encode('utf-8')
+        return {"exercises": payload, "timestamp": timestamp, "level": level}.encode('utf-8')
     finally:
         conn.close()
