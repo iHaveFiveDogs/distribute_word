@@ -6,3 +6,6 @@ python-multipart
 openai
 redis
 rq
+python-dotenv
+pytest
+prometheus-fastapi-instrumentator

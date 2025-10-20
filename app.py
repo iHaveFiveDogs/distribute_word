@@ -58,7 +58,7 @@ redis = Redis(
 q = Queue(connection=redis)
 
 # -------- Routes --------
-@app.get("/", response_class=HTMLResponse)
+@app.get("/", response_class=HTMLResponse, operation_id="getWelcomeMessage")
 def index(request: Request):
     return templates.TemplateResponse("index.html", {
         "request": request,
