@@ -81,11 +81,17 @@ async def get_result(request: Request, job_id: str):
         if job is None:
             return templates.TemplateResponse("error.html", {"request": request, "message": "Job not found"}, status_code=404)
         if job.is_finished:
-            result_str = job.result.decode('utf-8', errors='replace') if isinstance(job.result, bytes) else job.result
-            try:
-                data = json.loads(result_str).get("html_data", {})
-            except json.JSONDecodeError:
-                data = {"error": "Invalid job data format"}
+            # job.result is the raw Python object returned by process_exercises
+            if isinstance(job.result, (bytes, bytearray)):
+                result_str = job.result.decode('utf-8', errors='replace')
+                try:
+                    data = json.loads(result_str).get("html_data", {})
+                except json.JSONDecodeError:
+                    data = {"error": "Invalid job data format"}
+            elif isinstance(job.result, dict):
+                data = job.result.get("html_data", {})
+            else:
+                data = {"error": f"Unexpected result type: {type(job.result)}"}
             return templates.TemplateResponse("exercises.html", {"request": request, **data})
         elif job.is_failed:
             exc_info = job.exc_info.decode('utf-8', errors='replace') if isinstance(job.exc_info, bytes) else job.exc_info
@@ -93,7 +99,6 @@ async def get_result(request: Request, job_id: str):
         return templates.TemplateResponse("processing.html", {"request": request, "job_id": job_id})
     except Exception as e:
         return templates.TemplateResponse("error.html", {"request": request, "message": f"Internal server error: {str(e)}"}, status_code=500)
-
 
 
 @app.get("/download/{fname}", response_class=FileResponse)
