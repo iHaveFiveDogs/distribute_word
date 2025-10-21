@@ -168,6 +168,13 @@ async def api_generate(n: int, level: Optional[int] = Query(None, ge=1, le=5)):
         time.sleep(1)
     return JSONResponse({"error": "Task timeout"})
 
+
+@app.route('/metrics')
+def metrics():
+    REQUESTS.labels(method='GET', endpoint='/metrics', status='200').inc()
+    return Response(prometheus_client.generate_latest(), mimetype='text/plain')
+
+
 # Simple health endpoint
 @app.get("/health")
 def health():
