@@ -56,4 +56,5 @@ jobs:
           pip install -r requirements.txt
           pip install pytest  # Ensure pytest is installed
       - name: Run tests
-        run: pytest
+        run: |
+          pytest test_app.py -v
