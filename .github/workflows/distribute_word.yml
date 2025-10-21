@@ -55,6 +55,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           pip install pytest  # Ensure pytest is installed
+      - name: Set test environment variables
+        run: |
+          echo "REDIS_URL=redis://localhost:6379/0" >> $GITHUB_ENV
+          echo "DEEPSEEK_API_KEY=dummy_test_key" >> $GITHUB_ENV
       - name: Run tests
         run: |
           pytest test_app.py -v
+        env:
+          REDIS_URL: ${{ env.REDIS_URL }}
+          DEEPSEEK_API_KEY: ${{ env.DEEPSEEK_API_KEY }}
