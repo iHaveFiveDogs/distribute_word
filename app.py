@@ -1,5 +1,6 @@
 # app.py
 from fastapi import FastAPI, Request, Form, HTTPException, Query
+from fastapi.exceptions import RequestValidationError
 from fastapi.responses import HTMLResponse, JSONResponse, FileResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
@@ -61,6 +62,22 @@ q = Queue(connection=redis)
 # Add Prometheus instrumentation
 Instrumentator().instrument(app).expose(app)
 
+# Handle validation errors (e.g., invalid /generate input)
+@app.exception_handler(RequestValidationError)
+async def validation_exception_handler(request: Request, exc: RequestValidationError):
+    return JSONResponse(
+        status_code=422,
+        content={"detail": exc.errors(), "message": "Invalid input"},
+    )
+
+# Handle generic HTTP exceptions
+@app.exception_handler(HTTPException)
+async def http_exception_handler(request: Request, exc: HTTPException):
+    return JSONResponse(
+        status_code=exc.status_code,
+        content={"message": exc.detail},
+)
+
 
 # -------- Routes --------
 @app.get("/", response_class=HTMLResponse, operation_id="getWelcomeMessage")
@@ -79,9 +96,11 @@ async def generate(request: Request, n: int = Form(10), level: int = Form(1)):
     job = q.enqueue(process_exercises, n, level, True)  # Enqueue with html=True
     return templates.TemplateResponse("processing.html", {"request": request, "job_id": job.id})
 
-@app.get("/result/{job_id}", response_class=HTMLResponse)
+@app.get("/result/{job_id}", response_class=HTMLResponse ,operation_id="getResult")
 async def get_result(request: Request, job_id: str):
     try:
+        if not job_id:
+            raise HTTPException(status_code=400, detail="Job ID is required")
         job = q.fetch_job(job_id)
         if job is None:
             return templates.TemplateResponse("error.html", {"request": request, "message": "Job not found"}, status_code=404)
