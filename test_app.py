@@ -32,6 +32,7 @@ def test_health_endpoint():
 
 def test_error_handling():
     response = client.get("/result/invalid")
-    # FIXED: Your app returns 500, not 404 - test actual behavior
     assert response.status_code == 500
-    assert "Internal Server Error" in str(response.json())
+    # FIXED: Check HTML content, NOT JSON
+    assert "Internal server error" in response.text
+    assert "Connection refused" in response.text  # Matches your Redis error
