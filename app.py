@@ -7,6 +7,7 @@ from fastapi.templating import Jinja2Templates
 from redis import Redis
 from rq import Queue
 import json
+import logging
 from worker import process_exercises
 import re
 import time
@@ -78,10 +79,30 @@ async def http_exception_handler(request: Request, exc: HTTPException):
         content={"message": exc.detail},
 )
 
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    handlers=[logging.StreamHandler()]
+)
+logger = logging.getLogger(__name__)
+
+# Middleware to log requests
+@app.middleware("http")
+async def log_requests(request: Request, call_next):
+    logger.info(f"Request: {request.method} {request.url}")
+    try:
+        response = await call_next(request)
+        logger.info(f"Response: {response.status_code}")
+        return response
+    except Exception as e:
+        logger.error(f"Error: {str(e)}")
+        raise
 
 # -------- Routes --------
 @app.get("/", response_class=HTMLResponse, operation_id="getWelcomeMessage")
 def index(request: Request):
+    logger.info("Rendering welcome page")
     return templates.TemplateResponse("index.html", {
         "request": request,
         "default_n": DEFAULT_N,

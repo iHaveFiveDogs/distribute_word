@@ -9,3 +9,4 @@ rq
 python-dotenv
 pytest
 prometheus-fastapi-instrumentator
+structlog

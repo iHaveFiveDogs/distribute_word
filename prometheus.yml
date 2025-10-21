@@ -1,0 +1,4 @@
+scrape_configs:
+  - job_name: 'distribute-word'
+    static_configs:
+      - targets: ['distribute-word.onrender.com']
