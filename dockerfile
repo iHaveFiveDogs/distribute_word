@@ -6,6 +6,8 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
-EXPOSE 8001
+# Use Render's dynamic port or fallback to 8001 for local dev
+EXPOSE 10000
 
-CMD ["sh", "-c", ". venv_linux/bin/activate && uvicorn app:app --host 0.0.0.0 --port 8001 & rq worker"]
+# Run uvicorn on the dynamic port; RQ worker runs in a separate service, not here
+CMD ["sh", "-c", "uvicorn app:app --host 0.0.0.0 --port ${PORT:-10000}"]
