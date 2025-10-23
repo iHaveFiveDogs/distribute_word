@@ -49,7 +49,7 @@ rq worker --url $REDIS_URL
 ```
 
 ### 6. Access the app
-- Web UI: [http://localhost:8001](http://localhost:8001)
+- Web UI: https://distribute-word.onrender.com/
 - API: `/api/generate/{n}`
 - Health: `/health`
 - Metrics: `/metrics`
