@@ -1,0 +1,44 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Values.web.name }}
+  namespace: {{ .Values.namespace }}
+spec:
+  replicas: {{ .Values.web.replicas }}
+  selector:
+    matchLabels:
+      app: {{ .Values.web.appLabel }}
+  template:
+    metadata:
+      labels:
+        app: {{ .Values.web.appLabel }}
+    spec:
+      containers:
+        - name: {{ .Values.web.containerName }}
+          image: {{ .Values.web.image }}:{{ .Values.web.tag }}
+          imagePullPolicy: {{ .Values.web.imagePullPolicy }}
+          command: {{ toJson .Values.web.command }}
+          ports:
+            - containerPort: {{ .Values.web.port }}
+          # envFrom:
+          #   - secretRef:
+          #       name: {{ .Values.web.secretName }}
+          #   - configMapRef:
+          #       name: {{ .Values.web.configMapName }}
+          env:
+            - name: REDIS_URL
+              value: {{ .Values.web.redisUrl }}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Values.web.name }}
+  namespace: {{ .Values.namespace }}
+spec:
+  selector:
+    app: {{ .Values.web.appLabel }}
+  ports:
+    - port: {{ .Values.web.port }}
+      targetPort: {{ .Values.web.port }}
+  type: ClusterIP
+

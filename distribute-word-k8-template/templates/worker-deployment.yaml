@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Values.worker.name }}
+  namespace: {{ .Values.namespace }}
+spec:
+  replicas: {{ .Values.worker.replicas }}
+  selector:
+    matchLabels:
+      app: {{ .Values.worker.appLabel }}
+  template:
+    metadata:
+      labels:
+        app: {{ .Values.worker.appLabel }}
+    spec:
+      containers:
+        - name: {{ .Values.worker.containerName }}
+          image: {{ .Values.worker.image }}:{{ .Values.worker.tag }}
+          imagePullPolicy: {{ .Values.worker.imagePullPolicy }}
+          command: {{ toJson .Values.worker.command }}
+          # envFrom:
+          #   - secretRef:
+          #       name: {{ .Values.worker.secretName }}
+          #   - configMapRef:
+          #       name: {{ .Values.worker.configMapName }}
+

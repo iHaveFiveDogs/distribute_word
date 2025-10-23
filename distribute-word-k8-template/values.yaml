@@ -1,0 +1,88 @@
+# Namespace for all resources
+namespace: local-dock-distribute-word
+
+# Web service
+web:
+  name: web
+  appLabel: web
+  containerName: web
+  image: local/web
+  tag: latest
+  imagePullPolicy: IfNotPresent
+  replicas: 1
+  port: 8001
+  secretName: web-env
+  configMapName: web-config
+  redisUrl: redis://redis:6379
+  command: ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8001"]
+
+# Worker service
+worker:
+  name: worker
+  appLabel: worker
+  containerName: worker
+  image: local/worker
+  tag: latest
+  imagePullPolicy: IfNotPresent
+  replicas: 1
+  command: ["rq", "worker", "--url", "redis://redis:6379"]
+  secretName: web-env
+  configMapName: web-config
+
+# Redis service
+redis:
+  name: redis
+  appLabel: redis
+  containerName: redis
+  image: redis
+  tag: "7"
+  replicas: 1
+  port: 6379
+  imagePullPolicy: IfNotPresent
+
+# Prometheus service
+prometheus:
+  name: prometheus
+  appLabel: prometheus
+  containerName: prometheus
+  image: prom/prometheus
+  tag: latest
+  replicas: 1
+  port: 9090
+  scrapeInterval: 15s
+  imagePullPolicy: IfNotPresent
+
+# Optional: global autoscaling, resources etc.
+autoscaling:
+  enabled: false
+
+serviceAccount:
+  create: true
+  automount: true
+  annotations: {}
+  name: ""
+
+service:
+  type: ClusterIP
+  port: 80
+
+ingress:
+  enabled: false
+  className: ""
+  annotations: {}
+  hosts:
+    - host: chart-example.local
+      paths:
+        - path: /
+          pathType: ImplementationSpecific
+  tls: []
+
+httpRoute:
+  enabled: false
+  annotations: {}
+  parentRefs:
+    - name: gateway
+      sectionName: http
+  hostnames:
+    - chart-example.local
+  rules: []
