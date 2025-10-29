@@ -19,8 +19,8 @@ spec:
           image: local/worker:latest  # replace with your built image
           imagePullPolicy: IfNotPresent
           command: ["rq", "worker", "--url", "redis://redis:6379"]
-          envFrom:
-            - secretRef:
-                name: web-env
-            - configMapRef:
-                name: web-config
+          # envFrom:
+          #   - secretRef:
+          #       name: web-env
+          #   - configMapRef:
+          #       name: web-config

@@ -21,11 +21,11 @@ spec:
           command: ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8001", "--reload"]
           ports:
             - containerPort: 8001
-          envFrom:
-            - secretRef:
-                name: web-env
-            - configMapRef:
-                name: web-config
+          # envFrom:
+          #   - secretRef:
+          #       name: web-env
+          #   - configMapRef:
+          #       name: web-config
           env:
             - name: REDIS_URL
               value: redis://redis:6379

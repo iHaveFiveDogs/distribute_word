@@ -115,14 +115,20 @@ def build_exercises_from_rows(rows: List[sqlite3.Row]) -> Dict[str, Any]:
 
     words = [safe_encode(r["word"]) for r in rows]
     # DB-provided definitions / examples
-    db_defs = {safe_encode(r["word"]): safe_encode(r["definition"].strip()) for r in rows if "definition" in r.keys() and r["definition"]}
-    db_examples = {safe_encode(r["word"]): safe_encode(r["example"].strip()) for r in rows if "example" in r.keys() and r["example"]}
+    db_defs = {
+        safe_encode(r["word"]): safe_encode(r["definition"].strip()) for r in rows if "definition" in r.keys() and r["definition"]
+    }
+    db_examples = {
+        safe_encode(r["word"]): safe_encode(r["example"].strip()) for r in rows if "example" in r.keys() and r["example"]
+    }
 
     # Generate definitions for missing
     need_def = [w for w in words if w not in db_defs]
     gen_defs = generate_definitions(need_def) if need_def else {}
     # Ensure generated definitions are UTF-8
-    defs = {safe_encode(k): safe_encode(v) for k, v in {**db_defs, **gen_defs}.items()}
+    defs = {
+        safe_encode(k): safe_encode(v) for k, v in {**db_defs, **gen_defs}.items()
+    }
 
     # Build sentence blanks
     db_blanks = {}

@@ -7,7 +7,7 @@ services:
 
   web:
     build: .
-    container_name: distribute_word_web
+    container_name: local_docker_distribute_word_web
     command: uvicorn app:app --host 0.0.0.0 --port 8001 --reload
     ports:
       - "8001:8001"
@@ -17,7 +17,7 @@ services:
       - .env
   worker:
     build: .
-    container_name: distribute_word_worker
+    container_name: local_docker_distribute_word_worker
     command: rq worker --url ${REDIS_URL}
     depends_on:
       - redis
